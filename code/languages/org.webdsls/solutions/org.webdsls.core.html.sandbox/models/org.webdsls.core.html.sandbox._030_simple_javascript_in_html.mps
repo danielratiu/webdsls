@@ -25,6 +25,7 @@
       </concept>
       <concept id="3233584377443083878" name="org.webdsls.core.javascript.structure.GlobalFunctionCall" flags="ng" index="34o9AX">
         <reference id="3233584377443083897" name="prop" index="34o9Ay" />
+        <child id="3233584377443083901" name="actuals" index="34o9AA" />
       </concept>
       <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.GlobalVarRef" flags="ng" index="34r80L">
         <reference id="3233584377442303979" name="prop" index="34r80K" />
@@ -171,6 +172,9 @@
           <node concept="1l81Jh" id="2NvZXJCJPUM" role="3Vi$l7">
             <node concept="34o9AX" id="2NvZXJCLFuL" role="1l81Je">
               <ref role="34o9Ay" to="xspq:2NvZXJCFV8f" resolve="alert" />
+              <node concept="3Vi2ib" id="52cYsDUCfa2" role="34o9AA">
+                <property role="3Vi2ic" value="The sum was computed!" />
+              </node>
             </node>
           </node>
         </node>

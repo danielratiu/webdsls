@@ -108,7 +108,7 @@
   </node>
   <node concept="24kQdi" id="2NvZXJCUujO">
     <property role="3GE5qa" value="attributes.id" />
-    <ref role="1XX52x" to="zt09:2NvZXJCUujK" resolve="IdRef" />
+    <ref role="1XX52x" to="zt09:2NvZXJCUujK" resolve="IdRefExpression" />
     <node concept="1iCGBv" id="2NvZXJCUujQ" role="2wV5jI">
       <ref role="1NtTu8" to="zt09:2NvZXJCUujL" resolve="id" />
       <ref role="1k5W1q" to="gkmw:2NvZXJCW$D0" resolve="ExtendedLanguageReference" />
@@ -148,6 +148,19 @@
         </node>
       </node>
       <node concept="l2Vlx" id="52cYsDUBLUk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="52cYsDUC8jI">
+    <property role="3GE5qa" value="attributes.class" />
+    <ref role="1XX52x" to="zt09:52cYsDUC8jF" resolve="ClassRefExpression" />
+    <node concept="1iCGBv" id="52cYsDUC8jK" role="2wV5jI">
+      <ref role="1NtTu8" to="zt09:52cYsDUC8jG" resolve="cls" />
+      <node concept="1sVBvm" id="52cYsDUC8jM" role="1sWHZn">
+        <node concept="3F0A7n" id="52cYsDUC8jT" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -63,7 +63,7 @@
   </registry>
   <node concept="WtQ9Q" id="2NvZXJCUukM">
     <property role="3GE5qa" value="attributes.id" />
-    <ref role="WuzLi" to="zt09:2NvZXJCUujK" resolve="IdRef" />
+    <ref role="WuzLi" to="zt09:2NvZXJCUujK" resolve="IdRefExpression" />
     <node concept="11bSqf" id="2NvZXJCUukN" role="11c4hB">
       <node concept="3clFbS" id="2NvZXJCUukO" role="2VODD2">
         <node concept="lc7rE" id="2NvZXJCUul7" role="3cqZAp">
@@ -138,6 +138,29 @@
             <node concept="2OqwBi" id="52cYsDUBh3B" role="lb14g">
               <node concept="117lpO" id="52cYsDUBgTy" role="2Oq$k0" />
               <node concept="3TrcHB" id="52cYsDUBhny" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="52cYsDUC8kl">
+    <property role="3GE5qa" value="attributes.class" />
+    <ref role="WuzLi" to="zt09:52cYsDUC8jF" resolve="ClassRefExpression" />
+    <node concept="11bSqf" id="52cYsDUC8km" role="11c4hB">
+      <node concept="3clFbS" id="52cYsDUC8kn" role="2VODD2">
+        <node concept="lc7rE" id="52cYsDUC8kE" role="3cqZAp">
+          <node concept="l9hG8" id="52cYsDUC8l0" role="lcghm">
+            <node concept="2OqwBi" id="52cYsDUC97M" role="lb14g">
+              <node concept="2OqwBi" id="52cYsDUC8v6" role="2Oq$k0">
+                <node concept="117lpO" id="52cYsDUC8lS" role="2Oq$k0" />
+                <node concept="3TrEf2" id="52cYsDUC8Ey" role="2OqNvi">
+                  <ref role="3Tt5mk" to="zt09:52cYsDUC8jG" resolve="cls" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="52cYsDUC9RT" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>

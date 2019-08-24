@@ -11,6 +11,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="y883" ref="r:aed7c4cf-4b0b-48ac-99d5-e9662b6da326(org.webdsls.core.html.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="mrxi" ref="r:6469a2be-2ce0-4002-b048-fd1fad9d1545(org.webdsls.core.javascript.structure)" implicit="true" />
     <import index="tqas" ref="r:72a587df-204f-498e-9278-2bd4def85ce1(org.webdsls.core.css.structure)" implicit="true" />
   </imports>
   <registry>
@@ -635,6 +636,17 @@
         <ref role="1NtTu8" to="gr01:2ccN23ohC_B" resolve="statements" />
         <node concept="2iRkQZ" id="2ccN23ohCLz" role="2czzBx" />
         <node concept="VPM3Z" id="2ccN23ohCL$" role="3F10Kt" />
+        <node concept="4$FPG" id="52cYsDUEcSj" role="4_6I_">
+          <node concept="3clFbS" id="52cYsDUEcSk" role="2VODD2">
+            <node concept="3clFbF" id="52cYsDUEcVQ" role="3cqZAp">
+              <node concept="2pJPEk" id="52cYsDUEcVO" role="3clFbG">
+                <node concept="2pJPED" id="52cYsDUEd30" role="2pJPEn">
+                  <ref role="2pJxaS" to="mrxi:1XAVNTan8Id" resolve="EmptyLine" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="2ccN23ohCL4" role="2iSdaV" />
     </node>

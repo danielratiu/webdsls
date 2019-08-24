@@ -80,7 +80,7 @@
   <node concept="1TIwiD" id="2NvZXJCUujK">
     <property role="EcuMT" value="3233584377445868784" />
     <property role="3GE5qa" value="attributes.id" />
-    <property role="TrG5h" value="IdRef" />
+    <property role="TrG5h" value="IdRefExpression" />
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="2NvZXJCUujL" role="1TKVEi">
       <property role="IQ2ns" value="3233584377445868785" />
@@ -127,6 +127,19 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="52cYsDUB72$" role="PzmwI">
       <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52cYsDUC8jF">
+    <property role="EcuMT" value="5804288667809776875" />
+    <property role="3GE5qa" value="attributes.class" />
+    <property role="TrG5h" value="ClassRefExpression" />
+    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="1TJgyj" id="52cYsDUC8jG" role="1TKVEi">
+      <property role="IQ2ns" value="5804288667809776876" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="cls" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="52cYsDUB72x" resolve="ClassValue" />
     </node>
   </node>
 </model>

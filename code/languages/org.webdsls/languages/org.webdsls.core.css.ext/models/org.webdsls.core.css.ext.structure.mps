@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -58,6 +59,19 @@
       <property role="TrG5h" value="qualifier" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="uRRymnSOoA">
+    <property role="EcuMT" value="556157332046956070" />
+    <property role="3GE5qa" value="rule.declarations" />
+    <property role="TrG5h" value="BackgroundColorProperty" />
+    <property role="34LRSv" value="background-color" />
+    <ref role="1TJDcQ" node="52cYsDUHbJ9" resolve="LiftedProperty" />
+  </node>
+  <node concept="1TIwiD" id="52cYsDUHbJ9">
+    <property role="EcuMT" value="5804288667811101641" />
+    <property role="3GE5qa" value="rule.declarations" />
+    <property role="TrG5h" value="LiftedProperty" />
+    <ref role="1TJDcQ" to="tqas:uRRymnSOop" resolve="PropertyBase" />
   </node>
 </model>
 

@@ -106,6 +106,11 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="rule.selectors" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="52cYsDUGhtd" role="1TKVEl">
+      <property role="IQ2nx" value="5804288667810862925" />
+      <property role="TrG5h" value="action" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="uRRymnSOoj">
     <property role="EcuMT" value="556157332046956051" />

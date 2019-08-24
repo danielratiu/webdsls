@@ -30,6 +30,9 @@
       <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
       <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
       <concept id="2262758913614842765" name="org.webdsls.core.javascript.structure.EmptyLine" flags="ng" index="1leAiN" />
+      <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
+        <property id="2525617932487484634" name="text" index="3ViizU" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1868,6 +1871,20 @@
       </node>
     </node>
     <node concept="1leAiN" id="2NvZXJCFps5" role="1l8HCK" />
+    <node concept="3ViizT" id="52cYsDUEbdv" role="1l8HCK">
+      <property role="3ViizU" value="manually added" />
+    </node>
+    <node concept="1l81Jh" id="52cYsDUEcfS" role="1l8HCK">
+      <node concept="1lbF8g" id="52cYsDUEcL3" role="1l81Je">
+        <node concept="1ldqus" id="52cYsDUEcLG" role="1lbF8c">
+          <property role="TrG5h" value="getElementsByClassName" />
+        </node>
+        <node concept="1lcSiy" id="52cYsDUEcfQ" role="1lbF8h">
+          <ref role="1lcSiz" node="2NvZXJCFpqN" resolve="Document" />
+        </node>
+      </node>
+    </node>
+    <node concept="1leAiN" id="52cYsDUEbIB" role="1l8HCK" />
     <node concept="1ldqy2" id="2NvZXJCFps6" role="1l8HCK">
       <property role="TrG5h" value="Node" />
       <node concept="NP72d" id="2NvZXJCFps7" role="1B1vUw" />

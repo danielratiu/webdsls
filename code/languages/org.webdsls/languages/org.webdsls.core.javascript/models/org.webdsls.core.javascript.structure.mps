@@ -330,19 +330,6 @@
       <ref role="PrY4T" node="_nvUSUaU8x" resolve="IPropertyDefinitionLike" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1XAVNTakO$P">
-    <property role="EcuMT" value="2262758913614235957" />
-    <property role="3GE5qa" value="function" />
-    <property role="TrG5h" value="PrototypeRef" />
-    <ref role="1TJDcQ" node="1XAVNTai5OR" resolve="GenericDotTarget" />
-    <node concept="1TJgyj" id="1XAVNTakO$Q" role="1TKVEi">
-      <property role="IQ2ns" value="2262758913614235958" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="prototype" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1XAVNTakOyy" resolve="PrototypePropertyTarget" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1XAVNTalmIs">
     <property role="EcuMT" value="2262758913614375836" />
     <property role="3GE5qa" value="function" />

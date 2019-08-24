@@ -47,6 +47,8 @@
       <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -103,6 +105,25 @@
               <node concept="3TrcHB" id="52cYsDUBj4a" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="52cYsDUHeX2">
+    <property role="3GE5qa" value="rule.declarations" />
+    <ref role="WuzLi" to="jjch:52cYsDUHbJ9" resolve="LiftedProperty" />
+    <node concept="11bSqf" id="52cYsDUHeX3" role="11c4hB">
+      <node concept="3clFbS" id="52cYsDUHeX4" role="2VODD2">
+        <node concept="lc7rE" id="52cYsDUHeXn" role="3cqZAp">
+          <node concept="l9hG8" id="52cYsDUHeXH" role="lcghm">
+            <node concept="2OqwBi" id="52cYsDUHfXt" role="lb14g">
+              <node concept="2OqwBi" id="52cYsDUHf7N" role="2Oq$k0">
+                <node concept="117lpO" id="52cYsDUHeY_" role="2Oq$k0" />
+                <node concept="2yIwOk" id="52cYsDUHfzX" role="2OqNvi" />
+              </node>
+              <node concept="3n3YKJ" id="52cYsDUHgRl" role="2OqNvi" />
             </node>
           </node>
         </node>
