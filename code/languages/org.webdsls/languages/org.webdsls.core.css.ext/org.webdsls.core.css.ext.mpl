@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.webdsls.core.html.ext" uuid="7ac5d721-d740-45b1-9ed2-a901422a8ec6" languageVersion="0" moduleVersion="0">
+<language namespace="org.webdsls.core.css.ext" uuid="c164841b-607e-43e0-91e2-f346a029db1d" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="org.webdsls.core.html.ext#01" uuid="9197885a-5614-40fc-ab08-c06d0cf7917e">
+    <generator alias="main" namespace="org.webdsls.core.css.ext#01" uuid="d242b42e-5289-4fcf-8abd-ff34f771a190">
       <models>
         <modelRoot contentPath="${module}/generator/template" type="default">
           <sourceRoot location="." />
@@ -39,20 +39,18 @@
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="c7db822b-1413-4cdb-8582-9a88eae1ecde(org.webdsls.core.base)" version="0" />
-        <module reference="e77cfa18-42e8-412e-beda-9ab373e340ac(org.webdsls.core.html)" version="0" />
-        <module reference="7ac5d721-d740-45b1-9ed2-a901422a8ec6(org.webdsls.core.html.ext)" version="0" />
-        <module reference="9197885a-5614-40fc-ab08-c06d0cf7917e(org.webdsls.core.html.ext#01)" version="0" />
+        <module reference="11acb66c-8d6f-457e-8146-48ef9bfac125(org.webdsls.core.css)" version="0" />
+        <module reference="c164841b-607e-43e0-91e2-f346a029db1d(org.webdsls.core.css.ext)" version="0" />
+        <module reference="d242b42e-5289-4fcf-8abd-ff34f771a190(org.webdsls.core.css.ext#01)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">e77cfa18-42e8-412e-beda-9ab373e340ac(org.webdsls.core.html)</dependency>
+    <dependency reexport="false">7ac5d721-d740-45b1-9ed2-a901422a8ec6(org.webdsls.core.html.ext)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="0" />
-    <language slang="l:b4f35ed8-45af-4efa-abe4-00ac26956e69:com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -85,12 +83,13 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="c7db822b-1413-4cdb-8582-9a88eae1ecde(org.webdsls.core.base)" version="0" />
+    <module reference="11acb66c-8d6f-457e-8146-48ef9bfac125(org.webdsls.core.css)" version="0" />
+    <module reference="c164841b-607e-43e0-91e2-f346a029db1d(org.webdsls.core.css.ext)" version="0" />
     <module reference="e77cfa18-42e8-412e-beda-9ab373e340ac(org.webdsls.core.html)" version="0" />
     <module reference="7ac5d721-d740-45b1-9ed2-a901422a8ec6(org.webdsls.core.html.ext)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
-    <extendedLanguage>c7db822b-1413-4cdb-8582-9a88eae1ecde(org.webdsls.core.base)</extendedLanguage>
-    <extendedLanguage>e77cfa18-42e8-412e-beda-9ab373e340ac(org.webdsls.core.html)</extendedLanguage>
+    <extendedLanguage>11acb66c-8d6f-457e-8146-48ef9bfac125(org.webdsls.core.css)</extendedLanguage>
   </extendedLanguages>
 </language>
 

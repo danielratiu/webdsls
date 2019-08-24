@@ -7,6 +7,7 @@
     <use id="832685d5-7d0c-4def-9114-462eccd0e6d0" name="org.webdsls.core.javascript" version="0" />
     <use id="c7db822b-1413-4cdb-8582-9a88eae1ecde" name="org.webdsls.core.base" version="0" />
     <use id="7ac5d721-d740-45b1-9ed2-a901422a8ec6" name="org.webdsls.core.html.ext" version="-1" />
+    <use id="c164841b-607e-43e0-91e2-f346a029db1d" name="org.webdsls.core.css.ext" version="0" />
   </languages>
   <imports>
     <import index="xspq" ref="r:4441d1d3-1296-4d86-a1e2-662e5935a1e5(org.webdsls.core.javascript.lib.core)" />
@@ -18,7 +19,7 @@
         <property id="556157332046956092" name="val" index="2gl9wp" />
       </concept>
       <concept id="556157332046956045" name="org.webdsls.core.css.structure.CssRule" flags="ng" index="2gl9wC">
-        <child id="556157332046980943" name="selector" index="2gl7_E" />
+        <child id="556157332046980943" name="selectors" index="2gl7_E" />
         <child id="556157332046980947" name="declarations" index="2gl7_Q" />
       </concept>
       <concept id="556157332046956052" name="org.webdsls.core.css.structure.Declaration" flags="ng" index="2gl9wL">
@@ -34,6 +35,11 @@
       <concept id="556157332046943840" name="org.webdsls.core.css.structure.EmptyRule" flags="ng" index="2glcx5" />
       <concept id="3233584377445629109" name="org.webdsls.core.css.structure.CssCommentLine" flags="ng" index="34esdI">
         <property id="3233584377445629113" name="val" index="34esdy" />
+      </concept>
+    </language>
+    <language id="c164841b-607e-43e0-91e2-f346a029db1d" name="org.webdsls.core.css.ext">
+      <concept id="5804288667809552394" name="org.webdsls.core.css.ext.structure.ClassRefSelector" flags="ng" index="E4u70">
+        <reference id="5804288667809552395" name="cls" index="E4u71" />
       </concept>
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
@@ -175,6 +181,11 @@
       <concept id="2525617932487459529" name="org.webdsls.core.html.structure.H2" flags="ng" index="3VikVD" />
     </language>
     <language id="7ac5d721-d740-45b1-9ed2-a901422a8ec6" name="org.webdsls.core.html.ext">
+      <concept id="5804288667809509532" name="org.webdsls.core.html.ext.structure.ClassValues" flags="ng" index="E48_m">
+        <child id="5804288667809509538" name="values" index="E48_C" />
+      </concept>
+      <concept id="5804288667809509537" name="org.webdsls.core.html.ext.structure.ClassValue" flags="ng" index="E48_F" />
+      <concept id="5804288667809507797" name="org.webdsls.core.html.ext.structure.ClassAttribute" flags="ng" index="E490v" />
       <concept id="3233584377445868784" name="org.webdsls.core.html.ext.structure.IdRef" flags="ng" index="34dxGF">
         <reference id="3233584377445868785" name="id" index="34dxGE" />
       </concept>
@@ -247,8 +258,8 @@
           </node>
           <node concept="2glcx5" id="2NvZXJCTNf8" role="34fnh8" />
           <node concept="2gl9wC" id="2NvZXJCTNkE" role="34fnh8">
-            <node concept="2glaNa" id="2NvZXJCTNlO" role="2gl7_E">
-              <property role="2glaNl" value=".addBtn" />
+            <node concept="E4u70" id="52cYsDUC4ud" role="2gl7_E">
+              <ref role="E4u71" node="52cYsDUBQG6" resolve="addBtn" />
             </node>
             <node concept="2gl9wQ" id="2NvZXJCTNkI" role="2gl7_Q">
               <node concept="2gl9wL" id="2NvZXJCTNme" role="2gl9wK">
@@ -296,10 +307,12 @@
               <property role="3Vi2ic" value="mydiv" />
             </node>
           </node>
-          <node concept="3VcuEX" id="2NvZXJCNsBP" role="3VcuEY">
+          <node concept="E490v" id="52cYsDUBLl0" role="3VcuEY">
             <property role="TrG5h" value="class" />
-            <node concept="3Vi2ib" id="2NvZXJCNsBZ" role="3Vi2Fq">
-              <property role="3Vi2ic" value="header" />
+            <node concept="E48_m" id="52cYsDUBLUc" role="3Vi2Fq">
+              <node concept="E48_F" id="52cYsDUBQFC" role="E48_C">
+                <property role="TrG5h" value="header" />
+              </node>
             </node>
           </node>
           <node concept="3VikVD" id="2NvZXJCNsC2" role="3VdhUL">
@@ -336,10 +349,12 @@
                 <property role="3Vi2ic" value="newElement()" />
               </node>
             </node>
-            <node concept="3VcuEX" id="2NvZXJCNtHP" role="3VcuEY">
+            <node concept="E490v" id="52cYsDUBQFI" role="3VcuEY">
               <property role="TrG5h" value="class" />
-              <node concept="3Vi2ib" id="2NvZXJCNtHZ" role="3Vi2Fq">
-                <property role="3Vi2ic" value="addBtn" />
+              <node concept="E48_m" id="52cYsDUBQG3" role="3Vi2Fq">
+                <node concept="E48_F" id="52cYsDUBQG6" role="E48_C">
+                  <property role="TrG5h" value="addBtn" />
+                </node>
               </node>
             </node>
             <node concept="N8r2y" id="2NvZXJCNtI2" role="3VdhUL">

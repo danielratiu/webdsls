@@ -15,6 +15,7 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
@@ -153,8 +154,10 @@
   <node concept="24kQdi" id="uRRymnSUtq">
     <ref role="1XX52x" to="tqas:uRRymnSOod" resolve="CssRule" />
     <node concept="3EZMnI" id="uRRymnSUts" role="2wV5jI">
-      <node concept="3F1sOY" id="uRRymnSUtI" role="3EZMnx">
-        <ref role="1NtTu8" to="tqas:uRRymnSUtf" resolve="selector" />
+      <node concept="3F2HdR" id="52cYsDUAGtr" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="tqas:uRRymnSUtf" resolve="selectors" />
+        <node concept="l2Vlx" id="52cYsDUAGtu" role="2czzBx" />
       </node>
       <node concept="3F1sOY" id="uRRymnSUu2" role="3EZMnx">
         <ref role="1NtTu8" to="tqas:uRRymnSUtj" resolve="declarations" />

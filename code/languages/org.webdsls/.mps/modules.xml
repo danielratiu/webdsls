@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.base/org.webdsls.core.base.mpl" folder="langs" />
+      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.css.ext/org.webdsls.core.css.ext.mpl" folder="langs" />
       <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.css/org.webdsls.core.css.mpl" folder="langs" />
       <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.html.ext/org.webdsls.core.html.ext.mpl" folder="langs" />
       <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.html/org.webdsls.core.html.mpl" folder="langs" />

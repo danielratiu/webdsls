@@ -74,8 +74,8 @@
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
-      <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
-        <child id="1175517851849" name="errorString" index="2MkJ7o" />
+      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
+        <child id="1224760230762" name="infoText" index="Dpw9R" />
       </concept>
       <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
         <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
@@ -228,18 +228,18 @@
               </node>
             </node>
             <node concept="3clFbS" id="uRRymnJrhQ" role="3clFbx">
-              <node concept="2MkqsV" id="uRRymnJA_B" role="3cqZAp">
-                <node concept="Xl_RD" id="uRRymnJA_T" role="2MkJ7o">
+              <node concept="Dpp1Q" id="52cYsDUBJjU" role="3cqZAp">
+                <node concept="Xl_RD" id="52cYsDUBJjW" role="Dpw9R">
                   <property role="Xl_RC" value="a special DSL construct exists for this attribute" />
                 </node>
-                <node concept="1YBJjd" id="uRRymnJABj" role="2OEOjV">
+                <node concept="1YBJjd" id="52cYsDUBJjX" role="2OEOjV">
                   <ref role="1YBMHb" node="uRRymnJpLV" resolve="arbitraryTextAttribute" />
                 </node>
-                <node concept="3Cnw8n" id="uRRymnKXJF" role="2OEOjU">
+                <node concept="3Cnw8n" id="52cYsDUBJjY" role="2OEOjU">
                   <ref role="QpYPw" node="uRRymnKfyn" resolve="liftAttributeToSpecificConcept" />
-                  <node concept="3CnSsL" id="uRRymnKXUX" role="3Coj4f">
+                  <node concept="3CnSsL" id="52cYsDUBJjZ" role="3Coj4f">
                     <ref role="QkamJ" node="uRRymnKfyT" resolve="att" />
-                    <node concept="1YBJjd" id="uRRymnKXVe" role="3CoRuB">
+                    <node concept="1YBJjd" id="52cYsDUBJk0" role="3CoRuB">
                       <ref role="1YBMHb" node="uRRymnJpLV" resolve="arbitraryTextAttribute" />
                     </node>
                   </node>

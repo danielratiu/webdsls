@@ -89,8 +89,44 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2NvZXJCUp0Z" resolve="IdValue" />
     </node>
-    <node concept="PrWs8" id="2NvZXJCU$Um" role="PzmwI">
-      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+  </node>
+  <node concept="1TIwiD" id="52cYsDUB6Bl">
+    <property role="EcuMT" value="5804288667809507797" />
+    <property role="3GE5qa" value="attributes.class" />
+    <property role="TrG5h" value="ClassAttribute" />
+    <property role="34LRSv" value="class" />
+    <ref role="1TJDcQ" node="uRRymnL2l_" resolve="LiftedAttribute" />
+    <node concept="1TJgyj" id="52cYsDUB72t" role="1TKVEi">
+      <property role="IQ2ns" value="5804288667809509533" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="val" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="52cYsDUB72s" resolve="ClassValues" />
+      <ref role="20ksaX" to="gr01:2ccN23oherU" resolve="val" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52cYsDUB72s">
+    <property role="EcuMT" value="5804288667809509532" />
+    <property role="3GE5qa" value="attributes.class" />
+    <property role="TrG5h" value="ClassValues" />
+    <property role="34LRSv" value="values" />
+    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="1TJgyj" id="52cYsDUB72y" role="1TKVEi">
+      <property role="IQ2ns" value="5804288667809509538" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="values" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="52cYsDUB72x" resolve="ClassValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52cYsDUB72x">
+    <property role="EcuMT" value="5804288667809509537" />
+    <property role="3GE5qa" value="attributes.class" />
+    <property role="TrG5h" value="ClassValue" />
+    <property role="34LRSv" value="value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="52cYsDUB72$" role="PzmwI">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
 </model>

@@ -38,6 +38,8 @@
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
       <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
+        <property id="1237306003719" name="separator" index="lbP0B" />
+        <property id="1237983969951" name="withSeparator" index="XA4eZ" />
         <child id="1237305945551" name="list" index="lbANJ" />
       </concept>
       <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
@@ -129,11 +131,13 @@
     <node concept="11bSqf" id="uRRymnT9$_" role="11c4hB">
       <node concept="3clFbS" id="uRRymnT9$A" role="2VODD2">
         <node concept="lc7rE" id="uRRymnT9$T" role="3cqZAp">
-          <node concept="l9hG8" id="uRRymnT9_j" role="lcghm">
-            <node concept="2OqwBi" id="uRRymnT9Jd" role="lb14g">
-              <node concept="117lpO" id="uRRymnT9Af" role="2Oq$k0" />
-              <node concept="3TrEf2" id="uRRymnTabx" role="2OqNvi">
-                <ref role="3Tt5mk" to="tqas:uRRymnSUtf" resolve="selector" />
+          <node concept="l9S2W" id="52cYsDUAGDT" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value=", " />
+            <node concept="2OqwBi" id="52cYsDUAGP_" role="lbANJ">
+              <node concept="117lpO" id="52cYsDUAGIQ" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="52cYsDUAHhb" role="2OqNvi">
+                <ref role="3TtcxE" to="tqas:uRRymnSUtf" resolve="selectors" />
               </node>
             </node>
           </node>

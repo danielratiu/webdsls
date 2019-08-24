@@ -88,8 +88,8 @@
     <node concept="1TJgyj" id="uRRymnSUtf" role="1TKVEi">
       <property role="IQ2ns" value="556157332046980943" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="selector" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="selectors" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="uRRymnSOoi" resolve="SelectorBase" />
     </node>
     <node concept="1TJgyj" id="uRRymnSUtj" role="1TKVEi">

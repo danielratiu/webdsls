@@ -12,7 +12,7 @@
         <property id="556157332046956092" name="val" index="2gl9wp" />
       </concept>
       <concept id="556157332046956045" name="org.webdsls.core.css.structure.CssRule" flags="ng" index="2gl9wC">
-        <child id="556157332046980943" name="selector" index="2gl7_E" />
+        <child id="556157332046980943" name="selectors" index="2gl7_E" />
         <child id="556157332046980947" name="declarations" index="2gl7_Q" />
       </concept>
       <concept id="556157332046956052" name="org.webdsls.core.css.structure.Declaration" flags="ng" index="2gl9wL">
