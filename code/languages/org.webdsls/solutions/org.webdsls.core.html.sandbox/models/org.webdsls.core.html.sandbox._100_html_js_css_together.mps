@@ -14,6 +14,7 @@
   </imports>
   <registry>
     <language id="11acb66c-8d6f-457e-8146-48ef9bfac125" name="org.webdsls.core.css">
+      <concept id="556157332046956070" name="org.webdsls.core.css.structure.PlainStringProperty" flags="ng" index="2gl9w3" />
       <concept id="556157332046956091" name="org.webdsls.core.css.structure.PlainStringValue" flags="ng" index="2gl9wu">
         <property id="556157332046956092" name="val" index="2gl9wp" />
       </concept>
@@ -36,7 +37,7 @@
       </concept>
     </language>
     <language id="c164841b-607e-43e0-91e2-f346a029db1d" name="org.webdsls.core.css.ext">
-      <concept id="556157332046956070" name="org.webdsls.core.css.ext.structure.BackgroundColorProperty" flags="ng" index="2gl9w3" />
+      <concept id="556157332046956070" name="org.webdsls.core.css.ext.structure.BackgroundColorProperty" flags="ng" index="2gl9w4" />
       <concept id="5804288667809552394" name="org.webdsls.core.css.ext.structure.ClassRefSelector" flags="ng" index="E4u70">
         <reference id="5804288667809552395" name="cls" index="E4u71" />
       </concept>
@@ -174,6 +175,9 @@
       <concept id="5804288667809776875" name="org.webdsls.core.html.ext.structure.ClassRefExpression" flags="ng" index="Eb7Ox">
         <reference id="5804288667809776876" name="cls" index="Eb7OA" />
       </concept>
+      <concept id="5804288667813020560" name="org.webdsls.core.html.ext.structure.ClassRefValue" flags="ng" index="EnJDq">
+        <reference id="5804288667813020563" name="cls" index="EnJDp" />
+      </concept>
     </language>
   </registry>
   <node concept="3VdgC2" id="52cYsDUE4Dx">
@@ -187,7 +191,7 @@
             </node>
             <node concept="2gl9wQ" id="52cYsDUGhrI" role="2gl7_Q">
               <node concept="2gl9wL" id="52cYsDUGhrT" role="2gl9wK">
-                <node concept="2gl9w3" id="52cYsDUHrtD" role="2gl9wZ" />
+                <node concept="2gl9w4" id="52cYsDUHrtD" role="2gl9wZ" />
                 <node concept="2gl9wu" id="52cYsDUGhsh" role="2gl9wV">
                   <property role="2gl9wp" value="#777" />
                 </node>
@@ -204,9 +208,24 @@
             </node>
             <node concept="2gl9wQ" id="52cYsDUGhsB" role="2gl7_Q">
               <node concept="2gl9wL" id="52cYsDUHbIB" role="2gl9wK">
-                <node concept="2gl9w3" id="52cYsDUHrtr" role="2gl9wZ" />
+                <node concept="2gl9w4" id="52cYsDUHrtr" role="2gl9wZ" />
                 <node concept="2gl9wu" id="52cYsDUHrtz" role="2gl9wV">
                   <property role="2gl9wp" value="#555" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2gl9wC" id="52cYsDUI4Eo" role="34fnh8">
+            <node concept="E4u70" id="52cYsDUI4EY" role="2gl7_E">
+              <ref role="E4u71" node="52cYsDUE8Zo" resolve="content" />
+            </node>
+            <node concept="2gl9wQ" id="52cYsDUI4Es" role="2gl7_Q">
+              <node concept="2gl9wL" id="52cYsDUI4F2" role="2gl9wK">
+                <node concept="2gl9w3" id="52cYsDUI4Ff" role="2gl9wZ">
+                  <property role="TrG5h" value="display" />
+                </node>
+                <node concept="2gl9wu" id="52cYsDUI4Fm" role="2gl9wV">
+                  <property role="2gl9wp" value="none" />
                 </node>
               </node>
             </node>
@@ -248,6 +267,14 @@
               </node>
             </node>
           </node>
+          <node concept="E490v" id="52cYsDUOuUR" role="3VcuEY">
+            <property role="TrG5h" value="class" />
+            <node concept="E48_m" id="52cYsDUOuV7" role="3Vi2Fq">
+              <node concept="EnJDq" id="52cYsDUOCfe" role="E48_C">
+                <ref role="EnJDp" node="52cYsDUEa71" resolve="collapsible" />
+              </node>
+            </node>
+          </node>
           <node concept="3Vc9tV" id="52cYsDUE8Zr" role="3VdhUL">
             <node concept="N8r2y" id="52cYsDUE8Zu" role="3VdhUL">
               <node concept="19SGf9" id="52cYsDUE8Zv" role="N82od">
@@ -277,7 +304,7 @@
           <node concept="3Vii7Y" id="52cYsDUEcNx" role="3Vi$l7">
             <property role="TrG5h" value="i" />
           </node>
-          <node concept="1leAiN" id="52cYsDUEjQj" role="3Vi$l7" />
+          <node concept="1leAiN" id="52cYsDUOi8G" role="3Vi$l7" />
           <node concept="NP74o" id="52cYsDUEcOo" role="3Vi$l7">
             <node concept="NP72d" id="52cYsDUEcOq" role="2gYuQL">
               <node concept="1l81Jh" id="52cYsDUEjRa" role="NP72a">

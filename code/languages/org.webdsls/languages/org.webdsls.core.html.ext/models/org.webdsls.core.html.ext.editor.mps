@@ -159,6 +159,21 @@
         <node concept="3F0A7n" id="52cYsDUC8jT" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="gkmw:2NvZXJCW$D0" resolve="ExtendedLanguageReference" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="52cYsDUOweI">
+    <property role="3GE5qa" value="attributes.class" />
+    <ref role="1XX52x" to="zt09:52cYsDUOweg" resolve="ClassRefValue" />
+    <node concept="1iCGBv" id="52cYsDUOweK" role="2wV5jI">
+      <ref role="1NtTu8" to="zt09:52cYsDUOwej" resolve="cls" />
+      <node concept="1sVBvm" id="52cYsDUOweL" role="1sWHZn">
+        <node concept="3F0A7n" id="52cYsDUOweM" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="gkmw:2NvZXJCW$D0" resolve="ExtendedLanguageReference" />
         </node>
       </node>
     </node>
