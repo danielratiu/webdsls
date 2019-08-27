@@ -46,6 +46,10 @@
     </generator>
   </generators>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">832685d5-7d0c-4def-9114-462eccd0e6d0(org.webdsls.core.javascript)</dependency>
+    <dependency reexport="false">c7db822b-1413-4cdb-8582-9a88eae1ecde(org.webdsls.core.base)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="0" />
     <language slang="l:b4f35ed8-45af-4efa-abe4-00ac26956e69:com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
@@ -77,11 +81,17 @@
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
+    <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
+    <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
+    <module reference="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)" version="0" />
+    <module reference="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="c7db822b-1413-4cdb-8582-9a88eae1ecde(org.webdsls.core.base)" version="0" />
     <module reference="11acb66c-8d6f-457e-8146-48ef9bfac125(org.webdsls.core.css)" version="0" />
+    <module reference="832685d5-7d0c-4def-9114-462eccd0e6d0(org.webdsls.core.javascript)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
     <extendedLanguage>c7db822b-1413-4cdb-8582-9a88eae1ecde(org.webdsls.core.base)</extendedLanguage>
