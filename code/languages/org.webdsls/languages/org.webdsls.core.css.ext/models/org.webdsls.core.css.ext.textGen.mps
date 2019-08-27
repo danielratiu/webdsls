@@ -10,6 +10,7 @@
   <imports>
     <import index="jjch" ref="r:19ded005-2217-49be-8894-34a92caf85a3(org.webdsls.core.css.ext.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="tqas" ref="r:72a587df-204f-498e-9278-2bd4def85ce1(org.webdsls.core.css.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -106,6 +107,32 @@
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="52cYsDUREIs" role="3cqZAp">
+          <node concept="3clFbS" id="52cYsDUREIu" role="3clFbx">
+            <node concept="lc7rE" id="52cYsDURGwc" role="3cqZAp">
+              <node concept="la8eA" id="52cYsDURGw$" role="lcghm">
+                <property role="lacIc" value=":" />
+              </node>
+              <node concept="l9hG8" id="52cYsDURGxt" role="lcghm">
+                <node concept="2OqwBi" id="52cYsDURGF$" role="lb14g">
+                  <node concept="117lpO" id="52cYsDURGym" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="52cYsDURGR0" role="2OqNvi">
+                    <ref role="3TsBF5" to="tqas:52cYsDUGhtd" resolve="action" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="52cYsDURFH7" role="3clFbw">
+            <node concept="2OqwBi" id="52cYsDUREXA" role="2Oq$k0">
+              <node concept="117lpO" id="52cYsDUREOZ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="52cYsDURF8v" role="2OqNvi">
+                <ref role="3TsBF5" to="tqas:52cYsDUGhtd" resolve="action" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="52cYsDURGtv" role="2OqNvi" />
           </node>
         </node>
       </node>

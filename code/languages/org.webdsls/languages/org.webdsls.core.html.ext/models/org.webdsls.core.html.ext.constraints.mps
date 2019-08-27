@@ -17,6 +17,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -129,6 +130,36 @@
             <node concept="1mIQ4w" id="52cYsDUGg9s" role="2OqNvi">
               <node concept="chp4Y" id="52cYsDUGgmg" role="cj9EA">
                 <ref role="cht4Q" to="zt09:52cYsDUB6Bl" resolve="ClassAttribute" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="52cYsDUQzxS">
+    <property role="3GE5qa" value="attributes.id" />
+    <ref role="1M2myG" to="zt09:2ccN23oherO" resolve="IdAttribute" />
+    <node concept="9SLcT" id="52cYsDUQzxT" role="9SGkU">
+      <node concept="3clFbS" id="52cYsDUQzxU" role="2VODD2">
+        <node concept="3clFbF" id="52cYsDUQzDf" role="3cqZAp">
+          <node concept="3K4zz7" id="52cYsDUQ_hk" role="3clFbG">
+            <node concept="2OqwBi" id="52cYsDUQ_OW" role="3K4E3e">
+              <node concept="2DD5aU" id="52cYsDUQ_tG" role="2Oq$k0" />
+              <node concept="2Zo12i" id="52cYsDUQAsN" role="2OqNvi">
+                <node concept="chp4Y" id="52cYsDUQAFW" role="2Zo12j">
+                  <ref role="cht4Q" to="zt09:2NvZXJCUp0Z" resolve="IdValue" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbT" id="52cYsDUQAVP" role="3K4GZi">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="17R0WA" id="52cYsDUQBbX" role="3K4Cdx">
+              <node concept="2DA6wF" id="52cYsDUQzDe" role="3uHU7B" />
+              <node concept="359W_D" id="52cYsDUQ$gP" role="3uHU7w">
+                <ref role="359W_E" to="zt09:2ccN23oherO" resolve="IdAttribute" />
+                <ref role="359W_F" to="zt09:2NvZXJCUgVl" resolve="val" />
               </node>
             </node>
           </node>
