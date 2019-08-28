@@ -194,14 +194,12 @@
     <property role="EcuMT" value="2262758913613247773" />
     <property role="TrG5h" value="MethodDeclaration" />
     <property role="3GE5qa" value="class" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="34LRSv" value="method" />
+    <ref role="1TJDcQ" node="1XAVNTakOuS" resolve="FunctionDeclarationBase" />
     <node concept="PrWs8" id="1XAVNTah3ku" role="PzmwI">
       <ref role="PrY4T" node="1XAVNTah3ks" resolve="IClassContent" />
     </node>
-    <node concept="PrWs8" id="1XAVNTah3kA" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="_nvUSUaU8y" role="PzmwI">
+    <node concept="PrWs8" id="52cYsDVeg9$" role="PzmwI">
       <ref role="PrY4T" node="_nvUSUaU8x" resolve="IPropertyDefinitionLike" />
     </node>
   </node>
