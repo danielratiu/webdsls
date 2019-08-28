@@ -88,6 +88,9 @@
       <concept id="5804288667817269385" name="org.webdsls.core.javascript.structure.PropertyRefExpression" flags="ng" index="FBy53">
         <reference id="5804288667817269386" name="property" index="FBy50" />
       </concept>
+      <concept id="5804288667821297912" name="org.webdsls.core.javascript.structure.MethodCall" flags="ng" index="FRa$M">
+        <reference id="5804288667821297934" name="meth" index="FRaz4" />
+      </concept>
       <concept id="673147055594834366" name="org.webdsls.core.javascript.structure.IFunctionDeclarationLike" flags="ng" index="N0Zog">
         <child id="2262758913614235581" name="params" index="1ldqy3" />
         <child id="7521994178153579386" name="body" index="1B1vUw" />
@@ -108,9 +111,6 @@
       </concept>
       <concept id="673147055597853882" name="org.webdsls.core.javascript.structure.ConstDeclaration" flags="ng" index="NPuck" />
       <concept id="673147055597853883" name="org.webdsls.core.javascript.structure.LetDeclatration" flags="ng" index="NPucl" />
-      <concept id="3233584377444594973" name="org.webdsls.core.javascript.structure.IFunctionCallLike" flags="ng" index="342oF6">
-        <child id="2262758913613520329" name="actuals" index="1lbFbR" />
-      </concept>
       <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PropertyTarget" flags="ng" index="34BFpg" />
       <concept id="3233584377438231638" name="org.webdsls.core.javascript.structure.TypeofExpression" flags="ng" index="34EEed" />
       <concept id="3233584377438231637" name="org.webdsls.core.javascript.structure.DeleteExpression" flags="ng" index="34EEee" />
@@ -139,7 +139,7 @@
         <child id="2262758913613520175" name="exp" index="1lbF8h" />
       </concept>
       <concept id="2262758913613520242" name="org.webdsls.core.javascript.structure.PropertyAccess" flags="ng" index="1lbF9c">
-        <reference id="2262758913613520243" name="method" index="1lbF9d" />
+        <reference id="2262758913613520243" name="property" index="1lbF9d" />
       </concept>
       <concept id="2262758913614375836" name="org.webdsls.core.javascript.structure.FunctionRef" flags="ng" index="1lcSiy">
         <reference id="2262758913614375837" name="function" index="1lcSiz" />
@@ -193,7 +193,6 @@
         <child id="7521994178154525118" name="thenExpr" index="1B5SL$" />
       </concept>
       <concept id="7521994178155802326" name="org.webdsls.core.base.structure.PostIncrement" flags="ng" index="1BULcc" />
-      <concept id="2525617932487420074" name="org.webdsls.core.base.structure.Expression" flags="ng" index="3Vi2ia" />
       <concept id="2525617932487420075" name="org.webdsls.core.base.structure.StringLiteral" flags="ng" index="3Vi2ib">
         <property id="2525617932487420076" name="val" index="3Vi2ic" />
       </concept>
@@ -839,9 +838,8 @@
         <node concept="NP72d" id="52cYsDVeg80" role="1B1vUw">
           <node concept="NcQMW" id="52cYsDVeg81" role="NP72a">
             <node concept="1lbF8g" id="52cYsDVejO8" role="NcQMX">
-              <node concept="1lbF9c" id="52cYsDVejOl" role="1lbF8c">
-                <ref role="1lbF9d" node="52cYsDVeg5y" resolve="show" />
-                <node concept="3Vi2ia" id="52cYsDVejOq" role="1lbFbR" />
+              <node concept="FRa$M" id="52cYsDVoxWi" role="1lbF8c">
+                <ref role="FRaz4" node="52cYsDVeg5y" resolve="show" />
               </node>
               <node concept="N5dCA" id="52cYsDVejO1" role="1lbF8h" />
             </node>

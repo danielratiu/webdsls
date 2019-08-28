@@ -199,9 +199,6 @@
     <node concept="PrWs8" id="1XAVNTah3ku" role="PzmwI">
       <ref role="PrY4T" node="1XAVNTah3ks" resolve="IClassContent" />
     </node>
-    <node concept="PrWs8" id="52cYsDVeg9$" role="PzmwI">
-      <ref role="PrY4T" node="_nvUSUaU8x" resolve="IPropertyDefinitionLike" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1XAVNTah3RO">
     <property role="EcuMT" value="2262758913613250036" />
@@ -286,7 +283,7 @@
     <node concept="1TJgyj" id="1XAVNTai5PN" role="1TKVEi">
       <property role="IQ2ns" value="2262758913613520243" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="method" />
+      <property role="20kJfa" value="property" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="_nvUSUaU8x" resolve="IPropertyDefinitionLike" />
     </node>
@@ -1149,6 +1146,22 @@
       <property role="20kJfa" value="args" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52cYsDVk53S">
+    <property role="EcuMT" value="5804288667821297912" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="MethodCall" />
+    <ref role="1TJDcQ" node="1XAVNTai5OR" resolve="GenericDotTarget" />
+    <node concept="PrWs8" id="52cYsDVk54b" role="PzmwI">
+      <ref role="PrY4T" node="2NvZXJCPBkt" resolve="IFunctionCallLike" />
+    </node>
+    <node concept="1TJgyj" id="52cYsDVk54e" role="1TKVEi">
+      <property role="IQ2ns" value="5804288667821297934" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="meth" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1XAVNTah3kt" resolve="MethodDeclaration" />
     </node>
   </node>
 </model>
