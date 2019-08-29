@@ -349,7 +349,7 @@
                 <node concept="2Rf3mk" id="52cYsDV4N_0" role="2OqNvi">
                   <node concept="1xMEDy" id="52cYsDV4N_2" role="1xVPHs">
                     <node concept="chp4Y" id="52cYsDV4NGq" role="ri$Ld">
-                      <ref role="cht4Q" to="mrxi:2NvZXJCgkAb" resolve="PropertyTarget" />
+                      <ref role="cht4Q" to="mrxi:2NvZXJCgkAb" resolve="PlainTextPropertyTarget" />
                     </node>
                   </node>
                 </node>

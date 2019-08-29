@@ -124,7 +124,7 @@
   </node>
   <node concept="WtQ9Q" id="2ccN23ohvdc">
     <property role="3GE5qa" value="statements.variable_declarations" />
-    <ref role="WuzLi" to="mrxi:2ccN23ohyNK" resolve="VariableDeclarationBase" />
+    <ref role="WuzLi" to="mrxi:2ccN23ohyNK" resolve="VariableDefinitionBase" />
     <node concept="11bSqf" id="2ccN23ohvdd" role="11c4hB">
       <node concept="3clFbS" id="2ccN23ohvde" role="2VODD2">
         <node concept="lc7rE" id="2ccN23ohvdx" role="3cqZAp">
@@ -856,7 +856,7 @@
   </node>
   <node concept="WtQ9Q" id="uRRymnGzLd">
     <property role="3GE5qa" value="function" />
-    <ref role="WuzLi" to="mrxi:1XAVNTakOuW" resolve="FunctionDeclaration" />
+    <ref role="WuzLi" to="mrxi:1XAVNTakOuW" resolve="FunctionDefinition" />
     <node concept="11bSqf" id="uRRymnGzLe" role="11c4hB">
       <node concept="3clFbS" id="uRRymnGzLf" role="2VODD2">
         <node concept="lc7rE" id="uRRymnGzLO" role="3cqZAp">
@@ -1293,7 +1293,7 @@
   </node>
   <node concept="WtQ9Q" id="2NvZXJCgkAL">
     <property role="3GE5qa" value="expression" />
-    <ref role="WuzLi" to="mrxi:2NvZXJCgkAb" resolve="PropertyTarget" />
+    <ref role="WuzLi" to="mrxi:2NvZXJCgkAb" resolve="PlainTextPropertyTarget" />
     <node concept="11bSqf" id="2NvZXJCgkAM" role="11c4hB">
       <node concept="3clFbS" id="2NvZXJCgkAN" role="2VODD2">
         <node concept="lc7rE" id="2NvZXJCgkB6" role="3cqZAp">
@@ -1830,7 +1830,7 @@
   </node>
   <node concept="WtQ9Q" id="52cYsDVbVOp">
     <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="mrxi:1XAVNTah3kt" resolve="MethodDeclaration" />
+    <ref role="WuzLi" to="mrxi:1XAVNTah3kt" resolve="MethodDefinition" />
     <node concept="11bSqf" id="52cYsDVbVOq" role="11c4hB">
       <node concept="3clFbS" id="52cYsDVbVOr" role="2VODD2">
         <node concept="lc7rE" id="52cYsDVbVOI" role="3cqZAp">

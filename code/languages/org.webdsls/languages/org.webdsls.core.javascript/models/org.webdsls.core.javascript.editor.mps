@@ -350,7 +350,7 @@
   </node>
   <node concept="24kQdi" id="2ccN23ohv2N">
     <property role="3GE5qa" value="statements.variable_declarations" />
-    <ref role="1XX52x" to="mrxi:2ccN23ohyNK" resolve="VariableDeclarationBase" />
+    <ref role="1XX52x" to="mrxi:2ccN23ohyNK" resolve="VariableDefinitionBase" />
     <node concept="3EZMnI" id="2ccN23ohv2P" role="2wV5jI">
       <node concept="1HlG4h" id="2ccN23ohyNV" role="3EZMnx">
         <ref role="1k5W1q" to="gkmw:6NmtaR1SVrw" resolve="BaseLanguageKeywordStyle" />
@@ -631,7 +631,7 @@
   </node>
   <node concept="24kQdi" id="1XAVNTakOv9">
     <property role="3GE5qa" value="function" />
-    <ref role="1XX52x" to="mrxi:1XAVNTakOuW" resolve="FunctionDeclaration" />
+    <ref role="1XX52x" to="mrxi:1XAVNTakOuW" resolve="FunctionDefinition" />
     <node concept="3EZMnI" id="1XAVNTakOvb" role="2wV5jI">
       <node concept="3F0ifn" id="1XAVNTakOvl" role="3EZMnx">
         <property role="3F0ifm" value="function" />
@@ -1682,7 +1682,7 @@
   </node>
   <node concept="24kQdi" id="2NvZXJCgkAg">
     <property role="3GE5qa" value="expression" />
-    <ref role="1XX52x" to="mrxi:2NvZXJCgkAb" resolve="PropertyTarget" />
+    <ref role="1XX52x" to="mrxi:2NvZXJCgkAb" resolve="PlainTextPropertyTarget" />
     <node concept="3EZMnI" id="2NvZXJCPBlN" role="2wV5jI">
       <node concept="1kIj98" id="2NvZXJCPBnx" role="3EZMnx">
         <node concept="3F0A7n" id="2NvZXJCPBok" role="1kIj9b">
@@ -2420,7 +2420,7 @@
   </node>
   <node concept="24kQdi" id="52cYsDVbVMw">
     <property role="3GE5qa" value="class" />
-    <ref role="1XX52x" to="mrxi:1XAVNTah3kt" resolve="MethodDeclaration" />
+    <ref role="1XX52x" to="mrxi:1XAVNTah3kt" resolve="MethodDefinition" />
     <node concept="3EZMnI" id="52cYsDVbVMy" role="2wV5jI">
       <node concept="3F0A7n" id="52cYsDVbVMD" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

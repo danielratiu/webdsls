@@ -185,8 +185,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="_nvUSUoUFq">
-    <property role="3GE5qa" value="function" />
-    <ref role="13h7C2" to="mrxi:_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
+    <property role="3GE5qa" value="base" />
+    <ref role="13h7C2" to="mrxi:_nvUSUl8AY" resolve="IFunctionDefinitionLike" />
     <node concept="13hLZK" id="_nvUSUoUFr" role="13h7CW">
       <node concept="3clFbS" id="_nvUSUoUFs" role="2VODD2">
         <node concept="3clFbF" id="_nvUSUoUFA" role="3cqZAp">
@@ -203,7 +203,7 @@
               </node>
             </node>
             <node concept="WFELt" id="6xzvtCfrRao" role="2OqNvi">
-              <ref role="1A0vxQ" to="mrxi:1XAVNTan8Id" resolve="EmptyLine" />
+              <ref role="1A0vxQ" to="mrxi:2ccN23ohuiP" resolve="Statement" />
             </node>
           </node>
         </node>
@@ -548,6 +548,7 @@
     <node concept="3Tm1VV" id="6xzvtCfupLi" role="1B3o_S" />
   </node>
   <node concept="13h7C7" id="uRRymnjwqd">
+    <property role="3GE5qa" value="base" />
     <ref role="13h7C2" to="mrxi:1XAVNTah3ko" resolve="IJSStatement" />
     <node concept="13i0hz" id="uRRymnjwqo" role="13h7CS">
       <property role="TrG5h" value="simpleOneLiner" />
