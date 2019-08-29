@@ -22,6 +22,7 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1078308402140" name="jetbrains.mps.lang.editor.structure.CellModel_Custom" flags="sg" stub="8104358048506730068" index="gc7cB">
         <child id="1176795024817" name="cellProvider" index="3YsKMw" />
@@ -56,6 +57,7 @@
       </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
+        <child id="1223387335081" name="query" index="3n$kyP" />
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
@@ -66,6 +68,7 @@
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="7342352913006985500" name="jetbrains.mps.lang.editor.structure.TransformationLocation_Completion" flags="ng" index="3eGOoe" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+      <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1165424453110" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item" flags="ng" index="1oHujT">
         <property id="1165424453111" name="matchingText" index="1oHujS" />
         <child id="1165424453112" name="handlerFunction" index="1oHujR" />
@@ -177,6 +180,7 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
@@ -312,21 +316,25 @@
             <ref role="1NtTu8" to="gr01:2ccN23ofiqu" resolve="attributes" />
             <node concept="2iRfu4" id="2ccN23ofpNX" role="2czzBx" />
             <node concept="VPM3Z" id="2ccN23ofpNY" role="3F10Kt" />
-            <node concept="pkWqt" id="2ccN23ofqhN" role="pqm2j">
-              <node concept="3clFbS" id="2ccN23ofqhO" role="2VODD2">
-                <node concept="3clFbF" id="2ccN23ofqpf" role="3cqZAp">
-                  <node concept="2OqwBi" id="2ccN23oftji" role="3clFbG">
-                    <node concept="2OqwBi" id="2ccN23ofqBm" role="2Oq$k0">
-                      <node concept="pncrf" id="2ccN23ofqpe" role="2Oq$k0" />
-                      <node concept="3Tsc0h" id="2ccN23ofruo" role="2OqNvi">
-                        <ref role="3TtcxE" to="gr01:2ccN23ofiqu" resolve="attributes" />
+            <node concept="11L4FC" id="5ko_HiVACiq" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+              <node concept="3nzxsE" id="5ko_HiVAH59" role="3n$kyP">
+                <node concept="3clFbS" id="5ko_HiVAH5a" role="2VODD2">
+                  <node concept="3clFbF" id="5ko_HiVAHcz" role="3cqZAp">
+                    <node concept="2OqwBi" id="5ko_HiVAL39" role="3clFbG">
+                      <node concept="2OqwBi" id="5ko_HiVAHrE" role="2Oq$k0">
+                        <node concept="pncrf" id="5ko_HiVAHcy" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="5ko_HiVAIsh" role="2OqNvi">
+                          <ref role="3TtcxE" to="gr01:2ccN23ofiqu" resolve="attributes" />
+                        </node>
                       </node>
+                      <node concept="1v1jN8" id="5ko_HiVAPNb" role="2OqNvi" />
                     </node>
-                    <node concept="3GX2aA" id="2ccN23ofx4X" role="2OqNvi" />
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3F0ifn" id="5ko_HiV$whT" role="2czzBI" />
           </node>
           <node concept="3F0ifn" id="2ccN23ofbyy" role="3EZMnx">
             <property role="3F0ifm" value="&gt;" />

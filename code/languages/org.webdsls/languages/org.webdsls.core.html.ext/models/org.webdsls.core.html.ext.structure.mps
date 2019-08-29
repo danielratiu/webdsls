@@ -50,6 +50,7 @@
     <property role="TrG5h" value="IdAttribute" />
     <property role="34LRSv" value="id" />
     <property role="3GE5qa" value="attributes.id" />
+    <property role="R4oN_" value="id attribute" />
     <ref role="1TJDcQ" node="uRRymnL2l_" resolve="LiftedAttribute" />
     <node concept="1TJgyj" id="2NvZXJCUgVl" role="1TKVEi">
       <property role="IQ2ns" value="3233584377445813973" />
@@ -97,6 +98,7 @@
     <property role="3GE5qa" value="attributes.class" />
     <property role="TrG5h" value="ClassAttribute" />
     <property role="34LRSv" value="class" />
+    <property role="R4oN_" value="class attribute" />
     <ref role="1TJDcQ" node="uRRymnL2l_" resolve="LiftedAttribute" />
     <node concept="1TJgyj" id="52cYsDUB72t" role="1TKVEi">
       <property role="IQ2ns" value="5804288667809509533" />
