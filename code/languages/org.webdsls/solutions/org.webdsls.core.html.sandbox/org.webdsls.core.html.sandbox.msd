@@ -18,6 +18,7 @@
     <language slang="l:e77cfa18-42e8-412e-beda-9ab373e340ac:org.webdsls.core.html" version="-1" />
     <language slang="l:7ac5d721-d740-45b1-9ed2-a901422a8ec6:org.webdsls.core.html.ext" version="-1" />
     <language slang="l:832685d5-7d0c-4def-9114-462eccd0e6d0:org.webdsls.core.javascript" version="0" />
+    <language slang="l:ddecf919-66a1-4e9b-8bb1-03f16bc4f24c:org.webdsls.core.typescript" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="f236bae7-d666-43cd-8aeb-4e9ac23d151c(org.webdsls.core.html.sandbox)" version="0" />

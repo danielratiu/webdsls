@@ -57,7 +57,13 @@
       </concept>
     </language>
     <language id="7ac5d721-d740-45b1-9ed2-a901422a8ec6" name="org.webdsls.core.html.ext">
-      <concept id="2525617932487419636" name="" flags="ng" index="3Vi2Fk" />
+      <concept id="5804288667809509532" name="org.webdsls.core.html.ext.structure.ClassValues" flags="ng" index="E48_m">
+        <child id="5804288667809509538" name="values" index="E48_C" />
+      </concept>
+      <concept id="5804288667809509537" name="org.webdsls.core.html.ext.structure.ClassValue" flags="ng" index="E48_F" />
+      <concept id="5804288667809507797" name="org.webdsls.core.html.ext.structure.ClassAttribute" flags="ng" index="E490v" />
+      <concept id="3233584377445847103" name="org.webdsls.core.html.ext.structure.IdValue" flags="ng" index="34dAZ$" />
+      <concept id="2525617932487419636" name="org.webdsls.core.html.ext.structure.IdAttribute" flags="ng" index="3Vi2Fk" />
     </language>
   </registry>
   <node concept="3VdgC2" id="_nvUSUpYs6">
@@ -75,8 +81,16 @@
         <node concept="3Vc9tV" id="_nvUSUpYsb" role="3VdhUL">
           <node concept="3Vi2Fk" id="_nvUSUpYsf" role="3VcuEY">
             <property role="TrG5h" value="id" />
-            <node concept="3Vi2ib" id="_nvUSUpYsl" role="3Vi2Fq">
-              <property role="3Vi2ic" value="demo" />
+            <node concept="34dAZ$" id="5ko_HiVFYDu" role="3Vi2Fq">
+              <property role="TrG5h" value="demo" />
+            </node>
+          </node>
+        </node>
+        <node concept="E490v" id="5ko_HiVAURs" role="3VcuEY">
+          <property role="TrG5h" value="class" />
+          <node concept="E48_m" id="5ko_HiVFYDz" role="3Vi2Fq">
+            <node concept="E48_F" id="5ko_HiVFYDG" role="E48_C">
+              <property role="TrG5h" value="demo_class" />
             </node>
           </node>
         </node>

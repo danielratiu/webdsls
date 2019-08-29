@@ -10,11 +10,10 @@
   <registry>
     <language id="832685d5-7d0c-4def-9114-462eccd0e6d0" name="org.webdsls.core.javascript">
       <concept id="673147055594834366" name="org.webdsls.core.javascript.structure.IFunctionDeclarationLike" flags="ng" index="N0Zog">
-        <child id="2262758913614235581" name="params" index="1ldqy3" />
         <child id="7521994178153579386" name="body" index="1B1vUw" />
       </concept>
       <concept id="673147055594834365" name="org.webdsls.core.javascript.structure.FunctionExpression" flags="ng" index="N0Zoj" />
-      <concept id="673147055593911236" name="org.webdsls.core.javascript.structure.ConstructorPropertyTarger" flags="ng" index="N4gLE" />
+      <concept id="673147055593911236" name="org.webdsls.core.javascript.structure.ConstructorPropertyTarget" flags="ng" index="N4gLE" />
       <concept id="673147055593727368" name="org.webdsls.core.javascript.structure.ThisExpression" flags="ng" index="N5dCA" />
       <concept id="673147055595852562" name="org.webdsls.core.javascript.structure.ReturnStatement" flags="ng" index="NcQMW">
         <child id="673147055595852563" name="exp" index="NcQMX" />
@@ -33,14 +32,17 @@
         <child id="2262758913613520175" name="exp" index="1lbF8h" />
       </concept>
       <concept id="2262758913613520242" name="org.webdsls.core.javascript.structure.PropertyAccess" flags="ng" index="1lbF9c">
-        <reference id="2262758913613520243" name="method" index="1lbF9d" />
+        <reference id="2262758913613520243" name="property" index="1lbF9d" />
       </concept>
       <concept id="2262758913614375836" name="org.webdsls.core.javascript.structure.FunctionRef" flags="ng" index="1lcSiy">
         <reference id="2262758913614375837" name="function" index="1lcSiz" />
       </concept>
       <concept id="2262758913614235810" name="org.webdsls.core.javascript.structure.PrototypePropertyTarget" flags="ng" index="1ldqus" />
-      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
+      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDefinition" flags="ng" index="1ldqy2" />
       <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
+      <concept id="6131816733090363026" name="" flags="ng" index="3IJi16">
+        <child id="2262758913614235581" name="" index="1ldqy3" />
+      </concept>
       <concept id="2525617932487827897" name="org.webdsls.core.javascript.structure.VarRef" flags="ng" index="3VhYQp">
         <reference id="2525617932487828033" name="var" index="3VhYTx" />
       </concept>
@@ -66,12 +68,6 @@
     <property role="TrG5h" value="_010_simple_function_definitions" />
     <node concept="1ldqy2" id="_nvUSUpYpR" role="1l8HCK">
       <property role="TrG5h" value="Person" />
-      <node concept="1ldqzY" id="_nvUSUpYpU" role="1ldqy3">
-        <property role="TrG5h" value="firstName" />
-      </node>
-      <node concept="1ldqzY" id="_nvUSUpYpV" role="1ldqy3">
-        <property role="TrG5h" value="surname" />
-      </node>
       <node concept="NP72d" id="6xzvtCfqgYF" role="1B1vUw">
         <node concept="1l81Jh" id="6xzvtCfqh0V" role="NP72a">
           <node concept="1lfS6B" id="6xzvtCfqh0W" role="1l81Je">
@@ -99,6 +95,12 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="1ldqzY" id="_nvUSUpYpU" role="1ldqy3">
+        <property role="TrG5h" value="firstName" />
+      </node>
+      <node concept="1ldqzY" id="_nvUSUpYpV" role="1ldqy3">
+        <property role="TrG5h" value="surname" />
       </node>
     </node>
     <node concept="1l81Jh" id="_nvUSUpYpS" role="1l8HCK">

@@ -69,8 +69,7 @@
       <concept id="556157332037186451" name="org.webdsls.core.javascript.structure.ForLoopBase" flags="ng" index="2gYuQQ">
         <child id="556157332037186452" name="body" index="2gYuQL" />
       </concept>
-      <concept id="673147055594834366" name="org.webdsls.core.javascript.structure.IFunctionDeclarationLike" flags="ng" index="N0Zog">
-        <child id="2262758913614235581" name="params" index="1ldqy3" />
+      <concept id="673147055594834366" name="org.webdsls.core.javascript.structure.IFunctionDefinitionLike" flags="ng" index="N0Zog">
         <child id="7521994178153579386" name="body" index="1B1vUw" />
       </concept>
       <concept id="673147055594834365" name="org.webdsls.core.javascript.structure.FunctionExpression" flags="ng" index="N0Zoj" />
@@ -96,7 +95,7 @@
       <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.GlobalVarRef" flags="ng" index="34r80L">
         <reference id="3233584377442303979" name="prop" index="34r80K" />
       </concept>
-      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PropertyTarget" flags="ng" index="34BFpg" />
+      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PlainTextPropertyTarget" flags="ng" index="34BFpg" />
       <concept id="2262758913613427951" name="org.webdsls.core.javascript.structure.ExpressionStatement" flags="ng" index="1l81Jh">
         <child id="2262758913613427952" name="exp" index="1l81Je" />
       </concept>
@@ -105,17 +104,20 @@
         <child id="2262758913613520175" name="exp" index="1lbF8h" />
       </concept>
       <concept id="2262758913613520242" name="org.webdsls.core.javascript.structure.PropertyAccess" flags="ng" index="1lbF9c">
-        <reference id="2262758913613520243" name="method" index="1lbF9d" />
+        <reference id="2262758913613520243" name="property" index="1lbF9d" />
       </concept>
-      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
+      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDefinition" flags="ng" index="1ldqy2" />
       <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
       <concept id="7521994178153571814" name="org.webdsls.core.javascript.structure.StrictEqualsExpression" flags="ng" index="1B1hwW" />
+      <concept id="6131816733090363026" name="org.webdsls.core.javascript.structure.IFunctionDeclarationLike" flags="ng" index="3IJi16">
+        <child id="2262758913614235581" name="params" index="1ldqy3" />
+      </concept>
       <concept id="2525617932487827897" name="org.webdsls.core.javascript.structure.VarRef" flags="ng" index="3VhYQp">
         <reference id="2525617932487828033" name="var" index="3VhYTx" />
       </concept>
-      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDeclaration" flags="ng" index="3Vii7Y" />
+      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDefinition" flags="ng" index="3Vii7Y" />
       <concept id="2525617932487484597" name="org.webdsls.core.javascript.structure.Statement" flags="ng" index="3Viiyl" />
-      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationBase" flags="ng" index="3ViI3g">
+      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDefinitionBase" flags="ng" index="3ViI3g">
         <child id="2525617932487503094" name="val" index="3ViI3m" />
       </concept>
     </language>
@@ -186,7 +188,7 @@
       </concept>
       <concept id="5804288667809509537" name="org.webdsls.core.html.ext.structure.ClassValue" flags="ng" index="E48_F" />
       <concept id="5804288667809507797" name="org.webdsls.core.html.ext.structure.ClassAttribute" flags="ng" index="E490v" />
-      <concept id="3233584377445868784" name="org.webdsls.core.html.ext.structure.IdRef" flags="ng" index="34dxGF">
+      <concept id="3233584377445868784" name="org.webdsls.core.html.ext.structure.IdRefExpression" flags="ng" index="34dxGF">
         <reference id="3233584377445868785" name="id" index="34dxGE" />
       </concept>
       <concept id="3233584377445847103" name="org.webdsls.core.html.ext.structure.IdValue" flags="ng" index="34dAZ$" />
@@ -303,8 +305,8 @@
         <node concept="1BUaO3" id="2NvZXJCNsAL" role="3VdhUL">
           <node concept="3Vi2Fk" id="2NvZXJCNsAR" role="3VcuEY">
             <property role="TrG5h" value="id" />
-            <node concept="3Vi2ib" id="2NvZXJCNsBc" role="3Vi2Fq">
-              <property role="3Vi2ic" value="mydiv" />
+            <node concept="34dAZ$" id="5ko_HiVFYQk" role="3Vi2Fq">
+              <property role="TrG5h" value="mydiv" />
             </node>
           </node>
           <node concept="E490v" id="52cYsDUBLl0" role="3VcuEY">
@@ -371,8 +373,8 @@
         <node concept="1BUaO0" id="2NvZXJCNtJJ" role="3VdhUL">
           <node concept="3Vi2Fk" id="2NvZXJCNtKA" role="3VcuEY">
             <property role="TrG5h" value="id" />
-            <node concept="3Vi2ib" id="2NvZXJCNtKG" role="3Vi2Fq">
-              <property role="3Vi2ic" value="myUL" />
+            <node concept="34dAZ$" id="5ko_HiVFYQt" role="3Vi2Fq">
+              <property role="TrG5h" value="myUL" />
             </node>
           </node>
           <node concept="1BUaO1" id="2NvZXJCNtKJ" role="3VdhUL">
@@ -675,9 +677,6 @@
                   <property role="3Vi2ic" value="click" />
                 </node>
                 <node concept="N0Zoj" id="2NvZXJCRSpL" role="1lbFbR">
-                  <node concept="1ldqzY" id="2NvZXJCRSpY" role="1ldqy3">
-                    <property role="TrG5h" value="ev" />
-                  </node>
                   <node concept="NP72d" id="2NvZXJCRSpN" role="1B1vUw">
                     <node concept="2gqYS3" id="2NvZXJCRSq6" role="NP72a">
                       <node concept="1B1hwW" id="2NvZXJCRSsk" role="2gqYS2">
@@ -724,6 +723,9 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="1ldqzY" id="2NvZXJCRSpY" role="1ldqy3">
+                    <property role="TrG5h" value="ev" />
                   </node>
                 </node>
                 <node concept="2gWuPW" id="2NvZXJCRSxa" role="1lbFbR" />

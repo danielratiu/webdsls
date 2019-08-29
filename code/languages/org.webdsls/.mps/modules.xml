@@ -2,17 +2,19 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.base/org.webdsls.core.base.mpl" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.css.ext/org.webdsls.core.css.ext.mpl" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.css/org.webdsls.core.css.mpl" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.html.ext/org.webdsls.core.html.ext.mpl" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.html/org.webdsls.core.html.mpl" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/languages/org.webdsls.core.javascript/org.webdsls.core.javascript.mpl" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.webdsls.core.html.sandbox/org.webdsls.core.html.sandbox.msd" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.webdsls.core.javascript.lib/org.webdsls.core.javascript.lib.msd" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.webdsls.core.javascript.pluginSolution/org.webdsls.core.javascript.pluginSolution.msd" folder="langs" />
-      <modulePath path="$PROJECT_DIR$/tests/test.org.webdsls.core.html/test.org.webdsls.core.html.msd" folder="tests" />
-      <modulePath path="$PROJECT_DIR$/tests/test.org.webdsls.core.javascript/test.org.webdsls.core.javascript.msd" folder="tests" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.base/org.webdsls.core.base.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.css.ext/org.webdsls.core.css.ext.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.css/org.webdsls.core.css.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.html.ext/org.webdsls.core.html.ext.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.html/org.webdsls.core.html.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.javascript/org.webdsls.core.javascript.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/languages/org.webdsls.core.typescript/org.webdsls.core.typescript.mpl" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/solutions/org.webdsls.core.html.sandbox/org.webdsls.core.html.sandbox.msd" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/solutions/org.webdsls.core.javascript.lib/org.webdsls.core.javascript.lib.msd" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/solutions/org.webdsls.core.javascript.pluginSolution/org.webdsls.core.javascript.pluginSolution.msd" folder="langs" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/tests/test.org.webdsls.core.html/test.org.webdsls.core.html.msd" folder="tests" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/tests/test.org.webdsls.core.javascript/test.org.webdsls.core.javascript.msd" folder="tests" />
+      <modulePath path="${webdsls.core.home}/code/languages/org.webdsls/tests/test.org.webdsls.core.typescript/test.org.webdsls.core.typescript.msd" folder="tests" />
     </projectModules>
   </component>
 </project>
