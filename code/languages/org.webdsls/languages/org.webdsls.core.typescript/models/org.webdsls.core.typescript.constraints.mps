@@ -65,6 +65,9 @@
         <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
         <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
       </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -119,7 +122,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="nLCbeDjSgA">
-    <property role="3GE5qa" value="ambient" />
+    <property role="3GE5qa" value="ambient.function" />
     <ref role="1M2myG" to="lwbx:nLCbeDhwHr" resolve="AmbientFunctionDeclaration" />
     <node concept="9SLcT" id="nLCbeDjSgB" role="9SGkU">
       <node concept="3clFbS" id="nLCbeDjSgC" role="2VODD2">
@@ -141,6 +144,28 @@
               <node concept="359W_D" id="nLCbeDjT01" role="3uHU7w">
                 <ref role="359W_F" to="mrxi:1XAVNTakOuX" resolve="params" />
                 <ref role="359W_E" to="mrxi:5ko_HiVDrqi" resolve="IFunctionDeclarationLike" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="nLCbeDnYBv">
+    <property role="3GE5qa" value="ambient.class" />
+    <ref role="1M2myG" to="lwbx:nLCbeDnNlT" resolve="AmbientClassDeclaration" />
+  </node>
+  <node concept="1M2fIO" id="nLCbeDDfxA">
+    <property role="3GE5qa" value="ambient.class" />
+    <ref role="1M2myG" to="lwbx:nLCbeDDfib" resolve="AmbientClassInstantiation" />
+    <node concept="9S07l" id="nLCbeDDfxB" role="9Vyp8">
+      <node concept="3clFbS" id="nLCbeDDfxC" role="2VODD2">
+        <node concept="3clFbF" id="nLCbeDDfD3" role="3cqZAp">
+          <node concept="2OqwBi" id="nLCbeDDfSZ" role="3clFbG">
+            <node concept="nLn13" id="nLCbeDDfD2" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="nLCbeDDgk1" role="2OqNvi">
+              <node concept="chp4Y" id="nLCbeDDgwV" role="cj9EA">
+                <ref role="cht4Q" to="mrxi:1XAVNTah3RO" resolve="NewExpression" />
               </node>
             </node>
           </node>
