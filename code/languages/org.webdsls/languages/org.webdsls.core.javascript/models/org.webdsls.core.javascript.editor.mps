@@ -2491,5 +2491,18 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="nLCbeDlpjU">
+    <property role="3GE5qa" value="types" />
+    <ref role="1XX52x" to="mrxi:1XAVNTaheTB" resolve="ClassType" />
+    <node concept="1iCGBv" id="nLCbeDlpjW" role="2wV5jI">
+      <ref role="1NtTu8" to="mrxi:1XAVNTahf5s" resolve="clazz" />
+      <node concept="1sVBvm" id="nLCbeDlpjY" role="1sWHZn">
+        <node concept="3F0A7n" id="nLCbeDlpkk" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

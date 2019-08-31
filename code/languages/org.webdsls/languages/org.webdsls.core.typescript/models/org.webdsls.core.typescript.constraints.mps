@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="lwbx" ref="r:ec8e9d7c-ef77-4684-9cd3-4381b4427f94(org.webdsls.core.typescript.structure)" implicit="true" />
+    <import index="mrxi" ref="r:6469a2be-2ce0-4002-b048-fd1fad9d1545(org.webdsls.core.javascript.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -17,6 +18,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -26,12 +28,25 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
+      <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
+      <concept id="4303308395523343364" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" flags="ng" index="2DA6wF" />
+      <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
         <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
       </concept>
     </language>
@@ -43,6 +58,13 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
+        <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
+      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
+        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
+        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -91,6 +113,36 @@
         <node concept="3clFbF" id="5ko_HiVwZVo" role="3cqZAp">
           <node concept="3clFbT" id="5ko_HiVwZVn" role="3clFbG">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="nLCbeDjSgA">
+    <property role="3GE5qa" value="ambient" />
+    <ref role="1M2myG" to="lwbx:nLCbeDhwHr" resolve="AmbientFunctionDeclaration" />
+    <node concept="9SLcT" id="nLCbeDjSgB" role="9SGkU">
+      <node concept="3clFbS" id="nLCbeDjSgC" role="2VODD2">
+        <node concept="3clFbF" id="nLCbeDjSo3" role="3cqZAp">
+          <node concept="3K4zz7" id="nLCbeDjTX2" role="3clFbG">
+            <node concept="2OqwBi" id="nLCbeDjUx8" role="3K4E3e">
+              <node concept="2DD5aU" id="nLCbeDjU9P" role="2Oq$k0" />
+              <node concept="2Zo12i" id="nLCbeDjV9e" role="2OqNvi">
+                <node concept="chp4Y" id="nLCbeDjVot" role="2Zo12j">
+                  <ref role="cht4Q" to="lwbx:nLCbeDjnue" resolve="FormalParameterWithType" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbT" id="nLCbeDjVCn" role="3K4GZi">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="17R0WA" id="nLCbeDjVSw" role="3K4Cdx">
+              <node concept="2DA6wF" id="nLCbeDjSo2" role="3uHU7B" />
+              <node concept="359W_D" id="nLCbeDjT01" role="3uHU7w">
+                <ref role="359W_F" to="mrxi:1XAVNTakOuX" resolve="params" />
+                <ref role="359W_E" to="mrxi:5ko_HiVDrqi" resolve="IFunctionDeclarationLike" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

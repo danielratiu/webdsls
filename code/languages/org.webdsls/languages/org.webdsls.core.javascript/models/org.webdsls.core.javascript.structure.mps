@@ -9,7 +9,7 @@
     <import index="jpi" ref="r:43c865fe-9249-439b-9393-08f957c1535a(org.webdsls.core.base.structure)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="mrxi" ref="r:6469a2be-2ce0-4002-b048-fd1fad9d1545(org.webdsls.core.javascript.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -235,9 +235,7 @@
     <property role="EcuMT" value="2262758913613295207" />
     <property role="TrG5h" value="ClassType" />
     <property role="3GE5qa" value="types" />
-    <node concept="PrWs8" id="1XAVNTahf5p" role="PzmwI">
-      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
-    </node>
+    <ref role="1TJDcQ" node="5ko_HiVxlGB" resolve="Type" />
     <node concept="1TJgyj" id="1XAVNTahf5s" role="1TKVEi">
       <property role="IQ2ns" value="2262758913613295964" />
       <property role="20lmBu" value="reference" />
@@ -331,6 +329,9 @@
     <property role="TrG5h" value="FormalParameter" />
     <node concept="PrWs8" id="5ko_HiVDow8" role="PzmwI">
       <ref role="PrY4T" node="5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
+    </node>
+    <node concept="PrWs8" id="nLCbeDkxhV" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDkxhL" resolve="IFormalParameterLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XAVNTakOyy">
@@ -1191,6 +1192,16 @@
       <property role="20kJfa" value="params" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1XAVNTakOv0" resolve="FormalParameter" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ko_HiVxlGB">
+    <property role="EcuMT" value="6131816733088242471" />
+    <property role="3GE5qa" value="types" />
+    <property role="TrG5h" value="Type" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5ko_HiVzglk" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
     </node>
   </node>
 </model>

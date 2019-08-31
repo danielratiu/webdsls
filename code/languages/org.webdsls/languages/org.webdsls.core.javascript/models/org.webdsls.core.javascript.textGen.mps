@@ -1910,5 +1910,28 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="nLCbeDnxsX">
+    <property role="3GE5qa" value="types" />
+    <ref role="WuzLi" to="mrxi:1XAVNTaheTB" resolve="ClassType" />
+    <node concept="11bSqf" id="nLCbeDnxsY" role="11c4hB">
+      <node concept="3clFbS" id="nLCbeDnxsZ" role="2VODD2">
+        <node concept="lc7rE" id="nLCbeDnxti" role="3cqZAp">
+          <node concept="l9hG8" id="nLCbeDnxtI" role="lcghm">
+            <node concept="2OqwBi" id="nLCbeDnysV" role="lb14g">
+              <node concept="2OqwBi" id="nLCbeDnxCw" role="2Oq$k0">
+                <node concept="117lpO" id="nLCbeDnxuG" role="2Oq$k0" />
+                <node concept="3TrEf2" id="nLCbeDny91" role="2OqNvi">
+                  <ref role="3Tt5mk" to="mrxi:1XAVNTahf5s" resolve="clazz" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="nLCbeDnzhF" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
