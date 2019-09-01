@@ -8,7 +8,6 @@
   <imports>
     <import index="jpi" ref="r:43c865fe-9249-439b-9393-08f957c1535a(org.webdsls.core.base.structure)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
-    <import index="mrxi" ref="r:6469a2be-2ce0-4002-b048-fd1fad9d1545(org.webdsls.core.javascript.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
@@ -330,9 +329,6 @@
     <property role="TrG5h" value="FormalParameter" />
     <node concept="PrWs8" id="5ko_HiVDow8" role="PzmwI">
       <ref role="PrY4T" node="5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
-    </node>
-    <node concept="PrWs8" id="nLCbeDkxhV" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDkxhL" resolve="IFormalParameterLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XAVNTakOyy">
