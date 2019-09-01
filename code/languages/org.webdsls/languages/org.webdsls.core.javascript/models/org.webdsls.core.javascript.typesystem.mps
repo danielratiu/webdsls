@@ -206,7 +206,7 @@
     </node>
     <node concept="1YaCAy" id="1XAVNTahfUd" role="1YuTPh">
       <property role="TrG5h" value="variableDeclarationBase" />
-      <ref role="1YaFvo" to="mrxi:2ccN23ohyNK" resolve="VariableDefinitionBase" />
+      <ref role="1YaFvo" to="mrxi:2ccN23ohyNK" resolve="VariableDeclarationnBase" />
     </node>
   </node>
 </model>

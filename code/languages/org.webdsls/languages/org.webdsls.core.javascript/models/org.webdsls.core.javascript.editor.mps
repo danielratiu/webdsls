@@ -350,7 +350,7 @@
   </node>
   <node concept="24kQdi" id="2ccN23ohv2N">
     <property role="3GE5qa" value="statements.variable_declarations" />
-    <ref role="1XX52x" to="mrxi:2ccN23ohyNK" resolve="VariableDefinitionBase" />
+    <ref role="1XX52x" to="mrxi:2ccN23ohyNK" resolve="VariableDeclarationnBase" />
     <node concept="3EZMnI" id="2ccN23ohv2P" role="2wV5jI">
       <node concept="1HlG4h" id="2ccN23ohyNV" role="3EZMnx">
         <ref role="1k5W1q" to="gkmw:6NmtaR1SVrw" resolve="BaseLanguageKeywordStyle" />
@@ -631,7 +631,7 @@
   </node>
   <node concept="24kQdi" id="1XAVNTakOv9">
     <property role="3GE5qa" value="function" />
-    <ref role="1XX52x" to="mrxi:1XAVNTakOuW" resolve="FunctionDefinition" />
+    <ref role="1XX52x" to="mrxi:1XAVNTakOuW" resolve="FunctionDeclaration" />
     <node concept="3EZMnI" id="1XAVNTakOvb" role="2wV5jI">
       <node concept="3F0ifn" id="1XAVNTakOvl" role="3EZMnx">
         <property role="3F0ifm" value="function" />

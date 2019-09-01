@@ -99,14 +99,14 @@
   </node>
   <node concept="1TIwiD" id="2ccN23ohuRu">
     <property role="EcuMT" value="2525617932487486942" />
-    <property role="TrG5h" value="VarDefinition" />
+    <property role="TrG5h" value="VarDeclaration" />
     <property role="34LRSv" value="var" />
     <property role="3GE5qa" value="statements.variable_declarations" />
-    <ref role="1TJDcQ" node="2ccN23ohyNK" resolve="VariableDefinitionBase" />
+    <ref role="1TJDcQ" node="2ccN23ohyNK" resolve="VariableDeclarationnBase" />
   </node>
   <node concept="1TIwiD" id="2ccN23ohyNK">
     <property role="EcuMT" value="2525617932487503088" />
-    <property role="TrG5h" value="VariableDefinitionBase" />
+    <property role="TrG5h" value="VariableDeclarationnBase" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="statements.variable_declarations" />
     <ref role="1TJDcQ" node="2ccN23ohuiP" resolve="Statement" />
@@ -116,8 +116,8 @@
       <property role="20kJfa" value="val" />
       <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="_nvUSUfzS_" role="PzmwI">
-      <ref role="PrY4T" node="_nvUSUfzSx" resolve="IVariableDefinitionLike" />
+    <node concept="PrWs8" id="nLCbeDY2u7" role="PzmwI">
+      <ref role="PrY4T" node="5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ccN23oiM6T">
@@ -206,9 +206,14 @@
     <property role="TrG5h" value="MethodDefinition" />
     <property role="3GE5qa" value="class" />
     <property role="34LRSv" value="method" />
-    <ref role="1TJDcQ" node="1XAVNTakOuS" resolve="FunctionDefinitionBase" />
     <node concept="PrWs8" id="1XAVNTah3ku" role="PzmwI">
       <ref role="PrY4T" node="1XAVNTah3ks" resolve="IClassContent" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEbTwP" role="PzmwI">
+      <ref role="PrY4T" node="_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEbTwQ" role="PzmwI">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XAVNTah3RO">
@@ -300,27 +305,19 @@
       <ref role="PrY4T" node="2NvZXJCPBkt" resolve="IFunctionCallLike" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1XAVNTakOuS">
-    <property role="EcuMT" value="2262758913614235576" />
-    <property role="TrG5h" value="FunctionDefinitionBase" />
-    <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="function" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="_nvUSUl8AZ" role="PzmwI">
-      <ref role="PrY4T" node="_nvUSUl8AY" resolve="IFunctionDefinitionLike" />
-    </node>
-    <node concept="PrWs8" id="_nvUSUl8B5" role="PzmwI">
-      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1XAVNTakOuW">
     <property role="EcuMT" value="2262758913614235580" />
     <property role="3GE5qa" value="function" />
-    <property role="TrG5h" value="FunctionDefinition" />
+    <property role="TrG5h" value="FunctionDeclaration" />
     <property role="34LRSv" value="function" />
-    <ref role="1TJDcQ" node="1XAVNTakOuS" resolve="FunctionDefinitionBase" />
     <node concept="PrWs8" id="1XAVNTallQ1" role="PzmwI">
       <ref role="PrY4T" node="1XAVNTah3kd" resolve="IJSSourceElement" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEbTwz" role="PzmwI">
+      <ref role="PrY4T" node="_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEbTw$" role="PzmwI">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XAVNTakOv0">
@@ -351,7 +348,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="function" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1XAVNTakOuW" resolve="FunctionDefinition" />
+      <ref role="20lvS9" node="1XAVNTakOuW" resolve="FunctionDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XAVNTan8Id">
@@ -372,14 +369,6 @@
     <property role="TrG5h" value="IPropertyDefinitionLike" />
     <node concept="PrWs8" id="_nvUSUdKyD" role="PrDN$">
       <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="_nvUSUfzSx">
-    <property role="EcuMT" value="673147055593373217" />
-    <property role="3GE5qa" value="base" />
-    <property role="TrG5h" value="IVariableDefinitionLike" />
-    <node concept="PrWs8" id="5ko_HiVBqs4" role="PrDN$">
-      <ref role="PrY4T" node="5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="_nvUSUgUm8">
@@ -413,13 +402,13 @@
     <property role="34LRSv" value="function" />
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="PrWs8" id="_nvUSUl8DN" role="PzmwI">
-      <ref role="PrY4T" node="_nvUSUl8AY" resolve="IFunctionDefinitionLike" />
+      <ref role="PrY4T" node="_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
     </node>
   </node>
   <node concept="PlHQZ" id="_nvUSUl8AY">
     <property role="EcuMT" value="673147055594834366" />
     <property role="3GE5qa" value="base" />
-    <property role="TrG5h" value="IFunctionDefinitionLike" />
+    <property role="TrG5h" value="IFunctionDeclarationLike" />
     <node concept="1TJgyj" id="6xzvtCfpCdU" role="1TKVEi">
       <property role="IQ2ns" value="7521994178153579386" />
       <property role="20lmBu" value="aggregation" />
@@ -428,7 +417,7 @@
       <ref role="20lvS9" node="_nvUSUwKWz" resolve="StatementList" />
     </node>
     <node concept="PrWs8" id="5ko_HiVDrqj" role="PrDN$">
-      <ref role="PrY4T" node="5ko_HiVDrqi" resolve="IFunctionDeclarationLike" />
+      <ref role="PrY4T" node="5ko_HiVDrqi" resolve="ICallSignature" />
     </node>
   </node>
   <node concept="1TIwiD" id="_nvUSUp1ci">
@@ -448,16 +437,16 @@
   <node concept="1TIwiD" id="_nvUSUwDMU">
     <property role="EcuMT" value="673147055597853882" />
     <property role="3GE5qa" value="statements.variable_declarations" />
-    <property role="TrG5h" value="ConstDefinition" />
+    <property role="TrG5h" value="ConstDeclaration" />
     <property role="34LRSv" value="const" />
-    <ref role="1TJDcQ" node="2ccN23ohyNK" resolve="VariableDefinitionBase" />
+    <ref role="1TJDcQ" node="2ccN23ohyNK" resolve="VariableDeclarationnBase" />
   </node>
   <node concept="1TIwiD" id="_nvUSUwDMV">
     <property role="EcuMT" value="673147055597853883" />
     <property role="3GE5qa" value="statements.variable_declarations" />
-    <property role="TrG5h" value="LetDefinition" />
+    <property role="TrG5h" value="LetDeclaration" />
     <property role="34LRSv" value="let" />
-    <ref role="1TJDcQ" node="2ccN23ohyNK" resolve="VariableDefinitionBase" />
+    <ref role="1TJDcQ" node="2ccN23ohyNK" resolve="VariableDeclarationnBase" />
   </node>
   <node concept="1TIwiD" id="_nvUSUwKUQ">
     <property role="EcuMT" value="673147055597883062" />
@@ -692,7 +681,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="varDecl" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2ccN23ohuRu" resolve="VarDefinition" />
+      <ref role="20lvS9" node="2ccN23ohuRu" resolve="VarDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="uRRymnzpHr">
@@ -1170,13 +1159,16 @@
   <node concept="PlHQZ" id="5ko_HiVDrqi">
     <property role="EcuMT" value="6131816733090363026" />
     <property role="3GE5qa" value="base" />
-    <property role="TrG5h" value="IFunctionDeclarationLike" />
+    <property role="TrG5h" value="ICallSignature" />
     <node concept="1TJgyj" id="1XAVNTakOuX" role="1TKVEi">
       <property role="IQ2ns" value="2262758913614235581" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="params" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1XAVNTakOv0" resolve="FormalParameter" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEbTxc" role="PrDN$">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ko_HiVxlGB">
