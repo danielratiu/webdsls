@@ -82,6 +82,7 @@
     <property role="TrG5h" value="SingleLineComment" />
     <property role="34LRSv" value="//" />
     <property role="3GE5qa" value="base" />
+    <property role="R4oN_" value="single line comment" />
     <node concept="1TJgyi" id="2ccN23ohujq" role="1TKVEl">
       <property role="IQ2nx" value="2525617932487484634" />
       <property role="TrG5h" value="text" />
@@ -1002,18 +1003,6 @@
       <property role="20kJfa" value="actuals" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2NvZXJCNyfJ">
-    <property role="EcuMT" value="3233584377444049903" />
-    <property role="3GE5qa" value="statements" />
-    <property role="TrG5h" value="OneLineCommentStatement" />
-    <property role="34LRSv" value="//" />
-    <ref role="1TJDcQ" node="2ccN23ohuiP" resolve="Statement" />
-    <node concept="1TJgyi" id="2NvZXJCNyfK" role="1TKVEl">
-      <property role="IQ2nx" value="3233584377444049904" />
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="PlHQZ" id="2NvZXJCPBkt">

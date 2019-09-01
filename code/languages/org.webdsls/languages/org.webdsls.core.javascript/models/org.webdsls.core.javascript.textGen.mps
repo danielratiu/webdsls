@@ -1418,28 +1418,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="2NvZXJCNygB">
-    <property role="3GE5qa" value="statements" />
-    <ref role="WuzLi" to="mrxi:2NvZXJCNyfJ" resolve="OneLineCommentStatement" />
-    <node concept="11bSqf" id="2NvZXJCNygC" role="11c4hB">
-      <node concept="3clFbS" id="2NvZXJCNygD" role="2VODD2">
-        <node concept="lc7rE" id="2NvZXJCNygW" role="3cqZAp">
-          <node concept="la8eA" id="2NvZXJCNyhk" role="lcghm">
-            <property role="lacIc" value="// " />
-          </node>
-          <node concept="l9hG8" id="2NvZXJCNyiv" role="lcghm">
-            <node concept="2OqwBi" id="2NvZXJCNyu4" role="lb14g">
-              <node concept="117lpO" id="2NvZXJCNyjr" role="2Oq$k0" />
-              <node concept="3TrcHB" id="2NvZXJCNz2z" role="2OqNvi">
-                <ref role="3TsBF5" to="mrxi:2NvZXJCNyfK" resolve="text" />
-              </node>
-            </node>
-          </node>
-          <node concept="l8MVK" id="2NvZXJCRIQ0" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="2NvZXJCRAaj">
     <property role="3GE5qa" value="function" />
     <ref role="WuzLi" to="mrxi:2NvZXJCJQpA" resolve="GlobalFunctionCall" />

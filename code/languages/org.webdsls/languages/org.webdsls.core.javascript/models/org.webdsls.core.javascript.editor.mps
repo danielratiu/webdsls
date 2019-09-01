@@ -2105,22 +2105,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="2NvZXJCNyfN">
-    <property role="3GE5qa" value="statements" />
-    <ref role="1XX52x" to="mrxi:2NvZXJCNyfJ" resolve="OneLineCommentStatement" />
-    <node concept="3EZMnI" id="2NvZXJCNyfP" role="2wV5jI">
-      <node concept="3F0ifn" id="2NvZXJCNyfZ" role="3EZMnx">
-        <property role="3F0ifm" value="//" />
-      </node>
-      <node concept="3F0A7n" id="2NvZXJCNyg8" role="3EZMnx">
-        <ref role="1NtTu8" to="mrxi:2NvZXJCNyfK" resolve="text" />
-      </node>
-      <node concept="l2Vlx" id="2NvZXJCNyfS" role="2iSdaV" />
-      <node concept="3F0ifn" id="2NvZXJCNz5D" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-      </node>
-    </node>
-  </node>
   <node concept="3p36aQ" id="52cYsDUI4H9">
     <property role="3GE5qa" value="function" />
     <ref role="aqKnT" to="mrxi:2NvZXJCJQpA" resolve="GlobalFunctionCall" />
