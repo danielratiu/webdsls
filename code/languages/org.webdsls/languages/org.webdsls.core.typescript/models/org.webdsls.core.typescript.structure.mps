@@ -55,6 +55,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -123,7 +124,10 @@
       <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
     </node>
     <node concept="PrWs8" id="nLCbeDo3AM" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDo3bW" resolve="IAmbientClassContent" />
+      <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
+    </node>
+    <node concept="PrWs8" id="nLCbeDMVsr" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDLiNK" resolve="IAmbientModuleDeclarationContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ko_HiVwPWp">
@@ -239,7 +243,7 @@
       <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
     </node>
     <node concept="PrWs8" id="nLCbeDxJhK" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDxJhE" resolve="IAmbientVarDeclarationLike" />
+      <ref role="PrY4T" node="nLCbeDxJhE" resolve="ITSVarDeclarationLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDhwHr">
@@ -250,7 +254,7 @@
     <property role="R4oN_" value="ambient function declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="nLCbeDqIgS" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDqIgM" resolve="IAmbientFunctionDeclarationLike" />
+      <ref role="PrY4T" node="nLCbeDqIgM" resolve="ITSCallSignature" />
     </node>
     <node concept="PrWs8" id="nLCbeDi8gj" role="PzmwI">
       <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
@@ -278,37 +282,29 @@
     <property role="TrG5h" value="AmbientClassDeclaration" />
     <property role="34LRSv" value="declare class" />
     <property role="R4oN_" value="ambient class declaration" />
+    <ref role="1TJDcQ" node="nLCbeEhTsu" resolve="TSClassDeclarationBase" />
     <node concept="PrWs8" id="nLCbeDo3uD" role="PzmwI">
       <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
     </node>
     <node concept="PrWs8" id="52cYsDUUlfg" role="PzmwI">
       <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
-    <node concept="1TJgyj" id="nLCbeDnNxG" role="1TKVEi">
-      <property role="IQ2ns" value="428300133078087788" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameters" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="nLCbeDGkTK" resolve="TypeParameter" />
-    </node>
     <node concept="1TJgyj" id="1XAVNTah3mQ" role="1TKVEi">
       <property role="IQ2ns" value="2262758913613247926" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="content" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="nLCbeDo3bW" resolve="IAmbientClassContent" />
-    </node>
-    <node concept="1TJgyj" id="52cYsDUSb2c" role="1TKVEi">
-      <property role="IQ2ns" value="5804288667813982348" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="extends" />
-      <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
+      <ref role="20lvS9" node="nLCbeDo3bW" resolve="ITSClassContent" />
+      <ref role="20ksaX" to="mrxi:1XAVNTah3mQ" resolve="content" />
     </node>
   </node>
   <node concept="PlHQZ" id="nLCbeDo3bW">
     <property role="EcuMT" value="428300133078151932" />
     <property role="3GE5qa" value="ambient.class" />
-    <property role="TrG5h" value="IAmbientClassContent" />
+    <property role="TrG5h" value="ITSClassContent" />
+    <node concept="PrWs8" id="nLCbeEhTsv" role="PrDN$">
+      <ref role="PrY4T" to="mrxi:1XAVNTah3ks" resolve="IClassContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDo4Oy">
     <property role="EcuMT" value="428300133078158626" />
@@ -324,7 +320,7 @@
       <ref role="20lvS9" node="nLCbeDjnue" resolve="FormalParameterWithType" />
     </node>
     <node concept="PrWs8" id="nLCbeDo4OC" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDo3bW" resolve="IAmbientClassContent" />
+      <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDoXPQ">
@@ -343,9 +339,7 @@
   <node concept="1TIwiD" id="nLCbeDqI2F">
     <property role="EcuMT" value="428300133078851755" />
     <property role="3GE5qa" value="ambient.class" />
-    <property role="TrG5h" value="AmbientPropertyMemberDeclaration" />
-    <property role="34LRSv" value="ambient property member" />
-    <property role="R4oN_" value="ambient property member declaration" />
+    <property role="TrG5h" value="PropertyMemberDeclarationBase" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="nLCbeDqI34" role="1TKVEl">
@@ -362,10 +356,10 @@
       <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="nLCbeDqI39" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDo3bW" resolve="IAmbientClassContent" />
+      <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
     </node>
     <node concept="PrWs8" id="nLCbeDqIhn" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDqIgM" resolve="IAmbientFunctionDeclarationLike" />
+      <ref role="PrY4T" node="nLCbeDqIgM" resolve="ITSCallSignature" />
     </node>
   </node>
   <node concept="AxPO7" id="nLCbeDqI2G">
@@ -389,7 +383,7 @@
   <node concept="PlHQZ" id="nLCbeDqIgM">
     <property role="EcuMT" value="428300133078852658" />
     <property role="3GE5qa" value="ambient.function" />
-    <property role="TrG5h" value="IAmbientFunctionDeclarationLike" />
+    <property role="TrG5h" value="ITSCallSignature" />
     <node concept="1TJgyj" id="nLCbeDhwJd" role="1TKVEi">
       <property role="IQ2ns" value="428300133076437965" />
       <property role="20lmBu" value="aggregation" />
@@ -404,7 +398,10 @@
       <ref role="20lvS9" to="mrxi:5ko_HiVxlGB" resolve="Type" />
     </node>
     <node concept="PrWs8" id="nLCbeDqIgN" role="PrDN$">
-      <ref role="PrY4T" to="mrxi:5ko_HiVDrqi" resolve="IFunctionDeclarationLike" />
+      <ref role="PrY4T" to="mrxi:5ko_HiVDrqi" resolve="ICallSignature" />
+    </node>
+    <node concept="PrWs8" id="nLCbeE692B" role="PrDN$">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDxJhe">
@@ -412,15 +409,15 @@
     <property role="3GE5qa" value="ambient.class" />
     <property role="TrG5h" value="AmbientPropertyDeclaration" />
     <property role="34LRSv" value="ambient property declaration" />
-    <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="AmbientPropertyMemberDeclaration" />
+    <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="PropertyMemberDeclarationBase" />
     <node concept="PrWs8" id="nLCbeDxJiT" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDxJhE" resolve="IAmbientVarDeclarationLike" />
+      <ref role="PrY4T" node="nLCbeDxJhE" resolve="ITSVarDeclarationLike" />
     </node>
   </node>
   <node concept="PlHQZ" id="nLCbeDxJhE">
     <property role="EcuMT" value="428300133080691818" />
     <property role="3GE5qa" value="ambient.var" />
-    <property role="TrG5h" value="IAmbientVarDeclarationLike" />
+    <property role="TrG5h" value="ITSVarDeclarationLike" />
     <node concept="PrWs8" id="nLCbeDxJhF" role="PrDN$">
       <ref role="PrY4T" to="mrxi:5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
     </node>
@@ -436,10 +433,7 @@
     <property role="3GE5qa" value="ambient.class" />
     <property role="TrG5h" value="AmbientMethodDeclaration" />
     <property role="34LRSv" value="ambient method declaration" />
-    <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="AmbientPropertyMemberDeclaration" />
-    <node concept="PrWs8" id="nLCbeDznq9" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDqIgM" resolve="IAmbientFunctionDeclarationLike" />
-    </node>
+    <ref role="1TJDcQ" node="1DTjBiEJ1RS" resolve="TSMethodDeclarationBase" />
   </node>
   <node concept="1TIwiD" id="nLCbeDDfib">
     <property role="EcuMT" value="428300133082657931" />
@@ -504,6 +498,147 @@
     </node>
     <node concept="PrWs8" id="nLCbeDHYkv" role="PzmwI">
       <ref role="PrY4T" to="mrxi:2NvZXJCPBkt" resolve="IFunctionCallLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeDLiNb">
+    <property role="EcuMT" value="428300133084769483" />
+    <property role="3GE5qa" value="ambient.module" />
+    <property role="TrG5h" value="AmbientModuleDeclaration" />
+    <property role="34LRSv" value="module" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="nLCbeDLiNF" role="1TKVEi">
+      <property role="IQ2ns" value="428300133084769515" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="mrxi:1XAVNTah3kd" resolve="IJSSourceElement" />
+    </node>
+    <node concept="PrWs8" id="nLCbeDLiNc" role="PzmwI">
+      <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
+    </node>
+    <node concept="PrWs8" id="nLCbeDLiNd" role="PzmwI">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="nLCbeDLiNK">
+    <property role="EcuMT" value="428300133084769520" />
+    <property role="3GE5qa" value="ambient.module" />
+    <property role="TrG5h" value="IAmbientModuleDeclarationContent" />
+    <node concept="PrWs8" id="nLCbeDY3xz" role="PrDN$">
+      <ref role="PrY4T" node="nLCbeDY3xy" resolve="IModuleDeclarationContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeDT4Z4">
+    <property role="EcuMT" value="428300133086810052" />
+    <property role="3GE5qa" value="ambient.function" />
+    <property role="TrG5h" value="AmbientFunctionCallExpression" />
+    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="1TJgyj" id="nLCbeDT4Z5" role="1TKVEi">
+      <property role="IQ2ns" value="428300133086810053" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="fun" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="nLCbeDhwHr" resolve="AmbientFunctionDeclaration" />
+    </node>
+    <node concept="PrWs8" id="nLCbeDT4Zl" role="PzmwI">
+      <ref role="PrY4T" to="mrxi:2NvZXJCPBkt" resolve="IFunctionCallLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeDY2u6">
+    <property role="EcuMT" value="428300133088110470" />
+    <property role="3GE5qa" value="ambient.module" />
+    <property role="TrG5h" value="ModuleElementVariableDeclaration" />
+    <property role="34LRSv" value="variable declaration" />
+    <ref role="1TJDcQ" to="mrxi:2ccN23ohuRu" resolve="VarDeclaration" />
+    <node concept="PrWs8" id="nLCbeDY2uc" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDLiNK" resolve="IAmbientModuleDeclarationContent" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEnb8l" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDxJhE" resolve="ITSVarDeclarationLike" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="nLCbeDY3xy">
+    <property role="EcuMT" value="428300133088114786" />
+    <property role="3GE5qa" value="ambient.module" />
+    <property role="TrG5h" value="IModuleDeclarationContent" />
+    <node concept="1TJgyi" id="nLCbeDY3yl" role="1TKVEl">
+      <property role="IQ2nx" value="428300133088114837" />
+      <property role="TrG5h" value="export" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeE4rHU">
+    <property role="EcuMT" value="428300133089786746" />
+    <property role="3GE5qa" value="ambient.module" />
+    <property role="TrG5h" value="ModuleElementFunctionDeclaration" />
+    <property role="34LRSv" value="function" />
+    <ref role="1TJDcQ" to="mrxi:1XAVNTakOuW" resolve="FunctionDeclaration" />
+    <node concept="PrWs8" id="nLCbeE4rHV" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDLiNK" resolve="IAmbientModuleDeclarationContent" />
+    </node>
+    <node concept="PrWs8" id="nLCbeE68Se" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDqIgM" resolve="ITSCallSignature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeEfEdm">
+    <property role="EcuMT" value="428300133092729686" />
+    <property role="3GE5qa" value="ambient.module.class" />
+    <property role="TrG5h" value="ModuleElementClassDeclaration" />
+    <property role="34LRSv" value="class" />
+    <property role="R4oN_" value="class declaration" />
+    <ref role="1TJDcQ" node="nLCbeEhTsu" resolve="TSClassDeclarationBase" />
+    <node concept="PrWs8" id="nLCbeEfEd_" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDLiNK" resolve="IAmbientModuleDeclarationContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeEhTsu">
+    <property role="EcuMT" value="428300133093316382" />
+    <property role="3GE5qa" value="base" />
+    <property role="TrG5h" value="TSClassDeclarationBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="mrxi:1XAVNTah3kh" resolve="ClassDeclaration" />
+    <node concept="1TJgyj" id="nLCbeDnNxG" role="1TKVEi">
+      <property role="IQ2ns" value="428300133078087788" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeParameters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="nLCbeDGkTK" resolve="TypeParameter" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeEsZOw">
+    <property role="EcuMT" value="428300133096226080" />
+    <property role="3GE5qa" value="ambient.base" />
+    <property role="TrG5h" value="TypeParameterRef" />
+    <ref role="1TJDcQ" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    <node concept="1TJgyj" id="nLCbeEsZOx" role="1TKVEi">
+      <property role="IQ2ns" value="428300133096226081" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="tpe" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="nLCbeDGkTK" resolve="TypeParameter" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="nLCbeEBGN6">
+    <property role="EcuMT" value="428300133099031750" />
+    <property role="3GE5qa" value="ambient.module.class" />
+    <property role="TrG5h" value="ModuleElementMethodDeclaration" />
+    <property role="34LRSv" value="method" />
+    <ref role="1TJDcQ" node="1DTjBiEJ1RS" resolve="TSMethodDeclarationBase" />
+    <node concept="PrWs8" id="nLCbeEBGNi" role="PzmwI">
+      <ref role="PrY4T" to="mrxi:1XAVNTah3ks" resolve="IClassContent" />
+    </node>
+    <node concept="PrWs8" id="nLCbeEBGN$" role="PzmwI">
+      <ref role="PrY4T" to="mrxi:_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiEJ1RS">
+    <property role="EcuMT" value="1907642180155743736" />
+    <property role="3GE5qa" value="ambient.base" />
+    <property role="TrG5h" value="TSMethodDeclarationBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="PropertyMemberDeclarationBase" />
+    <node concept="PrWs8" id="1DTjBiEJ1RT" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDqIgM" resolve="ITSCallSignature" />
     </node>
   </node>
 </model>

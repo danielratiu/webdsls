@@ -6,6 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="lwbx" ref="r:ec8e9d7c-ef77-4684-9cd3-4381b4427f94(org.webdsls.core.typescript.structure)" implicit="true" />
   </imports>
   <registry>
@@ -65,6 +67,34 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="nLCbeDWl7D">
+    <property role="3GE5qa" value="ambient.module" />
+    <ref role="13h7C2" to="lwbx:nLCbeDLiNb" resolve="AmbientModuleDeclaration" />
+    <node concept="13hLZK" id="nLCbeDWl7E" role="13h7CW">
+      <node concept="3clFbS" id="nLCbeDWl7F" role="2VODD2">
+        <node concept="3clFbF" id="nLCbeDWl7P" role="3cqZAp">
+          <node concept="2OqwBi" id="nLCbeDWn4w" role="3clFbG">
+            <node concept="2OqwBi" id="nLCbeDWliV" role="2Oq$k0">
+              <node concept="13iPFW" id="nLCbeDWl7O" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="nLCbeDWl$J" role="2OqNvi">
+                <ref role="3TtcxE" to="lwbx:nLCbeDLiNF" resolve="elements" />
+              </node>
+            </node>
+            <node concept="WFELt" id="nLCbeDWobx" role="2OqNvi">
+              <ref role="1A0vxQ" to="lwbx:5ko_HiVwNax" resolve="EmptyLine" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="nLCbeEENF0">
+    <property role="3GE5qa" value="ambient.base" />
+    <ref role="13h7C2" to="lwbx:nLCbeEsZOw" resolve="TypeParameterRef" />
+    <node concept="13hLZK" id="nLCbeEENF1" role="13h7CW">
+      <node concept="3clFbS" id="nLCbeEENF2" role="2VODD2" />
     </node>
   </node>
 </model>

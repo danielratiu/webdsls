@@ -85,9 +85,6 @@
       <concept id="3233584377444594973" name="org.webdsls.core.javascript.structure.IFunctionCallLike" flags="ng" index="342oF6">
         <child id="2262758913613520329" name="actuals" index="1lbFbR" />
       </concept>
-      <concept id="3233584377444049903" name="org.webdsls.core.javascript.structure.OneLineCommentStatement" flags="ng" index="344tKO">
-        <property id="3233584377444049904" name="text" index="344tKF" />
-      </concept>
       <concept id="3233584377443083878" name="org.webdsls.core.javascript.structure.GlobalFunctionCall" flags="ng" index="34o9AX">
         <reference id="3233584377443083897" name="prop" index="34o9Ay" />
         <child id="3233584377443083901" name="actuals" index="34o9AA" />
@@ -117,6 +114,9 @@
       </concept>
       <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDefinition" flags="ng" index="3Vii7Y" />
       <concept id="2525617932487484597" name="org.webdsls.core.javascript.structure.Statement" flags="ng" index="3Viiyl" />
+      <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
+        <property id="2525617932487484634" name="text" index="3ViizU" />
+      </concept>
       <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDefinitionBase" flags="ng" index="3ViI3g">
         <child id="2525617932487503094" name="val" index="3ViI3m" />
       </concept>
@@ -422,8 +422,8 @@
         </node>
         <node concept="3VcdO$" id="2NvZXJCNxQd" role="3VdhUL" />
         <node concept="3ViiVt" id="2NvZXJCNxT9" role="3VdhUL">
-          <node concept="344tKO" id="2NvZXJCPqet" role="3Vi$l7">
-            <property role="344tKF" value="Create a &quot;close&quot; button and append it to each list element" />
+          <node concept="3ViizT" id="nLCbeDOxH8" role="3Vi$l7">
+            <property role="3ViizU" value="Create a &quot;close&quot; button and append it to each list element" />
           </node>
           <node concept="3Vii7Y" id="2NvZXJCNxUJ" role="3Vi$l7">
             <property role="TrG5h" value="nodesList" />
@@ -549,8 +549,8 @@
             </node>
           </node>
           <node concept="3Viiyl" id="2NvZXJCPqfZ" role="3Vi$l7" />
-          <node concept="344tKO" id="2NvZXJCR_V1" role="3Vi$l7">
-            <property role="344tKF" value="click on a close button to hide the current list item" />
+          <node concept="3ViizT" id="nLCbeDOyqd" role="3Vi$l7">
+            <property role="3ViizU" value="click on a close button to hide the current list item" />
           </node>
           <node concept="3Vii7Y" id="2NvZXJCPqje" role="3Vi$l7">
             <property role="TrG5h" value="close" />
@@ -652,8 +652,8 @@
             </node>
           </node>
           <node concept="3Viiyl" id="2NvZXJCPqm1" role="3Vi$l7" />
-          <node concept="344tKO" id="2NvZXJCRS7i" role="3Vi$l7">
-            <property role="344tKF" value="Add a &quot;checked&quot; symbol when clicking on a list item" />
+          <node concept="3ViizT" id="nLCbeDOz7i" role="3Vi$l7">
+            <property role="3ViizU" value="Add a &quot;checked&quot; symbol when clicking on a list item" />
           </node>
           <node concept="3Vii7Y" id="2NvZXJCRSde" role="3Vi$l7">
             <property role="TrG5h" value="list" />
@@ -736,8 +736,8 @@
             </node>
           </node>
           <node concept="3Viiyl" id="2NvZXJCRSxU" role="3Vi$l7" />
-          <node concept="344tKO" id="2NvZXJCRSDR" role="3Vi$l7">
-            <property role="344tKF" value="Create a new list item when pressing 'Add' button" />
+          <node concept="3ViizT" id="nLCbeDOzOn" role="3Vi$l7">
+            <property role="3ViizU" value="Create a new list item when pressing 'Add' button" />
           </node>
           <node concept="1ldqy2" id="2NvZXJCRU9I" role="3Vi$l7">
             <property role="TrG5h" value="newElement" />

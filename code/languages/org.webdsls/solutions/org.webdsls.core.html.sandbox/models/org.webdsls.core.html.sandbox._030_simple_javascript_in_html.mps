@@ -55,7 +55,7 @@
         <child id="2262758913613427952" name="exp" index="1l81Je" />
       </concept>
       <concept id="2262758913613250036" name="org.webdsls.core.javascript.structure.NewExpression" flags="ng" index="1l8Hba" />
-      <concept id="2262758913613247773" name="org.webdsls.core.javascript.structure.MethodDeclaration" flags="ng" index="1l8HCz" />
+      <concept id="2262758913613247773" name="org.webdsls.core.javascript.structure.MethodDefinition" flags="ng" index="1l8HCz" />
       <concept id="2262758913613247761" name="org.webdsls.core.javascript.structure.ClassDeclaration" flags="ng" index="1l8HCJ">
         <child id="2262758913613247926" name="content" index="1l8HE8" />
       </concept>
@@ -72,7 +72,7 @@
         <reference id="2525617932487828033" name="var" index="3VhYTx" />
       </concept>
       <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDeclaration" flags="ng" index="3Vii7Y" />
-      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationBase" flags="ng" index="3ViI3g">
+      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationnBase" flags="ng" index="3ViI3g">
         <child id="2525617932487503094" name="val" index="3ViI3m" />
       </concept>
     </language>
