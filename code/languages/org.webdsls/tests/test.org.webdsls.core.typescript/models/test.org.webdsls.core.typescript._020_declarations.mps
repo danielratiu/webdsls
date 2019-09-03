@@ -18,7 +18,6 @@
       <concept id="673147055597883171" name="org.webdsls.core.javascript.structure.StatementList" flags="ng" index="NP72d">
         <child id="673147055597883172" name="statements" index="NP72a" />
       </concept>
-      <concept id="673147055597853882" name="org.webdsls.core.javascript.structure.ConstDeclaration" flags="ng" index="NPuck" />
       <concept id="3233584377444594973" name="org.webdsls.core.javascript.structure.IFunctionCallLike" flags="ng" index="342oF6">
         <child id="2262758913613520329" name="actuals" index="1lbFbR" />
       </concept>
@@ -41,7 +40,6 @@
         <child id="2262758913613520175" name="exp" index="1lbF8h" />
       </concept>
       <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
-      <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
       <concept id="2262758913614842765" name="org.webdsls.core.javascript.structure.EmptyLine" flags="ng" index="1leAiN" />
       <concept id="6131816733090363026" name="org.webdsls.core.javascript.structure.ICallSignature" flags="ng" index="3IJi16">
         <child id="2262758913614235581" name="params" index="1ldqy3" />
@@ -49,7 +47,6 @@
       <concept id="2525617932487827897" name="org.webdsls.core.javascript.structure.VarRef" flags="ng" index="3VhYQp">
         <reference id="2525617932487828033" name="var" index="3VhYTx" />
       </concept>
-      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDeclaration" flags="ng" index="3Vii7Y" />
       <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
         <property id="2525617932487484634" name="text" index="3ViizU" />
       </concept>
@@ -81,20 +78,14 @@
       </concept>
     </language>
     <language id="ddecf919-66a1-4e9b-8bb1-03f16bc4f24c" name="org.webdsls.core.typescript">
-      <concept id="428300133088110470" name="org.webdsls.core.typescript.structure.ModuleElementVariableDeclaration" flags="ng" index="2G2osP" />
-      <concept id="428300133088114786" name="org.webdsls.core.typescript.structure.IModuleDeclarationContent" flags="ng" index="2G2pzh">
-        <property id="428300133088114837" name="export" index="2G2pwA" />
-      </concept>
-      <concept id="428300133086810052" name="org.webdsls.core.typescript.structure.AmbientFunctionCallExpression" flags="ng" index="2G5uXR">
+      <concept id="428300133088110470" name="org.webdsls.core.typescript.structure.TSVariableDeclaration" flags="ng" index="2G2osP" />
+      <concept id="428300133086810052" name="org.webdsls.core.typescript.structure.TSFunctionCallExpression" flags="ng" index="2G5uXR">
         <reference id="428300133086810053" name="fun" index="2G5uXQ" />
-      </concept>
-      <concept id="428300133084769483" name="org.webdsls.core.typescript.structure.AmbientModuleDeclaration" flags="ng" index="2Gd8LS">
-        <child id="428300133084769515" name="elements" index="2Gd8Lo" />
       </concept>
       <concept id="428300133083467376" name="org.webdsls.core.typescript.structure.TypeParameter" flags="ng" index="2GgeV3">
         <child id="428300133083467382" name="extendedType" index="2GgeV5" />
       </concept>
-      <concept id="428300133083899152" name="org.webdsls.core.typescript.structure.AmbientMethodTarget" flags="ng" index="2Gh$mz">
+      <concept id="428300133083899152" name="org.webdsls.core.typescript.structure.TSMethodTarget" flags="ng" index="2Gh$mz">
         <reference id="428300133083899153" name="method" index="2Gh$my" />
       </concept>
       <concept id="428300133082657931" name="org.webdsls.core.typescript.structure.AmbientClassInstantiation" flags="ng" index="2GllgS">
@@ -104,7 +95,7 @@
       <concept id="428300133080691818" name="org.webdsls.core.typescript.structure.ITSVarDeclarationLike" flags="ng" index="2GtPjp">
         <child id="6131816733089735914" name="type" index="3Ixb8Y" />
       </concept>
-      <concept id="428300133080691790" name="org.webdsls.core.typescript.structure.AmbientPropertyDeclaration" flags="ng" index="2GtPjX" />
+      <concept id="428300133080691790" name="org.webdsls.core.typescript.structure.TSClassPropertyDeclaration" flags="ng" index="2GtPjX" />
       <concept id="428300133081118344" name="org.webdsls.core.typescript.structure.AmbientMethodDeclaration" flags="ng" index="2GvdoV" />
       <concept id="428300133078158626" name="org.webdsls.core.typescript.structure.AmbientConstructorDeclaration" flags="ng" index="2G$uQh">
         <child id="428300133078158627" name="params" index="2G$uQg" />
@@ -121,15 +112,11 @@
       <concept id="428300133076924302" name="org.webdsls.core.typescript.structure.FormalParameterWithType" flags="ng" index="2GJdsX">
         <child id="428300133076924303" name="type" index="2GJdsW" />
       </concept>
-      <concept id="428300133099031750" name="org.webdsls.core.typescript.structure.ModuleElementMethodDeclaration" flags="ng" index="2JrQLP" />
-      <concept id="428300133096226080" name="org.webdsls.core.typescript.structure.TypeParameterRef" flags="ng" index="2Jw_Qj">
-        <reference id="428300133096226081" name="tpe" index="2Jw_Qi" />
-      </concept>
       <concept id="428300133093316382" name="org.webdsls.core.typescript.structure.TSClassDeclarationBase" flags="ng" index="2JHzuH">
         <child id="428300133078087788" name="typeParameters" index="2GFDzv" />
       </concept>
       <concept id="428300133092729686" name="org.webdsls.core.typescript.structure.ModuleElementClassDeclaration" flags="ng" index="2JNKf_" />
-      <concept id="428300133089786746" name="org.webdsls.core.typescript.structure.ModuleElementFunctionDeclaration" flags="ng" index="2JS1J9" />
+      <concept id="1907642180172102165" name="org.webdsls.core.typescript.structure.TSConstDeclaration" flags="ng" index="2LNfhx" />
       <concept id="6131816733087463910" name="org.webdsls.core.typescript.structure.TSModule" flags="ng" index="3IouWM" />
       <concept id="6131816733089735889" name="org.webdsls.core.typescript.structure.AmbientVarDeclaration" flags="ng" index="3Ixb85" />
       <concept id="6131816733088821676" name="org.webdsls.core.typescript.structure.VoidType" flags="ng" index="3I_EtS" />
@@ -182,11 +169,12 @@
   </node>
   <node concept="3IouWM" id="nLCbeDOxf2">
     <property role="TrG5h" value="_010_ambient_020_functions" />
-    <node concept="1l8HCJ" id="nLCbeDOxf8" role="1l8HCK">
+    <node concept="2JNKf_" id="2yn3ecYY1Dl" role="1l8HCK">
       <property role="TrG5h" value="C1" />
-      <node concept="1leAiN" id="nLCbeDOxf9" role="1l8HE8" />
+      <node concept="1leAiN" id="2yn3ecYY1Dm" role="1l8HE8" />
     </node>
     <node concept="3IAUhP" id="nLCbeDOxfa" role="1l8HCK" />
+    <node concept="3IAUhP" id="1DTjBiEJvcE" role="1l8HCK" />
     <node concept="3ViizT" id="nLCbeEhTed" role="1l8HCK">
       <property role="3ViizU" value="function with type params" />
     </node>
@@ -211,8 +199,8 @@
       </node>
       <node concept="2GgeV3" id="nLCbeDOxfj" role="2GHUHY">
         <property role="TrG5h" value="S" />
-        <node concept="1l8w5p" id="nLCbeDOxfk" role="2GgeV5">
-          <ref role="1l8xTy" node="nLCbeDOxf8" resolve="C1" />
+        <node concept="1l8w5p" id="2yn3ecYY1FZ" role="2GgeV5">
+          <ref role="1l8xTy" node="2yn3ecYY1Dl" resolve="C1" />
         </node>
       </node>
       <node concept="3I_EtS" id="nLCbeEmEd7" role="2GwlG0" />
@@ -230,16 +218,16 @@
     <node concept="3ViizT" id="nLCbeEhTho" role="1l8HCK">
       <property role="3ViizU" value="use function without type params" />
     </node>
-    <node concept="3Vii7Y" id="nLCbeDT4Ok" role="1l8HCK">
+    <node concept="2G2osP" id="2yn3ecYY1Gc" role="1l8HCK">
       <property role="TrG5h" value="v" />
-      <node concept="2G5uXR" id="nLCbeDULa1" role="3ViI3m">
+      <node concept="2G5uXR" id="2yn3ecYY1Hu" role="3ViI3m">
         <ref role="2G5uXQ" node="nLCbeDT4EW" resolve="fun2" />
-        <node concept="3ViO1p" id="nLCbeDULam" role="1lbFbR">
+        <node concept="3ViO1p" id="2yn3ecYY1Hv" role="1lbFbR">
           <property role="3ViO1q" value="42" />
         </node>
       </node>
     </node>
-    <node concept="3IAUhP" id="nLCbeDULau" role="1l8HCK" />
+    <node concept="3IAUhP" id="2yn3ecYY1IG" role="1l8HCK" />
     <node concept="1ldqy2" id="nLCbeDULcY" role="1l8HCK">
       <property role="TrG5h" value="foo" />
       <node concept="NP72d" id="nLCbeDULd0" role="1B1vUw">
@@ -263,9 +251,10 @@
   </node>
   <node concept="3IouWM" id="nLCbeDRyLu">
     <property role="TrG5h" value="_010_ambient_030_classes" />
-    <node concept="1l8HCJ" id="nLCbeDRyL$" role="1l8HCK">
+    <node concept="3IAUhP" id="1DTjBiFEsMp" role="1l8HCK" />
+    <node concept="2JNKf_" id="1DTjBiFEsRb" role="1l8HCK">
       <property role="TrG5h" value="C1" />
-      <node concept="1leAiN" id="nLCbeDRyL_" role="1l8HE8" />
+      <node concept="1leAiN" id="1DTjBiFEsRc" role="1l8HE8" />
     </node>
     <node concept="3IAUhP" id="nLCbeDRyLL" role="1l8HCK" />
     <node concept="2GFDna" id="nLCbeDRyLM" role="1l8HCK">
@@ -311,8 +300,8 @@
         <node concept="2GgeV3" id="nLCbeDRyM6" role="2GHUHY">
           <property role="TrG5h" value="Q" />
         </node>
-        <node concept="1l8w5p" id="nLCbeDRyM7" role="2GwlG0">
-          <ref role="1l8xTy" node="nLCbeDRyL$" resolve="C1" />
+        <node concept="1l8w5p" id="1DTjBiFEsWr" role="2GwlG0">
+          <ref role="1l8xTy" node="1DTjBiFEsRb" resolve="C1" />
         </node>
       </node>
       <node concept="2GgeV3" id="nLCbeDRyLT" role="2GFDzv">
@@ -320,41 +309,41 @@
       </node>
       <node concept="2GgeV3" id="nLCbeDRyLU" role="2GFDzv">
         <property role="TrG5h" value="S" />
-        <node concept="1l8w5p" id="nLCbeDULnr" role="2GgeV5">
-          <ref role="1l8xTy" node="nLCbeDRyL$" resolve="C1" />
+        <node concept="1l8w5p" id="1DTjBiFEsWm" role="2GgeV5">
+          <ref role="1l8xTy" node="1DTjBiFEsRb" resolve="C1" />
         </node>
       </node>
     </node>
     <node concept="3IAUhP" id="nLCbeDRyM8" role="1l8HCK" />
-    <node concept="NPuck" id="nLCbeDRyM9" role="1l8HCK">
+    <node concept="2LNfhx" id="1DTjBiFKBK_" role="1l8HCK">
       <property role="TrG5h" value="ac1" />
-      <node concept="1l8Hba" id="nLCbeDRyMa" role="3ViI3m">
-        <node concept="2GllgS" id="nLCbeDRyMb" role="1B5oeS">
+      <node concept="1l8Hba" id="1DTjBiFKBN9" role="3ViI3m">
+        <node concept="2GllgS" id="1DTjBiFKBNa" role="1B5oeS">
           <ref role="2Gllvd" node="nLCbeDRyLM" resolve="AmbientClass1" />
-          <node concept="2gWuNn" id="nLCbeDRyMc" role="FEbMm" />
-          <node concept="3Vi2ib" id="nLCbeDRyMd" role="FEbMm">
+          <node concept="2gWuNn" id="1DTjBiFKBNb" role="FEbMm" />
+          <node concept="3Vi2ib" id="1DTjBiFKBNc" role="FEbMm">
             <property role="3Vi2ic" value="some string" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="3IAUhP" id="nLCbeDRyMe" role="1l8HCK" />
-    <node concept="NPuck" id="nLCbeDRyMf" role="1l8HCK">
+    <node concept="2LNfhx" id="1DTjBiFKBPV" role="1l8HCK">
       <property role="TrG5h" value="ac2" />
-      <node concept="1l8Hba" id="nLCbeDRyMg" role="3ViI3m">
-        <node concept="2GllgS" id="nLCbeDRyMh" role="1B5oeS">
+      <node concept="1l8Hba" id="1DTjBiFKBSW" role="3ViI3m">
+        <node concept="2GllgS" id="1DTjBiFKBSX" role="1B5oeS">
           <ref role="2Gllvd" node="nLCbeDRyLS" resolve="AmbientClass2" />
         </node>
       </node>
     </node>
+    <node concept="3IAUhP" id="1DTjBiFKBVz" role="1l8HCK" />
     <node concept="1l81Jh" id="nLCbeDRyMi" role="1l8HCK">
       <node concept="1lfS6B" id="nLCbeDRyMj" role="1l81Je">
         <node concept="3ViO1p" id="nLCbeDRyMk" role="3ViROP">
           <property role="3ViO1q" value="12" />
         </node>
         <node concept="1lbF8g" id="nLCbeDRyMl" role="3ViRON">
-          <node concept="3VhYQp" id="nLCbeDRyMm" role="1lbF8h">
-            <ref role="3VhYTx" node="nLCbeDRyMf" resolve="ac2" />
+          <node concept="3VhYQp" id="1DTjBiFKBVr" role="1lbF8h">
+            <ref role="3VhYTx" node="1DTjBiFKBPV" resolve="ac2" />
           </node>
           <node concept="34BFpg" id="nLCbeEmEks" role="1lbF8c">
             <property role="TrG5h" value="propertyWithoutType" />
@@ -371,78 +360,8 @@
           </node>
           <node concept="2gWuNn" id="nLCbeDRyMs" role="1lbFbR" />
         </node>
-        <node concept="3VhYQp" id="nLCbeDRyMt" role="1lbF8h">
-          <ref role="3VhYTx" node="nLCbeDRyMf" resolve="ac2" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3IouWM" id="nLCbeDWl1t">
-    <property role="TrG5h" value="_010_ambient_040_modules" />
-    <node concept="2Gd8LS" id="nLCbeDWl4X" role="1l8HCK">
-      <property role="TrG5h" value="mod2" />
-      <node concept="2G2osP" id="nLCbeE46Q2" role="2Gd8Lo">
-        <property role="TrG5h" value="aVariableDecl" />
-      </node>
-      <node concept="2G2osP" id="nLCbeE46QT" role="2Gd8Lo">
-        <property role="2G2pwA" value="true" />
-        <property role="TrG5h" value="anExportedVariableDecl" />
-      </node>
-      <node concept="3IAUhP" id="nLCbeDWrhJ" role="2Gd8Lo" />
-      <node concept="3IAUhP" id="nLCbeE68gP" role="2Gd8Lo" />
-      <node concept="2JS1J9" id="nLCbeE68P8" role="2Gd8Lo">
-        <property role="TrG5h" value="foo" />
-        <property role="2G2pwA" value="true" />
-        <node concept="1ldqzY" id="nLCbeE68Qn" role="1ldqy3">
-          <property role="TrG5h" value="p1" />
-        </node>
-        <node concept="NP72d" id="nLCbeE68Pa" role="1B1vUw">
-          <node concept="NcQMW" id="nLCbeE9QeN" role="NP72a">
-            <node concept="3ViO1p" id="nLCbeE9Qf1" role="NcQMX">
-              <property role="3ViO1q" value="42" />
-            </node>
-          </node>
-        </node>
-        <node concept="3I_EtX" id="nLCbeE9Qei" role="2GwlG0" />
-      </node>
-      <node concept="3IAUhP" id="nLCbeE68Py" role="2Gd8Lo" />
-      <node concept="2JNKf_" id="nLCbeEhKJK" role="2Gd8Lo">
-        <property role="TrG5h" value="Cls" />
-        <property role="2G2pwA" value="false" />
-        <node concept="2JrQLP" id="nLCbeEEGB$" role="1l8HE8">
-          <property role="TrG5h" value="ff" />
-          <node concept="2GJdsX" id="nLCbeEENmi" role="1ldqy3">
-            <property role="TrG5h" value="p1" />
-            <node concept="2Jw_Qj" id="nLCbeEENmr" role="2GJdsW">
-              <ref role="2Jw_Qi" node="nLCbeEsZOh" resolve="S" />
-            </node>
-          </node>
-          <node concept="2GJdsX" id="nLCbeEENmw" role="1ldqy3">
-            <property role="TrG5h" value="p2" />
-            <node concept="2Jw_Qj" id="nLCbeEENmJ" role="2GJdsW">
-              <ref role="2Jw_Qi" node="nLCbeEENme" resolve="T" />
-            </node>
-          </node>
-          <node concept="NP72d" id="nLCbeEEGBA" role="1B1vUw">
-            <node concept="NcQMW" id="nLCbeEESvH" role="NP72a">
-              <node concept="3Vi2ib" id="nLCbeEESvT" role="NcQMX">
-                <property role="3Vi2ic" value="dummy" />
-              </node>
-            </node>
-          </node>
-          <node concept="2GgeV3" id="nLCbeEENme" role="2GHUHY">
-            <property role="TrG5h" value="T" />
-          </node>
-          <node concept="3I_EtZ" id="nLCbeEESvo" role="2GwlG0" />
-        </node>
-        <node concept="2GgeV3" id="nLCbeEsZOd" role="2GFDzv">
-          <property role="TrG5h" value="T" />
-        </node>
-        <node concept="2GgeV3" id="nLCbeEsZOh" role="2GFDzv">
-          <property role="TrG5h" value="S" />
-          <node concept="2Jw_Qj" id="nLCbeEvTZZ" role="2GgeV5">
-            <ref role="2Jw_Qi" node="nLCbeEsZOd" resolve="T" />
-          </node>
+        <node concept="3VhYQp" id="1DTjBiFKBXS" role="1lbF8h">
+          <ref role="3VhYTx" node="1DTjBiFKBPV" resolve="ac2" />
         </node>
       </node>
     </node>

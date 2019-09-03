@@ -300,7 +300,7 @@
   </node>
   <node concept="PlHQZ" id="nLCbeDo3bW">
     <property role="EcuMT" value="428300133078151932" />
-    <property role="3GE5qa" value="ambient.class" />
+    <property role="3GE5qa" value="ambient.base" />
     <property role="TrG5h" value="ITSClassContent" />
     <node concept="PrWs8" id="nLCbeEhTsv" role="PrDN$">
       <ref role="PrY4T" to="mrxi:1XAVNTah3ks" resolve="IClassContent" />
@@ -319,8 +319,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="nLCbeDjnue" resolve="FormalParameterWithType" />
     </node>
-    <node concept="PrWs8" id="nLCbeDo4OC" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
+    <node concept="PrWs8" id="1DTjBiEMfGB" role="PzmwI">
+      <ref role="PrY4T" node="1DTjBiEMfGs" resolve="IAmbientClassContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDoXPQ">
@@ -357,9 +357,6 @@
     </node>
     <node concept="PrWs8" id="nLCbeDqI39" role="PzmwI">
       <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
-    </node>
-    <node concept="PrWs8" id="nLCbeDqIhn" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDqIgM" resolve="ITSCallSignature" />
     </node>
   </node>
   <node concept="AxPO7" id="nLCbeDqI2G">
@@ -400,18 +397,18 @@
     <node concept="PrWs8" id="nLCbeDqIgN" role="PrDN$">
       <ref role="PrY4T" to="mrxi:5ko_HiVDrqi" resolve="ICallSignature" />
     </node>
-    <node concept="PrWs8" id="nLCbeE692B" role="PrDN$">
+    <node concept="PrWs8" id="2yn3ecYY2e3" role="PrDN$">
       <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDxJhe">
     <property role="EcuMT" value="428300133080691790" />
     <property role="3GE5qa" value="ambient.class" />
-    <property role="TrG5h" value="AmbientPropertyDeclaration" />
-    <property role="34LRSv" value="ambient property declaration" />
-    <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="PropertyMemberDeclarationBase" />
-    <node concept="PrWs8" id="nLCbeDxJiT" role="PzmwI">
-      <ref role="PrY4T" node="nLCbeDxJhE" resolve="ITSVarDeclarationLike" />
+    <property role="TrG5h" value="TSClassPropertyDeclaration" />
+    <property role="34LRSv" value="property declaration" />
+    <ref role="1TJDcQ" node="1DTjBiFBv8C" resolve="TSPropertyDeclarationBase" />
+    <node concept="PrWs8" id="1DTjBiFBv8K" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
     </node>
   </node>
   <node concept="PlHQZ" id="nLCbeDxJhE">
@@ -434,6 +431,9 @@
     <property role="TrG5h" value="AmbientMethodDeclaration" />
     <property role="34LRSv" value="ambient method declaration" />
     <ref role="1TJDcQ" node="1DTjBiEJ1RS" resolve="TSMethodDeclarationBase" />
+    <node concept="PrWs8" id="1DTjBiEMfGT" role="PzmwI">
+      <ref role="PrY4T" node="1DTjBiEMfGs" resolve="IAmbientClassContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDDfib">
     <property role="EcuMT" value="428300133082657931" />
@@ -474,27 +474,27 @@
   <node concept="1TIwiD" id="nLCbeDHW7O">
     <property role="EcuMT" value="428300133083890164" />
     <property role="3GE5qa" value="ambient.class" />
-    <property role="TrG5h" value="AmbientPropertyTarget" />
+    <property role="TrG5h" value="TSPropertyTarget" />
     <ref role="1TJDcQ" to="mrxi:1XAVNTai5OR" resolve="GenericDotTarget" />
     <node concept="1TJgyj" id="nLCbeDHW7P" role="1TKVEi">
       <property role="IQ2ns" value="428300133083890165" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="property" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="nLCbeDxJhe" resolve="AmbientPropertyDeclaration" />
+      <ref role="20lvS9" node="nLCbeDxJhe" resolve="TSClassPropertyDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="nLCbeDHYkg">
     <property role="EcuMT" value="428300133083899152" />
     <property role="3GE5qa" value="ambient.class" />
-    <property role="TrG5h" value="AmbientMethodTarget" />
+    <property role="TrG5h" value="TSMethodTarget" />
     <ref role="1TJDcQ" to="mrxi:1XAVNTai5OR" resolve="GenericDotTarget" />
     <node concept="1TJgyj" id="nLCbeDHYkh" role="1TKVEi">
       <property role="IQ2ns" value="428300133083899153" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="method" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="nLCbeDznq8" resolve="AmbientMethodDeclaration" />
+      <ref role="20lvS9" node="nLCbeDqIgM" resolve="ITSCallSignature" />
     </node>
     <node concept="PrWs8" id="nLCbeDHYkv" role="PzmwI">
       <ref role="PrY4T" to="mrxi:2NvZXJCPBkt" resolve="IFunctionCallLike" />
@@ -531,14 +531,14 @@
   <node concept="1TIwiD" id="nLCbeDT4Z4">
     <property role="EcuMT" value="428300133086810052" />
     <property role="3GE5qa" value="ambient.function" />
-    <property role="TrG5h" value="AmbientFunctionCallExpression" />
+    <property role="TrG5h" value="TSFunctionCallExpression" />
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="nLCbeDT4Z5" role="1TKVEi">
       <property role="IQ2ns" value="428300133086810053" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="fun" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="nLCbeDhwHr" resolve="AmbientFunctionDeclaration" />
+      <ref role="20lvS9" node="nLCbeDqIgM" resolve="ITSCallSignature" />
     </node>
     <node concept="PrWs8" id="nLCbeDT4Zl" role="PzmwI">
       <ref role="PrY4T" to="mrxi:2NvZXJCPBkt" resolve="IFunctionCallLike" />
@@ -547,8 +547,9 @@
   <node concept="1TIwiD" id="nLCbeDY2u6">
     <property role="EcuMT" value="428300133088110470" />
     <property role="3GE5qa" value="ambient.module" />
-    <property role="TrG5h" value="ModuleElementVariableDeclaration" />
-    <property role="34LRSv" value="variable declaration" />
+    <property role="TrG5h" value="TSVariableDeclaration" />
+    <property role="34LRSv" value="var" />
+    <property role="R4oN_" value="variable declaration" />
     <ref role="1TJDcQ" to="mrxi:2ccN23ohuRu" resolve="VarDeclaration" />
     <node concept="PrWs8" id="nLCbeDY2uc" role="PzmwI">
       <ref role="PrY4T" node="nLCbeDLiNK" resolve="IAmbientModuleDeclarationContent" />
@@ -623,6 +624,7 @@
     <property role="3GE5qa" value="ambient.module.class" />
     <property role="TrG5h" value="ModuleElementMethodDeclaration" />
     <property role="34LRSv" value="method" />
+    <property role="R4oN_" value="method declaration" />
     <ref role="1TJDcQ" node="1DTjBiEJ1RS" resolve="TSMethodDeclarationBase" />
     <node concept="PrWs8" id="nLCbeEBGNi" role="PzmwI">
       <ref role="PrY4T" to="mrxi:1XAVNTah3ks" resolve="IClassContent" />
@@ -639,6 +641,123 @@
     <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="PropertyMemberDeclarationBase" />
     <node concept="PrWs8" id="1DTjBiEJ1RT" role="PzmwI">
       <ref role="PrY4T" node="nLCbeDqIgM" resolve="ITSCallSignature" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1DTjBiEMfGs">
+    <property role="EcuMT" value="1907642180156586780" />
+    <property role="3GE5qa" value="ambient.class" />
+    <property role="TrG5h" value="IAmbientClassContent" />
+    <node concept="PrWs8" id="1DTjBiEMfGt" role="PrDN$">
+      <ref role="PrY4T" node="nLCbeDo3bW" resolve="ITSClassContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiESJ4P">
+    <property role="EcuMT" value="1907642180158288181" />
+    <property role="3GE5qa" value="type.array" />
+    <property role="TrG5h" value="ArrayType" />
+    <property role="34LRSv" value="[" />
+    <property role="R4oN_" value="array type" />
+    <ref role="1TJDcQ" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    <node concept="1TJgyj" id="1DTjBiESJ5e" role="1TKVEi">
+      <property role="IQ2ns" value="1907642180158288206" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="base" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiEVFtD">
+    <property role="EcuMT" value="1907642180159059817" />
+    <property role="3GE5qa" value="type.tuple" />
+    <property role="TrG5h" value="TupleType" />
+    <property role="34LRSv" value="[" />
+    <property role="R4oN_" value="tuple type" />
+    <ref role="1TJDcQ" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    <node concept="1TJgyj" id="1DTjBiEVFtE" role="1TKVEi">
+      <property role="IQ2ns" value="1907642180159059818" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiF4mJh">
+    <property role="EcuMT" value="1907642180161334225" />
+    <property role="3GE5qa" value="type.type_alias" />
+    <property role="TrG5h" value="TypeAliasDeclaration" />
+    <property role="34LRSv" value="type" />
+    <ref role="1TJDcQ" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    <node concept="1TJgyj" id="1DTjBiF4mJl" role="1TKVEi">
+      <property role="IQ2ns" value="1907642180161334229" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="baseType" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="1DTjBiF4mJi" role="PzmwI">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1DTjBiFap6g" role="PzmwI">
+      <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiF7q8H">
+    <property role="EcuMT" value="1907642180162134573" />
+    <property role="3GE5qa" value="type.type_alias" />
+    <property role="TrG5h" value="TypeAliasRef" />
+    <ref role="1TJDcQ" to="mrxi:5ko_HiVxlGB" resolve="Type" />
+    <node concept="1TJgyj" id="1DTjBiF7q8I" role="1TKVEi">
+      <property role="IQ2ns" value="1907642180162134574" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="typeAlias" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1DTjBiF4mJh" resolve="TypeAliasDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiFaqIq">
+    <property role="EcuMT" value="1907642180162923418" />
+    <property role="TrG5h" value="ArrowFunctionExpression" />
+    <property role="34LRSv" value="=&gt;" />
+    <property role="3GE5qa" value="expression" />
+    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="PrWs8" id="1DTjBiFiVV3" role="PzmwI">
+      <ref role="PrY4T" to="mrxi:_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiFBqo$">
+    <property role="EcuMT" value="1907642180170524196" />
+    <property role="TrG5h" value="ImportDeclaration" />
+    <property role="34LRSv" value="import" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1DTjBiFBqo_" role="PzmwI">
+      <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiFBv8C">
+    <property role="EcuMT" value="1907642180170543656" />
+    <property role="3GE5qa" value="ambient.class" />
+    <property role="TrG5h" value="TSPropertyDeclarationBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="nLCbeDqI2F" resolve="PropertyMemberDeclarationBase" />
+    <node concept="PrWs8" id="1DTjBiFBv8D" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDxJhE" resolve="ITSVarDeclarationLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiFHrCl">
+    <property role="EcuMT" value="1907642180172102165" />
+    <property role="3GE5qa" value="ambient.module" />
+    <property role="TrG5h" value="TSConstDeclaration" />
+    <property role="34LRSv" value="const" />
+    <property role="R4oN_" value="constant declaration" />
+    <ref role="1TJDcQ" to="mrxi:_nvUSUwDMU" resolve="ConstDeclaration" />
+    <node concept="PrWs8" id="1DTjBiFHrCm" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDxJhE" resolve="ITSVarDeclarationLike" />
+    </node>
+    <node concept="PrWs8" id="2yn3ecYY1Kb" role="PzmwI">
+      <ref role="PrY4T" node="5ko_HiVwIu0" resolve="ITSModuleContent" />
+    </node>
+    <node concept="PrWs8" id="2yn3ecYYdcG" role="PzmwI">
+      <ref role="PrY4T" node="nLCbeDY3xy" resolve="IModuleDeclarationContent" />
     </node>
   </node>
 </model>

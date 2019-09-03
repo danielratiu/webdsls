@@ -64,6 +64,7 @@
       <concept id="556157332037186451" name="org.webdsls.core.javascript.structure.ForLoopBase" flags="ng" index="2gYuQQ">
         <child id="556157332037186452" name="body" index="2gYuQL" />
       </concept>
+      <concept id="2924820653152773488" name="org.webdsls.core.javascript.structure.NamedPropertyName" flags="ng" index="msEAj" />
       <concept id="5804288667814561955" name="org.webdsls.core.javascript.structure.ConstructorDeclaration" flags="ng" index="Epn5D">
         <child id="5804288667814562043" name="body" index="Epn4L" />
         <child id="5804288667814561965" name="params" index="Epn5B" />
@@ -108,9 +109,9 @@
         <child id="556157332037186079" name="exp2" index="2gYuKU" />
         <child id="556157332037186075" name="init" index="2gYuKY" />
       </concept>
-      <concept id="673147055597853882" name="org.webdsls.core.javascript.structure.ConstDefinition" flags="ng" index="NPuck" />
-      <concept id="673147055597853883" name="org.webdsls.core.javascript.structure.LetDefinition" flags="ng" index="NPucl" />
-      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PropertyTarget" flags="ng" index="34BFpg" />
+      <concept id="673147055597853882" name="org.webdsls.core.javascript.structure.ConstDeclaration" flags="ng" index="NPuck" />
+      <concept id="673147055597853883" name="org.webdsls.core.javascript.structure.LetDeclaration" flags="ng" index="NPucl" />
+      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PlainTextPropertyTarget" flags="ng" index="34BFpg" />
       <concept id="3233584377438231638" name="org.webdsls.core.javascript.structure.TypeofExpression" flags="ng" index="34EEed" />
       <concept id="3233584377438231637" name="org.webdsls.core.javascript.structure.DeleteExpression" flags="ng" index="34EEee" />
       <concept id="3233584377437742964" name="org.webdsls.core.javascript.structure.InOperator" flags="ng" index="34GxyJ" />
@@ -144,7 +145,7 @@
         <reference id="2262758913614375837" name="function" index="1lcSiz" />
       </concept>
       <concept id="2262758913614235810" name="org.webdsls.core.javascript.structure.PrototypePropertyTarget" flags="ng" index="1ldqus" />
-      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDefinition" flags="ng" index="1ldqy2" />
+      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
       <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
       <concept id="2262758913614842765" name="org.webdsls.core.javascript.structure.EmptyLine" flags="ng" index="1leAiN" />
       <concept id="7521994178154947198" name="org.webdsls.core.javascript.structure.ExpressionWord" flags="ng" index="1B61Y$">
@@ -160,20 +161,21 @@
         <child id="7521994178156028315" name="propertyAssignments" index="1BU9L1" />
       </concept>
       <concept id="7521994178156028437" name="org.webdsls.core.javascript.structure.PropertyAssignment" flags="ng" index="1BU9Zf">
-        <child id="7521994178156028442" name="val" index="1BU9Z0" />
+        <child id="2924820653152770284" name="lhs" index="msDgf" />
+        <child id="7521994178156028442" name="rhs" index="1BU9Z0" />
       </concept>
-      <concept id="6131816733090363026" name="" flags="ng" index="3IJi16">
-        <child id="2262758913614235581" name="" index="1ldqy3" />
+      <concept id="6131816733090363026" name="org.webdsls.core.javascript.structure.ICallSignature" flags="ng" index="3IJi16">
+        <child id="2262758913614235581" name="params" index="1ldqy3" />
       </concept>
       <concept id="2525617932487827897" name="org.webdsls.core.javascript.structure.VarRef" flags="ng" index="3VhYQp">
         <reference id="2525617932487828033" name="var" index="3VhYTx" />
       </concept>
-      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDefinition" flags="ng" index="3Vii7Y" />
+      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDeclaration" flags="ng" index="3Vii7Y" />
       <concept id="2525617932487484597" name="org.webdsls.core.javascript.structure.Statement" flags="ng" index="3Viiyl" />
       <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
         <property id="2525617932487484634" name="text" index="3ViizU" />
       </concept>
-      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDefinitionBase" flags="ng" index="3ViI3g">
+      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationnBase" flags="ng" index="3ViI3g">
         <child id="2525617932487503094" name="val" index="3ViI3m" />
       </concept>
     </language>
@@ -656,21 +658,27 @@
         <node concept="3Vii7Y" id="uRRymnAKVy" role="NP72a">
           <property role="TrG5h" value="object_" />
           <node concept="1BU9L3" id="uRRymnAKX$" role="3ViI3m">
-            <node concept="1BU9Zf" id="uRRymnAP3Z" role="1BU9L1">
-              <property role="TrG5h" value="fname" />
-              <node concept="3Vi2ib" id="uRRymnAP5P" role="1BU9Z0">
+            <node concept="1BU9Zf" id="2yn3ecYXJ1a" role="1BU9L1">
+              <node concept="msEAj" id="2yn3ecYXJ1J" role="msDgf">
+                <property role="TrG5h" value="name" />
+              </node>
+              <node concept="3Vi2ib" id="2yn3ecYXJ1O" role="1BU9Z0">
                 <property role="3Vi2ic" value="John" />
               </node>
             </node>
-            <node concept="1BU9Zf" id="uRRymnAP67" role="1BU9L1">
-              <property role="TrG5h" value="lname" />
-              <node concept="3Vi2ib" id="uRRymnAP6o" role="1BU9Z0">
+            <node concept="1BU9Zf" id="2yn3ecYXJ2o" role="1BU9L1">
+              <node concept="msEAj" id="2yn3ecYXJ34" role="msDgf">
+                <property role="TrG5h" value="surname" />
+              </node>
+              <node concept="3Vi2ib" id="2yn3ecYXJ39" role="1BU9Z0">
                 <property role="3Vi2ic" value="Doe" />
               </node>
             </node>
-            <node concept="1BU9Zf" id="uRRymnAP6O" role="1BU9L1">
-              <property role="TrG5h" value="age" />
-              <node concept="3ViO1p" id="uRRymnAP7c" role="1BU9Z0">
+            <node concept="1BU9Zf" id="2yn3ecYXJ3N" role="1BU9L1">
+              <node concept="msEAj" id="2yn3ecYXJ4z" role="msDgf">
+                <property role="TrG5h" value="age" />
+              </node>
+              <node concept="3ViO1p" id="2yn3ecYXJ4E" role="1BU9Z0">
                 <property role="3ViO1q" value="25" />
               </node>
             </node>
