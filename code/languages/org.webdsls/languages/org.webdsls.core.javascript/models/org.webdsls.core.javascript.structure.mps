@@ -584,13 +584,13 @@
   <node concept="1TIwiD" id="6xzvtCfyY8l">
     <property role="EcuMT" value="7521994178156028437" />
     <property role="3GE5qa" value="expression.literal.object" />
-    <property role="TrG5h" value="PropertyAssignment" />
+    <property role="TrG5h" value="PropertyExpressionAssignment" />
     <property role="34LRSv" value="simple property" />
     <node concept="1TJgyj" id="2yn3ecYTpzG" role="1TKVEi">
       <property role="IQ2ns" value="2924820653152770284" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="lhs" />
-      <ref role="20lvS9" node="2yn3ecYTpzM" resolve="IPropertyAssignmentLhs" />
+      <ref role="20lvS9" node="2yn3ecYTpzM" resolve="IPropertyExpressionAssignmentLhs" />
     </node>
     <node concept="1TJgyj" id="6xzvtCfyY8q" role="1TKVEi">
       <property role="IQ2ns" value="7521994178156028442" />
@@ -983,12 +983,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1XAVNTakOyy" resolve="PrototypePropertyTarget" />
     </node>
-    <node concept="1TJgyj" id="2NvZXJCJQpX" role="1TKVEi">
-      <property role="IQ2ns" value="3233584377443083901" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="actuals" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="PrWs8" id="3dcURp$BIAh" role="PzmwI">
+      <ref role="PrY4T" node="2NvZXJCPBkt" resolve="IFunctionCallLike" />
     </node>
   </node>
   <node concept="PlHQZ" id="2NvZXJCPBkt">
@@ -1200,7 +1196,7 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2yn3ecYTpzN" role="PzmwI">
-      <ref role="PrY4T" node="2yn3ecYTpzM" resolve="IPropertyAssignmentLhs" />
+      <ref role="PrY4T" node="2yn3ecYTpzM" resolve="IPropertyExpressionAssignmentLhs" />
     </node>
   </node>
   <node concept="PlHQZ" id="2yn3ecYTpzC">
@@ -1211,7 +1207,7 @@
   <node concept="PlHQZ" id="2yn3ecYTpzM">
     <property role="EcuMT" value="2924820653152770290" />
     <property role="3GE5qa" value="expression.literal.object.lhs" />
-    <property role="TrG5h" value="IPropertyAssignmentLhs" />
+    <property role="TrG5h" value="IPropertyExpressionAssignmentLhs" />
   </node>
   <node concept="1TIwiD" id="2yn3ecYTpzQ">
     <property role="EcuMT" value="2924820653152770294" />
@@ -1248,6 +1244,59 @@
       <property role="20kJfa" value="num" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jpi:2ccN23ohSLT" resolve="NumberLiteral" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2yn3ecYYwFi">
+    <property role="EcuMT" value="2924820653154110162" />
+    <property role="3GE5qa" value="expression.literal.object" />
+    <property role="TrG5h" value="PropertyShorthand" />
+    <property role="34LRSv" value="identifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2yn3ecYYwFj" role="PzmwI">
+      <ref role="PrY4T" to="jpi:2ccN23ojRuL" resolve="IIdentifierNamedConcept" />
+    </node>
+    <node concept="PrWs8" id="2yn3ecYYwFt" role="PzmwI">
+      <ref role="PrY4T" node="2yn3ecYTpzC" resolve="IObjectLiteralContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZeJVp">
+    <property role="EcuMT" value="2924820653158366937" />
+    <property role="3GE5qa" value="expression.literal.basic" />
+    <property role="TrG5h" value="NaNLiteral" />
+    <property role="34LRSv" value="NaN" />
+    <property role="R4oN_" value="not a number" />
+    <ref role="1TJDcQ" to="jpi:1XAVNTagTjJ" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZgNpe">
+    <property role="EcuMT" value="2924820653158905422" />
+    <property role="3GE5qa" value="expression.literal.basic" />
+    <property role="TrG5h" value="NullLiteral" />
+    <property role="34LRSv" value="null" />
+    <property role="R4oN_" value="null constant" />
+    <ref role="1TJDcQ" to="jpi:1XAVNTagTjJ" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZiRXu">
+    <property role="EcuMT" value="2924820653159448414" />
+    <property role="3GE5qa" value="expression.literal.basic" />
+    <property role="TrG5h" value="UndefinedLiteral" />
+    <property role="34LRSv" value="undefined" />
+    <property role="R4oN_" value="undefined literal" />
+    <ref role="1TJDcQ" to="jpi:1XAVNTagTjJ" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="3dcURp$BIAc">
+    <property role="EcuMT" value="3696588287891138956" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="FunctionCall" />
+    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="PrWs8" id="3dcURp$BIAd" role="PzmwI">
+      <ref role="PrY4T" node="2NvZXJCPBkt" resolve="IFunctionCallLike" />
+    </node>
+    <node concept="1TJgyj" id="3dcURp$EuNm" role="1TKVEi">
+      <property role="IQ2ns" value="3696588287891860694" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1XAVNTakOuW" resolve="FunctionDeclaration" />
     </node>
   </node>
 </model>

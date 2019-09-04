@@ -69,7 +69,7 @@
       <concept id="556157332037186451" name="org.webdsls.core.javascript.structure.ForLoopBase" flags="ng" index="2gYuQQ">
         <child id="556157332037186452" name="body" index="2gYuQL" />
       </concept>
-      <concept id="673147055594834366" name="org.webdsls.core.javascript.structure.IFunctionDefinitionLike" flags="ng" index="N0Zog">
+      <concept id="673147055594834366" name="org.webdsls.core.javascript.structure.IFunctionDeclarationLike" flags="ng" index="N0Zog">
         <child id="7521994178153579386" name="body" index="1B1vUw" />
       </concept>
       <concept id="673147055594834365" name="org.webdsls.core.javascript.structure.FunctionExpression" flags="ng" index="N0Zoj" />
@@ -87,7 +87,6 @@
       </concept>
       <concept id="3233584377443083878" name="org.webdsls.core.javascript.structure.GlobalFunctionCall" flags="ng" index="34o9AX">
         <reference id="3233584377443083897" name="prop" index="34o9Ay" />
-        <child id="3233584377443083901" name="actuals" index="34o9AA" />
       </concept>
       <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.GlobalVarRef" flags="ng" index="34r80L">
         <reference id="3233584377442303979" name="prop" index="34r80K" />
@@ -103,21 +102,21 @@
       <concept id="2262758913613520242" name="org.webdsls.core.javascript.structure.PropertyAccess" flags="ng" index="1lbF9c">
         <reference id="2262758913613520243" name="property" index="1lbF9d" />
       </concept>
-      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDefinition" flags="ng" index="1ldqy2" />
+      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
       <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
       <concept id="7521994178153571814" name="org.webdsls.core.javascript.structure.StrictEqualsExpression" flags="ng" index="1B1hwW" />
-      <concept id="6131816733090363026" name="org.webdsls.core.javascript.structure.IFunctionDeclarationLike" flags="ng" index="3IJi16">
+      <concept id="6131816733090363026" name="org.webdsls.core.javascript.structure.ICallSignature" flags="ng" index="3IJi16">
         <child id="2262758913614235581" name="params" index="1ldqy3" />
       </concept>
       <concept id="2525617932487827897" name="org.webdsls.core.javascript.structure.VarRef" flags="ng" index="3VhYQp">
         <reference id="2525617932487828033" name="var" index="3VhYTx" />
       </concept>
-      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDefinition" flags="ng" index="3Vii7Y" />
+      <concept id="2525617932487486942" name="org.webdsls.core.javascript.structure.VarDeclaration" flags="ng" index="3Vii7Y" />
       <concept id="2525617932487484597" name="org.webdsls.core.javascript.structure.Statement" flags="ng" index="3Viiyl" />
       <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
         <property id="2525617932487484634" name="text" index="3ViizU" />
       </concept>
-      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDefinitionBase" flags="ng" index="3ViI3g">
+      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationnBase" flags="ng" index="3ViI3g">
         <child id="2525617932487503094" name="val" index="3ViI3m" />
       </concept>
     </language>
@@ -815,7 +814,7 @@
                   <node concept="1l81Jh" id="2NvZXJCRYd9" role="NP72a">
                     <node concept="34o9AX" id="2NvZXJCRYd7" role="1l81Je">
                       <ref role="34o9Ay" to="xspq:2NvZXJCFV8f" resolve="alert" />
-                      <node concept="3Vi2ib" id="2NvZXJCRYdg" role="34o9AA">
+                      <node concept="3Vi2ib" id="3dcURp$EuLv" role="1lbFbR">
                         <property role="3Vi2ic" value="You must write something!" />
                       </node>
                     </node>
