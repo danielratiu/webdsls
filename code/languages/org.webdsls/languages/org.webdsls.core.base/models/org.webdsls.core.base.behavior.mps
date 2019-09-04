@@ -410,5 +410,89 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="2yn3ecZl6zZ">
+    <property role="3GE5qa" value="expressions.binary.assignment.direct" />
+    <ref role="13h7C2" to="jpi:2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+    <node concept="13hLZK" id="2yn3ecZl6$0" role="13h7CW">
+      <node concept="3clFbS" id="2yn3ecZl6$1" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2yn3ecZl6$i" role="13h7CS">
+      <property role="TrG5h" value="getPrioLevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="2ccN23ohYX4" resolve="getPrioLevel" />
+      <node concept="3Tm1VV" id="2yn3ecZl6$j" role="1B3o_S" />
+      <node concept="3clFbS" id="2yn3ecZl6$o" role="3clF47">
+        <node concept="3clFbF" id="2yn3ecZl6Cz" role="3cqZAp">
+          <node concept="3cmrfG" id="2yn3ecZl6Cy" role="3clFbG">
+            <property role="3cmrfH" value="100" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="2yn3ecZl6$p" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2yn3ecZl7Pj">
+    <property role="3GE5qa" value="expressions.binary.assignment" />
+    <ref role="13h7C2" to="jpi:1XAVNTammUp" resolve="Assignment" />
+    <node concept="13hLZK" id="2yn3ecZl7Pk" role="13h7CW">
+      <node concept="3clFbS" id="2yn3ecZl7Pl" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2yn3ecZl7Pu" role="13h7CS">
+      <property role="TrG5h" value="getPrioLevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="2ccN23ohYX4" resolve="getPrioLevel" />
+      <node concept="3Tm1VV" id="2yn3ecZl7Pv" role="1B3o_S" />
+      <node concept="3clFbS" id="2yn3ecZl7P$" role="3clF47">
+        <node concept="3clFbF" id="2yn3ecZl82v" role="3cqZAp">
+          <node concept="3cmrfG" id="2yn3ecZl82u" role="3clFbG">
+            <property role="3cmrfH" value="100" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="2yn3ecZl7P_" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2yn3ecZldeL">
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <ref role="13h7C2" to="jpi:2yn3ecZld0M" resolve="BitShiftExpressionBase" />
+    <node concept="13hLZK" id="2yn3ecZldeM" role="13h7CW">
+      <node concept="3clFbS" id="2yn3ecZldeN" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2yn3ecZldeW" role="13h7CS">
+      <property role="TrG5h" value="getPrioLevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="2ccN23ohYX4" resolve="getPrioLevel" />
+      <node concept="3Tm1VV" id="2yn3ecZldeX" role="1B3o_S" />
+      <node concept="3clFbS" id="2yn3ecZldf2" role="3clF47">
+        <node concept="3clFbF" id="2yn3ecZldrX" role="3cqZAp">
+          <node concept="3cmrfG" id="2yn3ecZldrW" role="3clFbG">
+            <property role="3cmrfH" value="950" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="2yn3ecZldf3" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2yn3ecZldPK">
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <ref role="13h7C2" to="jpi:2yn3ecZld$U" resolve="BitwiseExpressionBase" />
+    <node concept="13hLZK" id="2yn3ecZldPL" role="13h7CW">
+      <node concept="3clFbS" id="2yn3ecZldPM" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2yn3ecZldPV" role="13h7CS">
+      <property role="TrG5h" value="getPrioLevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="2ccN23ohYX4" resolve="getPrioLevel" />
+      <node concept="3Tm1VV" id="2yn3ecZldPW" role="1B3o_S" />
+      <node concept="3clFbS" id="2yn3ecZldQ1" role="3clF47">
+        <node concept="3clFbF" id="2yn3ecZle2W" role="3cqZAp">
+          <node concept="3cmrfG" id="2yn3ecZle2V" role="3clFbG">
+            <property role="3cmrfH" value="970" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="2yn3ecZldQ2" role="3clF45" />
+    </node>
+  </node>
 </model>
 

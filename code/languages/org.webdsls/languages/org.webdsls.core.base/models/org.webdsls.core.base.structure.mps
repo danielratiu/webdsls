@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -133,7 +134,7 @@
   </node>
   <node concept="1TIwiD" id="1XAVNTammUp">
     <property role="EcuMT" value="2262758913614638745" />
-    <property role="3GE5qa" value="expressions.binary" />
+    <property role="3GE5qa" value="expressions.binary.assignment" />
     <property role="TrG5h" value="Assignment" />
     <property role="34LRSv" value="=" />
     <ref role="1TJDcQ" node="2ccN23ohV4i" resolve="BinaryExpression" />
@@ -279,6 +280,8 @@
     <property role="EcuMT" value="7521994178154659112" />
     <property role="3GE5qa" value="expressions.unary" />
     <property role="TrG5h" value="ParensExpression" />
+    <property role="34LRSv" value="(" />
+    <property role="R4oN_" value="( ... )" />
     <ref role="1TJDcQ" node="6xzvtCftJTx" resolve="UnaryExpression" />
   </node>
   <node concept="1TIwiD" id="6xzvtCftJTx">
@@ -349,6 +352,132 @@
     <property role="TrG5h" value="FalseLiteral" />
     <property role="34LRSv" value="false" />
     <ref role="1TJDcQ" node="1XAVNTagTjJ" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZkZBD">
+    <property role="EcuMT" value="2924820653160004073" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.arithmetical" />
+    <property role="TrG5h" value="PlusAssignmentExpression" />
+    <property role="34LRSv" value="+=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZl6z_">
+    <property role="EcuMT" value="2924820653160032485" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct" />
+    <property role="TrG5h" value="DirectAssignmentExpressionBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="2ccN23ohV4i" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZl8bo">
+    <property role="EcuMT" value="2924820653160039128" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.arithmetical" />
+    <property role="TrG5h" value="MinusAssignmentExpression" />
+    <property role="34LRSv" value="-=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZl8bp">
+    <property role="EcuMT" value="2924820653160039129" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.arithmetical" />
+    <property role="TrG5h" value="MulAssignmentExpression" />
+    <property role="34LRSv" value="*=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld0H">
+    <property role="EcuMT" value="2924820653160058925" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.arithmetical" />
+    <property role="TrG5h" value="DivAssignmentExpression" />
+    <property role="34LRSv" value="/=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld0I">
+    <property role="EcuMT" value="2924820653160058926" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.arithmetical" />
+    <property role="TrG5h" value="RemAssignmentExpression" />
+    <property role="34LRSv" value="%=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld0J">
+    <property role="EcuMT" value="2924820653160058927" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.bit" />
+    <property role="TrG5h" value="AndAssignmentExpression" />
+    <property role="34LRSv" value="&amp;=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld0K">
+    <property role="EcuMT" value="2924820653160058928" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.bit" />
+    <property role="TrG5h" value="OrAssignmentExpression" />
+    <property role="34LRSv" value="|=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld0L">
+    <property role="EcuMT" value="2924820653160058929" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.bit" />
+    <property role="TrG5h" value="XorAssignmentExpression" />
+    <property role="34LRSv" value="^=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld0M">
+    <property role="EcuMT" value="2924820653160058930" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="BitShiftExpressionBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="2ccN23ohV4i" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld$Q">
+    <property role="EcuMT" value="2924820653160061238" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="LeftShiftExpression" />
+    <property role="34LRSv" value="&lt;&lt;" />
+    <ref role="1TJDcQ" node="2yn3ecZld0M" resolve="BitShiftExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld$R">
+    <property role="EcuMT" value="2924820653160061239" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="RightShiftExpression" />
+    <property role="34LRSv" value="&gt;&gt;" />
+    <ref role="1TJDcQ" node="2yn3ecZld0M" resolve="BitShiftExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld$S">
+    <property role="EcuMT" value="2924820653160061240" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.bit.shift" />
+    <property role="TrG5h" value="LeftShiftAssignmentExpression" />
+    <property role="34LRSv" value="&lt;&lt;=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld$T">
+    <property role="EcuMT" value="2924820653160061241" />
+    <property role="3GE5qa" value="expressions.binary.assignment.direct.bit.shift" />
+    <property role="TrG5h" value="RightShiftAssignmentExpression" />
+    <property role="34LRSv" value="&gt;&gt;=" />
+    <ref role="1TJDcQ" node="2yn3ecZl6z_" resolve="DirectAssignmentExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZld$U">
+    <property role="EcuMT" value="2924820653160061242" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="BitwiseExpressionBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="2ccN23ohV4i" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZlebP">
+    <property role="EcuMT" value="2924820653160063733" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="BitwiseOrExpression" />
+    <property role="34LRSv" value="|" />
+    <ref role="1TJDcQ" node="2yn3ecZld$U" resolve="BitwiseExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZlebQ">
+    <property role="EcuMT" value="2924820653160063734" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="BitwiseAndExpression" />
+    <property role="34LRSv" value="&amp;" />
+    <ref role="1TJDcQ" node="2yn3ecZld$U" resolve="BitwiseExpressionBase" />
+  </node>
+  <node concept="1TIwiD" id="2yn3ecZlebR">
+    <property role="EcuMT" value="2924820653160063735" />
+    <property role="3GE5qa" value="expressions.binary.bit" />
+    <property role="TrG5h" value="BitwiseXorExpression" />
+    <property role="34LRSv" value="^" />
+    <ref role="1TJDcQ" node="2yn3ecZld$U" resolve="BitwiseExpressionBase" />
   </node>
 </model>
 
