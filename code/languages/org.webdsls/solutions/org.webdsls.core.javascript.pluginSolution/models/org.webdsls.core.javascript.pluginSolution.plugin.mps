@@ -90,8 +90,8 @@
     </language>
   </registry>
   <node concept="sE7Ow" id="2NvZXJCj8OK">
-    <property role="TrG5h" value="ImportFile" />
-    <property role="2uzpH1" value="Import Javescript Prototypes" />
+    <property role="TrG5h" value="ImportJSFile" />
+    <property role="2uzpH1" value="Import Javascript Prototypes" />
     <node concept="tnohg" id="2NvZXJCj8OL" role="tncku">
       <node concept="3clFbS" id="2NvZXJCj8OM" role="2VODD2">
         <node concept="3clFbF" id="2NvZXJCkXKm" role="3cqZAp">
@@ -122,7 +122,7 @@
     <property role="TrG5h" value="JavascriptMenus" />
     <node concept="ftmFs" id="2NvZXJCjbOw" role="ftER_">
       <node concept="tCFHf" id="2NvZXJCjbOz" role="ftvYc">
-        <ref role="tCJdB" node="2NvZXJCj8OK" resolve="ImportFile" />
+        <ref role="tCJdB" node="2NvZXJCj8OK" resolve="ImportJSFile" />
       </node>
     </node>
     <node concept="tT9cl" id="2NvZXJCjbO_" role="2f5YQi">
