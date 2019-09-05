@@ -714,16 +714,6 @@
       <ref role="20lvS9" node="1DTjBiF4mJh" resolve="TypeAliasDeclaration" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1DTjBiFaqIq">
-    <property role="EcuMT" value="1907642180162923418" />
-    <property role="TrG5h" value="ArrowFunctionExpression" />
-    <property role="34LRSv" value="=&gt;" />
-    <property role="3GE5qa" value="expression" />
-    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
-    <node concept="PrWs8" id="1DTjBiFiVV3" role="PzmwI">
-      <ref role="PrY4T" to="mrxi:_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1DTjBiFBqo$">
     <property role="EcuMT" value="1907642180170524196" />
     <property role="TrG5h" value="ImportDeclaration" />

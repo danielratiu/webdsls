@@ -1251,41 +1251,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1DTjBiFiVVJ">
-    <property role="3GE5qa" value="expression" />
-    <ref role="1XX52x" to="lwbx:1DTjBiFaqIq" resolve="ArrowFunctionExpression" />
-    <node concept="3EZMnI" id="1DTjBiFiVVL" role="2wV5jI">
-      <node concept="3F0ifn" id="1DTjBiFiVW8" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-      </node>
-      <node concept="3F2HdR" id="1DTjBiFiVXs" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="mrxi:1XAVNTakOuX" resolve="params" />
-        <node concept="l2Vlx" id="1DTjBiFiVXv" role="2czzBx" />
-        <node concept="4$FPG" id="1DTjBiFiVXM" role="4_6I_">
-          <node concept="3clFbS" id="1DTjBiFiVXN" role="2VODD2">
-            <node concept="3clFbF" id="1DTjBiFiW1p" role="3cqZAp">
-              <node concept="2pJPEk" id="1DTjBiFiW1n" role="3clFbG">
-                <node concept="2pJPED" id="1DTjBiFiW8D" role="2pJPEn">
-                  <ref role="2pJxaS" to="lwbx:nLCbeDjnue" resolve="FormalParameterWithType" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="1DTjBiFiVWk" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-      </node>
-      <node concept="3F0ifn" id="1DTjBiFiVWA" role="3EZMnx">
-        <property role="3F0ifm" value="=&gt;" />
-      </node>
-      <node concept="3F1sOY" id="1DTjBiFiVWY" role="3EZMnx">
-        <ref role="1NtTu8" to="mrxi:6xzvtCfpCdU" resolve="body" />
-      </node>
-      <node concept="l2Vlx" id="1DTjBiFiVVO" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1DTjBiFHrCq">
     <property role="3GE5qa" value="ambient.module" />
     <ref role="1XX52x" to="lwbx:1DTjBiFHrCl" resolve="TSConstDeclaration" />
