@@ -327,6 +327,12 @@
     <property role="EcuMT" value="2262758913614235584" />
     <property role="3GE5qa" value="function" />
     <property role="TrG5h" value="FormalParameter" />
+    <node concept="1TJgyj" id="4KsP7H13bxI" role="1TKVEi">
+      <property role="IQ2ns" value="5484492072067840110" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="defaultVal" />
+      <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="5ko_HiVDow8" role="PzmwI">
       <ref role="PrY4T" node="5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
     </node>
@@ -961,7 +967,7 @@
   <node concept="1TIwiD" id="2NvZXJCGRZE">
     <property role="EcuMT" value="3233584377442303978" />
     <property role="3GE5qa" value="expression" />
-    <property role="TrG5h" value="GlobalVarRef" />
+    <property role="TrG5h" value="PrototypePropertyRef" />
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="2NvZXJCGRZF" role="1TKVEi">
       <property role="IQ2ns" value="3233584377442303979" />
@@ -974,7 +980,7 @@
   <node concept="1TIwiD" id="2NvZXJCJQpA">
     <property role="EcuMT" value="3233584377443083878" />
     <property role="3GE5qa" value="function" />
-    <property role="TrG5h" value="GlobalFunctionCall" />
+    <property role="TrG5h" value="PrototypePropertyCall" />
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="2NvZXJCJQpT" role="1TKVEi">
       <property role="IQ2ns" value="3233584377443083897" />
@@ -1297,6 +1303,30 @@
       <property role="20kJfa" value="function" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1XAVNTakOuW" resolve="FunctionDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DTjBiFaqIq">
+    <property role="EcuMT" value="1907642180162923418" />
+    <property role="TrG5h" value="ArrowFunctionExpression" />
+    <property role="34LRSv" value="=&gt;" />
+    <property role="3GE5qa" value="expression" />
+    <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
+    <node concept="PrWs8" id="1DTjBiFiVV3" role="PzmwI">
+      <ref role="PrY4T" node="_nvUSUl8AY" resolve="IFunctionDeclarationLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4KsP7H0ZxfX">
+    <property role="EcuMT" value="5484492072066880509" />
+    <property role="3GE5qa" value="statements.loops.for" />
+    <property role="TrG5h" value="ForLetDeclInit" />
+    <property role="34LRSv" value="let idx = ..." />
+    <ref role="1TJDcQ" node="uRRymnmWNV" resolve="ForInitBase" />
+    <node concept="1TJgyj" id="4KsP7H0ZxfY" role="1TKVEi">
+      <property role="IQ2ns" value="5484492072066880510" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="letDecl" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="_nvUSUwDMV" resolve="LetDeclaration" />
     </node>
   </node>
 </model>
