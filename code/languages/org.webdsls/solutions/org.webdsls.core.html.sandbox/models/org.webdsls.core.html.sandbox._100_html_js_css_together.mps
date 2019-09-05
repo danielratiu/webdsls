@@ -92,7 +92,7 @@
       <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.GlobalVarRef" flags="ng" index="34r80L">
         <reference id="3233584377442303979" name="prop" index="34r80K" />
       </concept>
-      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PropertyTarget" flags="ng" index="34BFpg" />
+      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PlainTextPropertyTarget" flags="ng" index="34BFpg" />
       <concept id="2262758913613427951" name="org.webdsls.core.javascript.structure.ExpressionStatement" flags="ng" index="1l81Jh">
         <child id="2262758913613427952" name="exp" index="1l81Je" />
       </concept>
@@ -101,7 +101,7 @@
         <child id="2262758913613520175" name="exp" index="1lbF8h" />
       </concept>
       <concept id="2262758913613520242" name="org.webdsls.core.javascript.structure.PropertyAccess" flags="ng" index="1lbF9c">
-        <reference id="2262758913613520243" name="method" index="1lbF9d" />
+        <reference id="2262758913613520243" name="property" index="1lbF9d" />
       </concept>
       <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
       <concept id="2262758913614842765" name="org.webdsls.core.javascript.structure.EmptyLine" flags="ng" index="1leAiN" />
@@ -113,7 +113,7 @@
       <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
         <property id="2525617932487484634" name="text" index="3ViizU" />
       </concept>
-      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationBase" flags="ng" index="3ViI3g">
+      <concept id="2525617932487503088" name="org.webdsls.core.javascript.structure.VariableDeclarationnBase" flags="ng" index="3ViI3g">
         <child id="2525617932487503094" name="val" index="3ViI3m" />
       </concept>
     </language>
@@ -346,7 +346,6 @@
           </node>
         </node>
         <node concept="3VcdO$" id="52cYsDUOIhA" role="3VdhUL" />
-        <node concept="3VcdO$" id="52cYsDUEa7d" role="3VdhUL" />
         <node concept="3ViiVt" id="52cYsDUEa8t" role="3VdhUL">
           <node concept="3Vii7Y" id="52cYsDUEa9d" role="3Vi$l7">
             <property role="TrG5h" value="coll" />
