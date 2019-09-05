@@ -479,5 +479,12 @@
     <property role="34LRSv" value="^" />
     <ref role="1TJDcQ" node="2yn3ecZld$U" resolve="BitwiseExpressionBase" />
   </node>
+  <node concept="1TIwiD" id="4KsP7H125y9">
+    <property role="EcuMT" value="5484492072067553417" />
+    <property role="3GE5qa" value="expressions.unary" />
+    <property role="TrG5h" value="UnaryMinus" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="6xzvtCfy5Iq" resolve="UnaryArithmeticExpression" />
+  </node>
 </model>
 

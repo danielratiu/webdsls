@@ -3195,5 +3195,21 @@
     </node>
     <node concept="2tJIrI" id="2CEi94dud0W" role="jymVt" />
   </node>
+  <node concept="24kQdi" id="4KsP7H125yr">
+    <property role="3GE5qa" value="expressions.unary" />
+    <ref role="1XX52x" to="jpi:4KsP7H125y9" resolve="UnaryMinus" />
+    <node concept="3EZMnI" id="4KsP7H125yI" role="2wV5jI">
+      <node concept="3F0ifn" id="4KsP7H125yV" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+        <node concept="11LMrY" id="4KsP7H126Lr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4KsP7H125z7" role="3EZMnx">
+        <ref role="1NtTu8" to="jpi:6xzvtCftJTy" resolve="exp" />
+      </node>
+      <node concept="l2Vlx" id="4KsP7H125yL" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

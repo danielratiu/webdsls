@@ -342,5 +342,26 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4KsP7H126LS">
+    <property role="3GE5qa" value="expressions.unary" />
+    <ref role="WuzLi" to="jpi:4KsP7H125y9" resolve="UnaryMinus" />
+    <node concept="11bSqf" id="4KsP7H126LT" role="11c4hB">
+      <node concept="3clFbS" id="4KsP7H126LU" role="2VODD2">
+        <node concept="lc7rE" id="4KsP7H126Mu" role="3cqZAp">
+          <node concept="la8eA" id="4KsP7H126MS" role="lcghm">
+            <property role="lacIc" value="-" />
+          </node>
+          <node concept="l9hG8" id="4KsP7H126NR" role="lcghm">
+            <node concept="2OqwBi" id="4KsP7H126ZC" role="lb14g">
+              <node concept="117lpO" id="4KsP7H126OQ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4KsP7H127$c" role="2OqNvi">
+                <ref role="3Tt5mk" to="jpi:6xzvtCftJTy" resolve="exp" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

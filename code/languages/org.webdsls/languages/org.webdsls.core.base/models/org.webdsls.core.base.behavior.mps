@@ -494,5 +494,26 @@
       <node concept="10Oyi0" id="2yn3ecZldQ2" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="4KsP7H138AV">
+    <property role="3GE5qa" value="expressions.unary" />
+    <ref role="13h7C2" to="jpi:4KsP7H125y9" resolve="UnaryMinus" />
+    <node concept="13hLZK" id="4KsP7H138AW" role="13h7CW">
+      <node concept="3clFbS" id="4KsP7H138AX" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4KsP7H138Bn" role="13h7CS">
+      <property role="TrG5h" value="getPrioLevel" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="2ccN23ohYX4" resolve="getPrioLevel" />
+      <node concept="3Tm1VV" id="4KsP7H138Bo" role="1B3o_S" />
+      <node concept="3clFbS" id="4KsP7H138Bt" role="3clF47">
+        <node concept="3clFbF" id="4KsP7H138FJ" role="3cqZAp">
+          <node concept="3cmrfG" id="4KsP7H138G8" role="3clFbG">
+            <property role="3cmrfH" value="3000" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="4KsP7H138Bu" role="3clF45" />
+    </node>
+  </node>
 </model>
 
