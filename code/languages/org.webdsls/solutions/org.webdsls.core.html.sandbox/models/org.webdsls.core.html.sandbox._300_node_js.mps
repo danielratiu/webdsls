@@ -57,7 +57,7 @@
       <concept id="7521994178156028313" name="org.webdsls.core.javascript.structure.ObjectLiteral" flags="ng" index="1BU9L3">
         <child id="7521994178156028315" name="propertyAssignments" index="1BU9L1" />
       </concept>
-      <concept id="7521994178156028437" name="org.webdsls.core.javascript.structure.PropertyAssignment" flags="ng" index="1BU9Zf">
+      <concept id="7521994178156028437" name="org.webdsls.core.javascript.structure.PropertyExpressionAssignment" flags="ng" index="1BU9Zf">
         <child id="2924820653152770284" name="lhs" index="msDgf" />
         <child id="7521994178156028442" name="rhs" index="1BU9Z0" />
       </concept>
@@ -114,7 +114,7 @@
     </language>
   </registry>
   <node concept="3IouWM" id="1DTjBiFBqoD">
-    <property role="TrG5h" value="_010_app" />
+    <property role="TrG5h" value="_010_ts_app" />
     <node concept="2JNKf_" id="1DTjBiFBqp9" role="1l8HCK">
       <property role="TrG5h" value="Saluter" />
       <node concept="2GtPjX" id="2yn3ecYPEJA" role="1l8HE8">
@@ -265,6 +265,14 @@
             <ref role="3VhYTx" node="2yn3ecYT7hE" resolve="http" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1l8HCQ" id="4KsP7H1qvT2">
+    <property role="TrG5h" value="_010_js_app" />
+    <node concept="1l81Jh" id="4KsP7H1qvTI" role="1l8HCK">
+      <node concept="2LZ0th" id="4KsP7H1qvTG" role="1l81Je">
+        <property role="2LZ0ti" value="console.log(&quot;Hello World!&quot;)" />
       </node>
     </node>
   </node>
