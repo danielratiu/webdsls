@@ -9,6 +9,7 @@
   <imports />
   <registry>
     <language id="832685d5-7d0c-4def-9114-462eccd0e6d0" name="org.webdsls.core.javascript">
+      <concept id="1907642180162923418" name="" flags="ng" index="2LkenI" />
       <concept id="1907642180168927525" name="org.webdsls.core.javascript.structure.ArbitraryTextExpression" flags="ng" index="2LZ0th">
         <property id="1907642180168927526" name="text" index="2LZ0ti" />
       </concept>
@@ -56,9 +57,8 @@
       </concept>
     </language>
     <language id="ddecf919-66a1-4e9b-8bb1-03f16bc4f24c" name="org.webdsls.core.typescript">
-      <concept id="428300133088110470" name="org.webdsls.core.typescript.structure.ModuleElementVariableDeclaration" flags="ng" index="2G2osP" />
+      <concept id="428300133088110470" name="org.webdsls.core.typescript.structure.TSVariableDeclaration" flags="ng" index="2G2osP" />
       <concept id="428300133076924302" name="org.webdsls.core.typescript.structure.FormalParameterWithType" flags="ng" index="2GJdsX" />
-      <concept id="1907642180162923418" name="org.webdsls.core.typescript.structure.ArrowFunctionExpression" flags="ng" index="2LkenI" />
       <concept id="6131816733087463910" name="org.webdsls.core.typescript.structure.TSModule" flags="ng" index="3IouWM" />
       <concept id="6131816733088101025" name="org.webdsls.core.typescript.structure.EmptyLine" flags="ng" index="3IAUhP" />
     </language>
