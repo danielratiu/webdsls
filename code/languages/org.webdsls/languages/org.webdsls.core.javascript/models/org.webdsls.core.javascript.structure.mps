@@ -1264,6 +1264,9 @@
     <node concept="PrWs8" id="2yn3ecYYwFt" role="PzmwI">
       <ref role="PrY4T" node="2yn3ecYTpzC" resolve="IObjectLiteralContent" />
     </node>
+    <node concept="PrWs8" id="4Iv4PZkwC1M" role="PzmwI">
+      <ref role="PrY4T" node="_nvUSUaU8x" resolve="IPropertyDefinitionLike" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2yn3ecZeJVp">
     <property role="EcuMT" value="2924820653158366937" />
