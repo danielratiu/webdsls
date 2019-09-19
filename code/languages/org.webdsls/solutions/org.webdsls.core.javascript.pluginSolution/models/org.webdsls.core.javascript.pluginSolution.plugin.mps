@@ -12,7 +12,7 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
-    <use id="1fc20ffe-f35b-4791-a0b7-d706bad5c49a" name="com.mbeddr.mpsutil.refactoring" version="0" />
+    <use id="3ecd7c84-cde3-45de-886c-135ecc69b742" name="jetbrains.mps.lang.refactoring" version="0" />
   </languages>
   <imports>
     <import index="mrxi" ref="r:6469a2be-2ce0-4002-b048-fd1fad9d1545(org.webdsls.core.javascript.structure)" />
@@ -40,7 +40,10 @@
     <import index="hfuk" ref="r:b25dd364-bc3f-4a66-97d1-262009610c5e(jetbrains.mps.make)" />
     <import index="mk8z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.progress(MPS.Core/)" />
     <import index="quvi" ref="r:dfd86efb-340e-49db-bd5a-e8b929bb1b57(org.webdsls.core.javascript.refactorings)" />
+    <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
+    <import index="9oh" ref="r:de82dfab-9448-49ba-813e-2b0579f7fb15(jetbrains.mps.ide.platform.actions)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
+    <import index="jpi" ref="r:43c865fe-9249-439b-9393-08f957c1535a(org.webdsls.core.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -58,6 +61,7 @@
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
@@ -73,8 +77,22 @@
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
       <concept id="1205679047295" name="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration" flags="ig" index="2S4$dB" />
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
+      <concept id="1562714432501166198" name="jetbrains.mps.lang.plugin.structure.SimpleShortcutChange" flags="lg" index="Zd509">
+        <child id="1562714432501166206" name="keystroke" index="Zd501" />
+      </concept>
+      <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
+        <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
+      </concept>
+      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="lg" index="1bYyw_">
+        <reference id="6193305307616734326" name="action" index="1bYAoF" />
+      </concept>
       <concept id="1206092561075" name="jetbrains.mps.lang.plugin.structure.ActionParameterReferenceOperation" flags="nn" index="3gHZIF" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
+      <concept id="1217252042208" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration" flags="ng" index="1DS2jV">
+        <reference id="1217252646389" name="key" index="1DUlNI" />
+      </concept>
+      <concept id="1217252428768" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation" flags="nn" index="1DTwFV" />
       <concept id="1217413147516" name="jetbrains.mps.lang.plugin.structure.ActionParameter" flags="ng" index="1NuADB">
         <child id="5538333046911298738" name="condition" index="1oa70y" />
       </concept>
@@ -313,6 +331,17 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="3ecd7c84-cde3-45de-886c-135ecc69b742" name="jetbrains.mps.lang.refactoring">
+      <concept id="6598645150040035709" name="jetbrains.mps.lang.refactoring.structure.IsRefactoringApplicable" flags="nn" index="3trCAK">
+        <reference id="6598645150040035710" name="refactoring" index="3trCAN" />
+        <child id="6598645150040036518" name="target" index="3trCLF" />
+      </concept>
+      <concept id="2298239814950983788" name="jetbrains.mps.lang.refactoring.structure.ExecuteRefactoringStatement" flags="nn" index="1Xdei3">
+        <reference id="2298239814950983795" name="refactoring" index="1Xdeis" />
+        <child id="2298239814950983794" name="project" index="1Xdeit" />
+        <child id="2298239814950983792" name="target" index="1Xdeiv" />
+      </concept>
+    </language>
     <language id="22e72e4c-0f69-46ce-8403-6750153aa615" name="jetbrains.mps.execution.configurations">
       <concept id="7684700299064179245" name="jetbrains.mps.execution.configurations.structure.Project_Parameter" flags="nn" index="21ER0p" />
       <concept id="1594211126127774346" name="jetbrains.mps.execution.configurations.structure.ConsoleCreator" flags="nn" index="2bNoKo">
@@ -459,12 +488,6 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-    </language>
-    <language id="1fc20ffe-f35b-4791-a0b7-d706bad5c49a" name="com.mbeddr.mpsutil.refactoring">
-      <concept id="7518061998923573137" name="com.mbeddr.mpsutil.refactoring.structure.RefactoringAction" flags="ng" index="1lpA8v">
-        <reference id="7518061998923573138" name="refactoring" index="1lpA8s" />
-        <child id="7518061998923573139" name="shortcut" index="1lpA8t" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -2419,12 +2442,96 @@
       <property role="NWlVz" value="Utility methods for rebuilding the analyzed model." />
     </node>
   </node>
-  <node concept="1lpA8v" id="KU5KLY42QF">
-    <property role="TrG5h" value="Extract Variable" />
-    <ref role="1lpA8s" to="quvi:4KsP7H1$I$R" resolve="extractVariable" />
-    <node concept="pLAjd" id="KU5KLY42QG" role="1lpA8t">
-      <property role="pLAjc" value="ctrl+alt" />
-      <property role="pLAjf" value="VK_V" />
+  <node concept="sE7Ow" id="7kF4CZHpSo2">
+    <property role="TrG5h" value="ExtractVariableRefactoringAction" />
+    <property role="2uzpH1" value="Extract Variable" />
+    <property role="3GE5qa" value="refactorings" />
+    <node concept="1DS2jV" id="6xlxoSXd9AB" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="6xlxoSXd9AC" role="1oa70y" />
+    </node>
+    <node concept="2S4$dB" id="7kF4CZHqdHr" role="1NuT2Z">
+      <property role="TrG5h" value="target" />
+      <node concept="3Tm6S6" id="7kF4CZHqdHs" role="1B3o_S" />
+      <node concept="1oajcY" id="7kF4CZHqdHt" role="1oa70y" />
+      <node concept="3Tqbb2" id="7kF4CZHqdtq" role="1tU5fm">
+        <ref role="ehGHo" to="jpi:2ccN23oheyE" resolve="Expression" />
+      </node>
+    </node>
+    <node concept="tnohg" id="7kF4CZHpSo3" role="tncku">
+      <node concept="3clFbS" id="7kF4CZHpSo4" role="2VODD2">
+        <node concept="1QHqEK" id="7kF4CZHq4R3" role="3cqZAp">
+          <node concept="1QHqEC" id="7kF4CZHq4R5" role="1QHqEI">
+            <node concept="3clFbS" id="7kF4CZHq4R7" role="1bW5cS">
+              <node concept="1Xdei3" id="7kF4CZHqcHY" role="3cqZAp">
+                <ref role="1Xdeis" to="quvi:4KsP7H1$I$R" resolve="extractVariable" />
+                <node concept="2OqwBi" id="7kF4CZHqet7" role="1Xdeiv">
+                  <node concept="2WthIp" id="7kF4CZHqeta" role="2Oq$k0" />
+                  <node concept="3gHZIF" id="7kF4CZHqetc" role="2OqNvi">
+                    <ref role="2WH_rO" node="7kF4CZHqdHr" resolve="target" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7kF4CZHqewS" role="1Xdeit">
+                  <node concept="2WthIp" id="7kF4CZHqewV" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="7kF4CZHqgxv" role="2OqNvi">
+                    <ref role="2WH_rO" node="6xlxoSXd9AB" resolve="project" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7kF4CZHq8Um" role="ukAjM">
+            <node concept="2OqwBi" id="7kF4CZHq6wf" role="2Oq$k0">
+              <node concept="2WthIp" id="7kF4CZHq5Cp" role="2Oq$k0" />
+              <node concept="1DTwFV" id="7kF4CZHq8fh" role="2OqNvi">
+                <ref role="2WH_rO" node="6xlxoSXd9AB" resolve="project" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7kF4CZHqcA7" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="7kF4CZHqmnx" role="tmbBb">
+      <node concept="3clFbS" id="7kF4CZHqmny" role="2VODD2">
+        <node concept="3clFbF" id="7kF4CZHqmDd" role="3cqZAp">
+          <node concept="3trCAK" id="7kF4CZHqmDb" role="3clFbG">
+            <ref role="3trCAN" to="quvi:4KsP7H1$I$R" resolve="extractVariable" />
+            <node concept="2OqwBi" id="7kF4CZHqniC" role="3trCLF">
+              <node concept="2WthIp" id="7kF4CZHqmTr" role="2Oq$k0" />
+              <node concept="3gHZIF" id="7kF4CZHqoxF" role="2OqNvi">
+                <ref role="2WH_rO" node="7kF4CZHqdHr" resolve="target" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="tC5Ba" id="7kF4CZHqgOZ">
+    <property role="3GE5qa" value="refactorings" />
+    <property role="TrG5h" value="RefactoringsGroup" />
+    <node concept="ftmFs" id="7kF4CZHqgPd" role="ftER_">
+      <node concept="tCFHf" id="7kF4CZHqgPk" role="ftvYc">
+        <ref role="tCJdB" node="7kF4CZHpSo2" resolve="ExtractVariableRefactoringAction" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="6xlxoSXd9CS" role="2f5YQi">
+      <ref role="tU$_T" to="9oh:5OJQJ_HXTB6" resolve="NodeRefactoring" />
+    </node>
+  </node>
+  <node concept="Zd50a" id="7kF4CZHqp5g">
+    <property role="3GE5qa" value="refactorings" />
+    <property role="TrG5h" value="RefactoringKeysMap" />
+    <node concept="Zd509" id="7kF4CZHqp5n" role="Zd508">
+      <ref role="1bYAoF" node="7kF4CZHpSo2" resolve="ExtractVariableRefactoringAction" />
+      <node concept="pLAjd" id="7kF4CZHqp5C" role="Zd501">
+        <property role="pLAjc" value="ctrl+alt" />
+        <property role="pLAjf" value="VK_V" />
+      </node>
     </node>
   </node>
 </model>
