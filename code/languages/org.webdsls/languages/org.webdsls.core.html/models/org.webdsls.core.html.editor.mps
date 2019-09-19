@@ -8,9 +8,9 @@
   <imports>
     <import index="gkmw" ref="r:6217a631-87c5-4278-b64c-9f0f4b32f93e(org.webdsls.core.base.editor)" />
     <import index="gr01" ref="r:c66b6972-d7c4-4e30-830e-80142f7e90e7(org.webdsls.core.html.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="y883" ref="r:aed7c4cf-4b0b-48ac-99d5-e9662b6da326(org.webdsls.core.html.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="mrxi" ref="r:6469a2be-2ce0-4002-b048-fd1fad9d1545(org.webdsls.core.javascript.structure)" implicit="true" />
     <import index="tqas" ref="r:72a587df-204f-498e-9278-2bd4def85ce1(org.webdsls.core.css.structure)" implicit="true" />
   </imports>
@@ -187,15 +187,8 @@
   <node concept="24kQdi" id="2ccN23oesx2">
     <ref role="1XX52x" to="gr01:2ccN23oesoy" resolve="HtmlDocument" />
     <node concept="3EZMnI" id="2ccN23oeySc" role="2wV5jI">
-      <node concept="3EZMnI" id="2ccN23oeF49" role="3EZMnx">
-        <node concept="VPM3Z" id="2ccN23oeF4b" role="3F10Kt" />
-        <node concept="3F0ifn" id="2ccN23oeF4d" role="3EZMnx">
-          <property role="3F0ifm" value="name:" />
-        </node>
-        <node concept="3F0A7n" id="2ccN23oeF52" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="l2Vlx" id="2ccN23oeF4e" role="2iSdaV" />
+      <node concept="PMmxH" id="52cYsDVeGMK" role="3EZMnx">
+        <ref role="PMmxG" to="gkmw:4gtLUSMLjsp" resolve="HeaderComponent" />
       </node>
       <node concept="3F0ifn" id="2ccN23oeF3K" role="3EZMnx" />
       <node concept="3F0ifn" id="2ccN23oez5Y" role="3EZMnx">

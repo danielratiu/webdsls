@@ -681,14 +681,16 @@
     <property role="EcuMT" value="556157332038077697" />
     <property role="3GE5qa" value="statements.loops.for" />
     <property role="TrG5h" value="ForVarDeclInit" />
-    <property role="34LRSv" value="var idx = ..." />
+    <property role="34LRSv" value="var" />
     <ref role="1TJDcQ" node="uRRymnmWNV" resolve="ForInitBase" />
-    <node concept="1TJgyj" id="uRRymnmWO2" role="1TKVEi">
-      <property role="IQ2ns" value="556157332038077698" />
+    <node concept="1TJgyj" id="7kF4CZHtJFA" role="1TKVEi">
+      <property role="IQ2ns" value="8442862335809747686" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="varDecl" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2ccN23ohuRu" resolve="VarDeclaration" />
+      <property role="20kJfa" value="val" />
+      <ref role="20lvS9" to="jpi:2ccN23oheyE" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="7kF4CZHtJjO" role="PzmwI">
+      <ref role="PrY4T" node="5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="uRRymnzpHr">

@@ -1292,10 +1292,21 @@
   <node concept="24kQdi" id="uRRymnmWOP">
     <property role="3GE5qa" value="statements.loops.for" />
     <ref role="1XX52x" to="mrxi:uRRymnmWO1" resolve="ForVarDeclInit" />
-    <node concept="1kIj98" id="uRRymnmWOW" role="2wV5jI">
-      <node concept="3F1sOY" id="uRRymnmWP6" role="1kIj9b">
-        <ref role="1NtTu8" to="mrxi:uRRymnmWO2" resolve="varDecl" />
+    <node concept="3EZMnI" id="7kF4CZHtJDZ" role="2wV5jI">
+      <node concept="3F0ifn" id="7kF4CZHtJEi" role="3EZMnx">
+        <property role="3F0ifm" value="var" />
+        <ref role="1k5W1q" to="gkmw:6NmtaR1SVrw" resolve="BaseLanguageKeywordStyle" />
       </node>
+      <node concept="3F0A7n" id="7kF4CZHtJE$" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="7kF4CZHtJF0" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="7kF4CZHtJFG" role="3EZMnx">
+        <ref role="1NtTu8" to="mrxi:7kF4CZHtJFA" resolve="val" />
+      </node>
+      <node concept="l2Vlx" id="7kF4CZHtJE2" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="uRRymnzmSA">

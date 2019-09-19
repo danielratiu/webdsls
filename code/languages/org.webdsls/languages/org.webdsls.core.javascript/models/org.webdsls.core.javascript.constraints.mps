@@ -107,6 +107,7 @@
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
@@ -420,6 +421,32 @@
   <node concept="1M2fIO" id="1DTjBiEPq0$">
     <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="mrxi:2ccN23oiM6T" resolve="VarRef" />
+    <node concept="1N5Pfh" id="7kF4CZHtE_q" role="1Mr941">
+      <ref role="1N5Vy1" to="mrxi:2ccN23oiM91" resolve="var" />
+      <node concept="3dgokm" id="7kF4CZHtE_A" role="1N6uqs">
+        <node concept="3clFbS" id="7kF4CZHtE_C" role="2VODD2">
+          <node concept="3clFbF" id="7kF4CZHtECI" role="3cqZAp">
+            <node concept="2YIFZM" id="7kF4CZHtEHN" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="7kF4CZHtFHl" role="37wK5m">
+                <node concept="2OqwBi" id="7kF4CZHtEZ$" role="2Oq$k0">
+                  <node concept="2rP1CM" id="7kF4CZHtEMa" role="2Oq$k0" />
+                  <node concept="2Rxl7S" id="7kF4CZHtFpB" role="2OqNvi" />
+                </node>
+                <node concept="2Rf3mk" id="7kF4CZHtGcD" role="2OqNvi">
+                  <node concept="1xMEDy" id="7kF4CZHtGcF" role="1xVPHs">
+                    <node concept="chp4Y" id="7kF4CZHtGjR" role="ri$Ld">
+                      <ref role="cht4Q" to="mrxi:5ko_HiVBqrZ" resolve="IVariableDeclarationLike" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
