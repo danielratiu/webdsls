@@ -2,12 +2,10 @@
 <model ref="r:f92fd53d-5bb8-4665-a2a1-62a073ba12e1(org.webdsls.core.html.sandbox._020_simple_javascript_code)">
   <persistence version="9" />
   <languages>
-    <use id="e77cfa18-42e8-412e-beda-9ab373e340ac" name="org.webdsls.core.html" version="0" />
     <use id="c7db822b-1413-4cdb-8582-9a88eae1ecde" name="org.webdsls.core.base" version="0" />
     <use id="832685d5-7d0c-4def-9114-462eccd0e6d0" name="org.webdsls.core.javascript" version="0" />
   </languages>
   <imports>
-    <import index="xspq" ref="r:4441d1d3-1296-4d86-a1e2-662e5935a1e5(org.webdsls.core.javascript.lib.core)" />
     <import index="5cmd" ref="r:2a4e0aa9-c50a-4b5c-ac6f-d3a52392c775(org.webdsls.core.javascript.lib.nodejs)" />
   </imports>
   <registry>

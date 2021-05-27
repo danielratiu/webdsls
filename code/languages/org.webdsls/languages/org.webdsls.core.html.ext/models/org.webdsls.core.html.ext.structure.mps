@@ -2,13 +2,13 @@
 <model ref="r:aef1f6ed-387d-461c-9706-00d0cd002ab8(org.webdsls.core.html.ext.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="gr01" ref="r:c66b6972-d7c4-4e30-830e-80142f7e90e7(org.webdsls.core.html.structure)" />
+    <import index="jpi" ref="r:43c865fe-9249-439b-9393-08f957c1535a(org.webdsls.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="jpi" ref="r:43c865fe-9249-439b-9393-08f957c1535a(org.webdsls.core.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -54,7 +54,7 @@
     <ref role="1TJDcQ" node="uRRymnL2l_" resolve="LiftedAttribute" />
     <node concept="1TJgyj" id="2NvZXJCUgVl" role="1TKVEi">
       <property role="IQ2ns" value="3233584377445813973" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="val" />
       <ref role="20ksaX" to="gr01:2ccN23oherU" resolve="val" />
       <ref role="20lvS9" node="2NvZXJCUp0Z" resolve="IdValue" />
@@ -87,9 +87,8 @@
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="2NvZXJCUujL" role="1TKVEi">
       <property role="IQ2ns" value="3233584377445868785" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="id" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2NvZXJCUp0Z" resolve="IdValue" />
     </node>
   </node>
@@ -102,9 +101,9 @@
     <ref role="1TJDcQ" node="uRRymnL2l_" resolve="LiftedAttribute" />
     <node concept="1TJgyj" id="52cYsDUB72t" role="1TKVEi">
       <property role="IQ2ns" value="5804288667809509533" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="val" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="52cYsDUB72s" resolve="ClassValues" />
       <ref role="20ksaX" to="gr01:2ccN23oherU" resolve="val" />
     </node>
@@ -117,9 +116,9 @@
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="52cYsDUB72y" role="1TKVEi">
       <property role="IQ2ns" value="5804288667809509538" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="values" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="52cYsDUOtB0" resolve="IClassValueLike" />
     </node>
   </node>
@@ -144,9 +143,8 @@
     <ref role="1TJDcQ" to="jpi:2ccN23oheyE" resolve="Expression" />
     <node concept="1TJgyj" id="52cYsDUC8jG" role="1TKVEi">
       <property role="IQ2ns" value="5804288667809776876" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="cls" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="52cYsDUB72x" resolve="ClassValue" />
     </node>
   </node>
@@ -162,9 +160,8 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="52cYsDUOwej" role="1TKVEi">
       <property role="IQ2ns" value="5804288667813020563" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="cls" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="52cYsDUB72x" resolve="ClassValue" />
     </node>
     <node concept="PrWs8" id="52cYsDUOweh" role="PzmwI">

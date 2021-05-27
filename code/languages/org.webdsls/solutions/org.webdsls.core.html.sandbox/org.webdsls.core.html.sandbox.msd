@@ -5,13 +5,18 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">82665443-4c20-41fe-b04a-cfe1fbdfbc1d(org.webdsls.core.javascript.lib)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
-    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
+    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:c7db822b-1413-4cdb-8582-9a88eae1ecde:org.webdsls.core.base" version="0" />
     <language slang="l:11acb66c-8d6f-457e-8146-48ef9bfac125:org.webdsls.core.css" version="0" />
     <language slang="l:c164841b-607e-43e0-91e2-f346a029db1d:org.webdsls.core.css.ext" version="0" />

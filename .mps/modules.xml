@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.base/org.webdsls.core.base.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.css.ext/org.webdsls.core.css.ext.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.css/org.webdsls.core.css.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.html.ext/org.webdsls.core.html.ext.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.html/org.webdsls.core.html.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.javascript/org.webdsls.core.javascript.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/languages/org.webdsls.core.typescript/org.webdsls.core.typescript.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/solutions/org.webdsls.core.html.sandbox/org.webdsls.core.html.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/solutions/org.webdsls.core.javascript.lib/org.webdsls.core.javascript.lib.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/solutions/org.webdsls.core.javascript.pluginSolution/org.webdsls.core.javascript.pluginSolution.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/tests/test.org.webdsls.core.html/test.org.webdsls.core.html.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/tests/test.org.webdsls.core.javascript/test.org.webdsls.core.javascript.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/code/languages/org.webdsls/tests/test.org.webdsls.core.typescript/test.org.webdsls.core.typescript.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

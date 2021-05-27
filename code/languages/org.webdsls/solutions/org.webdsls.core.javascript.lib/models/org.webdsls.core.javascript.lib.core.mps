@@ -11,7 +11,7 @@
         <child id="7521994178153579386" name="body" index="1B1vUw" />
       </concept>
       <concept id="673147055597883171" name="org.webdsls.core.javascript.structure.StatementList" flags="ng" index="NP72d" />
-      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PropertyTarget" flags="ng" index="34BFpg" />
+      <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PlainTextPropertyTarget" flags="ng" index="34BFpg" />
       <concept id="2262758913613427951" name="org.webdsls.core.javascript.structure.ExpressionStatement" flags="ng" index="1l81Jh">
         <child id="2262758913613427952" name="exp" index="1l81Je" />
       </concept>
@@ -26,11 +26,11 @@
         <reference id="2262758913614375837" name="function" index="1lcSiz" />
       </concept>
       <concept id="2262758913614235810" name="org.webdsls.core.javascript.structure.PrototypePropertyTarget" flags="ng" index="1ldqus" />
-      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDefinition" flags="ng" index="1ldqy2" />
+      <concept id="2262758913614235580" name="org.webdsls.core.javascript.structure.FunctionDeclaration" flags="ng" index="1ldqy2" />
       <concept id="2262758913614235584" name="org.webdsls.core.javascript.structure.FormalParameter" flags="ng" index="1ldqzY" />
       <concept id="2262758913614842765" name="org.webdsls.core.javascript.structure.EmptyLine" flags="ng" index="1leAiN" />
-      <concept id="6131816733090363026" name="" flags="ng" index="3IJi16">
-        <child id="2262758913614235581" name="" index="1ldqy3" />
+      <concept id="6131816733090363026" name="org.webdsls.core.javascript.structure.ICallSignature" flags="ng" index="3IJi16">
+        <child id="2262758913614235581" name="params" index="1ldqy3" />
       </concept>
       <concept id="2525617932487484633" name="org.webdsls.core.javascript.structure.SingleLineComment" flags="ng" index="3ViizT">
         <property id="2525617932487484634" name="text" index="3ViizU" />

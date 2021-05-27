@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -134,27 +134,6 @@
         <node concept="3Tqbb2" id="2NvZXJCU_mT" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="2NvZXJCU_mU" role="3clF45" />
-    </node>
-    <node concept="13i0hz" id="52cYsDUBa$t" role="13h7CS">
-      <property role="TrG5h" value="valueAsString" />
-      <ref role="13i0hy" node="52cYsDUBapy" resolve="valueAsString" />
-      <node concept="3Tm1VV" id="52cYsDUBa$u" role="1B3o_S" />
-      <node concept="3clFbS" id="52cYsDUBa$x" role="3clF47">
-        <node concept="3clFbF" id="52cYsDUBaEx" role="3cqZAp">
-          <node concept="2OqwBi" id="52cYsDUBbuD" role="3clFbG">
-            <node concept="2OqwBi" id="52cYsDUBaSV" role="2Oq$k0">
-              <node concept="13iPFW" id="52cYsDUBaEw" role="2Oq$k0" />
-              <node concept="3TrEf2" id="52cYsDUBbjc" role="2OqNvi">
-                <ref role="3Tt5mk" to="zt09:2NvZXJCUgVl" resolve="val" />
-              </node>
-            </node>
-            <node concept="3TrcHB" id="52cYsDUBc1u" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="52cYsDUBa$y" role="3clF45" />
     </node>
   </node>
 </model>

@@ -44,10 +44,10 @@
       <concept id="3233584377444594973" name="org.webdsls.core.javascript.structure.IFunctionCallLike" flags="ng" index="342oF6">
         <child id="2262758913613520329" name="actuals" index="1lbFbR" />
       </concept>
-      <concept id="3233584377443083878" name="org.webdsls.core.javascript.structure.GlobalFunctionCall" flags="ng" index="34o9AX">
+      <concept id="3233584377443083878" name="org.webdsls.core.javascript.structure.PrototypePropertyCall" flags="ng" index="34o9AX">
         <reference id="3233584377443083897" name="prop" index="34o9Ay" />
       </concept>
-      <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.GlobalVarRef" flags="ng" index="34r80L">
+      <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.PrototypePropertyRef" flags="ng" index="34r80L">
         <reference id="3233584377442303979" name="prop" index="34r80K" />
       </concept>
       <concept id="2262758913613427951" name="org.webdsls.core.javascript.structure.ExpressionStatement" flags="ng" index="1l81Jh">

@@ -2,8 +2,8 @@
 <model ref="r:690ecee2-8fab-4640-a781-4c832cfd2966(org.webdsls.core.typescript.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
-    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="0" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +14,8 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
+      <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
@@ -43,6 +45,7 @@
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+        <child id="5991739802479788259" name="type" index="22hAXT" />
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
@@ -52,7 +55,6 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
-      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -284,10 +286,6 @@
         <node concept="l2Vlx" id="5ko_HiVxlHl" role="2iSdaV" />
       </node>
     </node>
-  </node>
-  <node concept="3p36aQ" id="5ko_HiVxGEk">
-    <property role="3GE5qa" value="base" />
-    <ref role="aqKnT" to="lwbx:5ko_HiVwNax" resolve="EmptyLine" />
   </node>
   <node concept="24kQdi" id="5ko_HiVyU$S">
     <property role="3GE5qa" value="type.objectType" />
@@ -622,8 +620,8 @@
     <ref role="1XX52x" to="lwbx:nLCbeDznq8" resolve="AmbientMethodDeclaration" />
     <node concept="3EZMnI" id="nLCbeDqI3H" role="2wV5jI">
       <node concept="3F0A7n" id="nLCbeDqI5v" role="3EZMnx">
-        <ref role="1NtTu8" to="lwbx:nLCbeDqI34" resolve="accesibilityModifier" />
         <ref role="1k5W1q" to="gkmw:6NmtaR1SVrw" resolve="BaseLanguageKeywordStyle" />
+        <ref role="1NtTu8" to="lwbx:4ppVzlszfsb" resolve="accesibilityModifier" />
       </node>
       <node concept="1kHk_G" id="nLCbeDqI5S" role="3EZMnx">
         <ref role="1NtTu8" to="lwbx:nLCbeDqI3e" resolve="static" />
@@ -649,7 +647,7 @@
     <node concept="3EZMnI" id="nLCbeDxJmJ" role="2wV5jI">
       <node concept="3F0A7n" id="nLCbeDxJmK" role="3EZMnx">
         <ref role="1k5W1q" to="gkmw:6NmtaR1SVrw" resolve="BaseLanguageKeywordStyle" />
-        <ref role="1NtTu8" to="lwbx:nLCbeDqI34" resolve="accesibilityModifier" />
+        <ref role="1NtTu8" to="lwbx:4ppVzlszfsb" resolve="accesibilityModifier" />
       </node>
       <node concept="1kHk_G" id="nLCbeDxJmL" role="3EZMnx">
         <ref role="1NtTu8" to="lwbx:nLCbeDqI3e" resolve="static" />
@@ -1144,8 +1142,8 @@
     <ref role="1XX52x" to="lwbx:nLCbeEBGN6" resolve="ModuleElementMethodDeclaration" />
     <node concept="3EZMnI" id="nLCbeEBGPt" role="2wV5jI">
       <node concept="3F0A7n" id="nLCbeEBGPu" role="3EZMnx">
-        <ref role="1NtTu8" to="lwbx:nLCbeDqI34" resolve="accesibilityModifier" />
         <ref role="1k5W1q" to="gkmw:6NmtaR1SVrw" resolve="BaseLanguageKeywordStyle" />
+        <ref role="1NtTu8" to="lwbx:4ppVzlszfsb" resolve="accesibilityModifier" />
       </node>
       <node concept="1kHk_G" id="nLCbeEBGPv" role="3EZMnx">
         <ref role="1NtTu8" to="lwbx:nLCbeDqI3e" resolve="static" />
@@ -1207,10 +1205,6 @@
       </node>
       <node concept="l2Vlx" id="1DTjBiEVFtM" role="2iSdaV" />
     </node>
-  </node>
-  <node concept="3p36aQ" id="1DTjBiEYDZn">
-    <property role="3GE5qa" value="type.array" />
-    <ref role="aqKnT" to="lwbx:1DTjBiESJ4P" resolve="ArrayType" />
   </node>
   <node concept="24kQdi" id="1DTjBiF4mJo">
     <property role="3GE5qa" value="type.type_alias" />
@@ -1296,6 +1290,21 @@
         </node>
       </node>
       <node concept="l2Vlx" id="1DTjBiFHrCI" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="22mcaB" id="5ko_HiVxGEk">
+    <ref role="aqKnT" to="lwbx:5ko_HiVwNax" resolve="EmptyLine" />
+    <node concept="22hDWj" id="4ppVzlszfsq" role="22hAXT" />
+  </node>
+  <node concept="22mcaB" id="1DTjBiEYDZn">
+    <ref role="aqKnT" to="lwbx:1DTjBiESJ4P" resolve="ArrayType" />
+    <node concept="22hDWj" id="4ppVzlszfsr" role="22hAXT" />
+  </node>
+  <node concept="PKFIW" id="5KxC0NyNxq">
+    <property role="TrG5h" value="DummyForGrammarCells" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3F0ifn" id="5KxC0NyNxr" role="2wV5jI">
+      <property role="3F0ifm" value="Workaround to fix contributions to BaseConcept generated by grammarCells." />
     </node>
   </node>
 </model>
