@@ -54,7 +54,7 @@
       <concept id="2525617932487459529" name="org.webdsls.core.html.structure.H2" flags="ng" index="3VikVD" />
     </language>
     <language id="7ac5d721-d740-45b1-9ed2-a901422a8ec6" name="org.webdsls.core.html.ext">
-      <concept id="2525617932487419636" name="" flags="ng" index="3Vi2Fk" />
+      <concept id="2525617932487419636" name="org.webdsls.core.html.ext.structure.IdAttribute" flags="ng" index="3Vi2Fk" />
     </language>
   </registry>
   <node concept="3VdgC2" id="uRRymnHlHS">

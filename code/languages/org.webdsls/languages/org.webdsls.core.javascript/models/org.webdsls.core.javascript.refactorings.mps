@@ -58,12 +58,11 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -71,6 +70,9 @@
       <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
+      </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
       </concept>
       <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
         <child id="8182547171709752112" name="expression" index="36biLW" />
@@ -155,13 +157,15 @@
                 <ref role="2pJxaS" to="mrxi:2ccN23ohuRu" resolve="VarDeclaration" />
                 <node concept="2pJxcG" id="4KsP7H1$Nro" role="2pJxcM">
                   <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                  <node concept="Xl_RD" id="4KsP7H1$Nrp" role="2pJxcZ">
-                    <property role="Xl_RC" value="v1" />
+                  <node concept="WxPPo" id="4ppVzlszfwy" role="28ntcv">
+                    <node concept="Xl_RD" id="4KsP7H1$Nrp" role="WxPPp">
+                      <property role="Xl_RC" value="v1" />
+                    </node>
                   </node>
                 </node>
                 <node concept="2pIpSj" id="4KsP7H1$Nrq" role="2pJxcM">
                   <ref role="2pIpSl" to="mrxi:2ccN23ohyNQ" resolve="val" />
-                  <node concept="36biLy" id="4KsP7H1$Nrr" role="2pJxcZ">
+                  <node concept="36biLy" id="4KsP7H1$Nrr" role="28nt2d">
                     <node concept="2OqwBi" id="4KsP7H1$Nrs" role="36biLW">
                       <node concept="37vLTw" id="4KsP7H1$Nrt" role="2Oq$k0">
                         <ref role="3cqZAo" node="4KsP7H1$IQ7" resolve="exp" />
@@ -185,7 +189,7 @@
                   <ref role="2pJxaS" to="mrxi:2ccN23oiM6T" resolve="VarRef" />
                   <node concept="2pIpSj" id="4KsP7H1$OJc" role="2pJxcM">
                     <ref role="2pIpSl" to="mrxi:2ccN23oiM91" resolve="var" />
-                    <node concept="36biLy" id="4KsP7H1$OMu" role="2pJxcZ">
+                    <node concept="36biLy" id="4KsP7H1$OMu" role="28nt2d">
                       <node concept="37vLTw" id="4KsP7H1$OP3" role="36biLW">
                         <ref role="3cqZAo" node="4KsP7H1$Nrl" resolve="vd" />
                       </node>

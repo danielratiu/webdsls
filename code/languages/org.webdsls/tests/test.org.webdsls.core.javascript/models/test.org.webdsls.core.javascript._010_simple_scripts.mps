@@ -54,7 +54,7 @@
         <child id="556157332038077693" name="exp" index="2gV1bo" />
       </concept>
       <concept id="556157332038077697" name="org.webdsls.core.javascript.structure.ForVarDeclInit" flags="ng" index="2gV1c$">
-        <child id="556157332038077698" name="varDecl" index="2gV1cB" />
+        <child id="8442862335809747686" name="val" index="2onuxD" />
       </concept>
       <concept id="556157332036355451" name="org.webdsls.core.javascript.structure.WhileLoopStatement" flags="ng" index="2gX_Hu" />
       <concept id="556157332036347197" name="org.webdsls.core.javascript.structure.DoWhileLoopStatement" flags="ng" index="2gXFGo" />
@@ -569,29 +569,27 @@
             </node>
           </node>
         </node>
-        <node concept="NP74o" id="uRRymnoRdU" role="NP72a">
-          <node concept="NP72d" id="uRRymnoRdW" role="2gYuQL">
-            <node concept="3Viiyl" id="uRRymnoRdX" role="NP72a" />
+        <node concept="NP74o" id="5KxC0NgT3i" role="NP72a">
+          <node concept="NP72d" id="5KxC0NgT3k" role="2gYuQL">
+            <node concept="3Viiyl" id="5KxC0NgT3l" role="NP72a" />
           </node>
-          <node concept="2gV1c$" id="uRRymnoReY" role="2gYuKY">
-            <node concept="3Vii7Y" id="uRRymnoReX" role="2gV1cB">
-              <property role="TrG5h" value="idx1" />
-              <node concept="3ViO1p" id="uRRymnoRfw" role="3ViI3m">
-                <property role="3ViO1q" value="43" />
-              </node>
+          <node concept="2gV1c$" id="5KxC0NgT4w" role="2gYuKY">
+            <property role="TrG5h" value="idx1" />
+            <node concept="3ViO1p" id="5KxC0NnVz2" role="2onuxD">
+              <property role="3ViO1q" value="0" />
             </node>
           </node>
-          <node concept="N8_Db" id="uRRymnoRfX" role="2gYuKU">
-            <node concept="3ViO1p" id="uRRymnoRgp" role="3ViROP">
+          <node concept="N8_Db" id="5KxC0NgT4P" role="2gYuKU">
+            <node concept="3ViO1p" id="5KxC0NgT57" role="3ViROP">
               <property role="3ViO1q" value="101" />
             </node>
-            <node concept="3VhYQp" id="uRRymnoRfM" role="3ViRON">
-              <ref role="3VhYTx" node="uRRymnoReX" resolve="idx1" />
+            <node concept="3VhYQp" id="5KxC0NgT4H" role="3ViRON">
+              <ref role="3VhYTx" node="5KxC0NgT4w" resolve="idx1" />
             </node>
           </node>
-          <node concept="1BULcc" id="uRRymnoRgM" role="2gYuK3">
-            <node concept="3VhYQp" id="uRRymnoRgB" role="1B5oeS">
-              <ref role="3VhYTx" node="uRRymnoReX" resolve="idx1" />
+          <node concept="1BULcc" id="5KxC0NgT5t" role="2gYuK3">
+            <node concept="3VhYQp" id="5KxC0NgT5m" role="1B5oeS">
+              <ref role="3VhYTx" node="5KxC0NgT4w" resolve="idx1" />
             </node>
           </node>
         </node>
@@ -606,7 +604,7 @@
           <property role="TrG5h" value="c" />
         </node>
         <node concept="2ge$lY" id="uRRymn_OzW" role="NP72a">
-          <property role="2ge$e7" value="of" />
+          <property role="2ge$e7" value="uRRymnzpQb/of" />
           <node concept="3VhYQp" id="uRRymn_OCB" role="2geF1Q">
             <ref role="3VhYTx" node="uRRymn_OB4" resolve="c" />
           </node>

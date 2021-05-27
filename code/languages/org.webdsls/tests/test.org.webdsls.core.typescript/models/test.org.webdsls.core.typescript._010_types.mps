@@ -42,7 +42,7 @@
       </concept>
     </language>
     <language id="ddecf919-66a1-4e9b-8bb1-03f16bc4f24c" name="org.webdsls.core.typescript">
-      <concept id="428300133088110470" name="org.webdsls.core.typescript.structure.ModuleElementVariableDeclaration" flags="ng" index="2G2osP" />
+      <concept id="428300133088110470" name="org.webdsls.core.typescript.structure.TSVariableDeclaration" flags="ng" index="2G2osP" />
       <concept id="428300133080691818" name="org.webdsls.core.typescript.structure.ITSVarDeclarationLike" flags="ng" index="2GtPjp">
         <child id="6131816733089735914" name="type" index="3Ixb8Y" />
       </concept>

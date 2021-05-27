@@ -89,7 +89,7 @@
       <concept id="3233584377444594973" name="org.webdsls.core.javascript.structure.IFunctionCallLike" flags="ng" index="342oF6">
         <child id="2262758913613520329" name="actuals" index="1lbFbR" />
       </concept>
-      <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.GlobalVarRef" flags="ng" index="34r80L">
+      <concept id="3233584377442303978" name="org.webdsls.core.javascript.structure.PrototypePropertyRef" flags="ng" index="34r80L">
         <reference id="3233584377442303979" name="prop" index="34r80K" />
       </concept>
       <concept id="3233584377434818955" name="org.webdsls.core.javascript.structure.PlainTextPropertyTarget" flags="ng" index="34BFpg" />

@@ -9,7 +9,7 @@
   <imports />
   <registry>
     <language id="832685d5-7d0c-4def-9114-462eccd0e6d0" name="org.webdsls.core.javascript">
-      <concept id="1907642180162923418" name="" flags="ng" index="2LkenI" />
+      <concept id="1907642180162923418" name="org.webdsls.core.javascript.structure.ArrowFunctionExpression" flags="ng" index="2LkenI" />
       <concept id="1907642180168927525" name="org.webdsls.core.javascript.structure.ArbitraryTextExpression" flags="ng" index="2LZ0th">
         <property id="1907642180168927526" name="text" index="2LZ0ti" />
       </concept>
